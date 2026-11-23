@@ -1,0 +1,22 @@
+[
+  "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/c1_core_analysis_tools/envs/meme_cpu_v1/bin/streme",
+  "--dna",
+  "--p",
+  "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_STREME_ALL196_BETTY_V1/inputs/SELECTED_196.fa",
+  "--order",
+  "1",
+  "--minw",
+  "6",
+  "--maxw",
+  "20",
+  "--nmotifs",
+  "20",
+  "--hofract",
+  "0.1",
+  "--seed",
+  "20261111",
+  "--o",
+  "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_STREME_ALL196_BETTY_V1/runs/all196_20261111T210800_73354/vs_initial",
+  "--n",
+  "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_STREME_ALL196_BETTY_V1/inputs/INITIAL_196.fa"
+]

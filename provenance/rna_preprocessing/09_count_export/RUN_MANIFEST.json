@@ -1,0 +1,32 @@
+{
+  "code_SHA256": "86a1ddc5114e819dcb1fcb2d52c3a2104611802868bc8241a6f2e97409f58c3d",
+  "source_step08": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/embedding_review/step08_20261016T181508_2111521",
+  "source_step08_manifest_SHA256": "f559962675dfbb0f14e652fd6f260f04effdae9b45ae1186c09ea6bc4ff6d72c",
+  "input_provenance": [
+    {
+      "well": "W8",
+      "step04_manifest_SHA256": "ce4018ec965b187e8668c39aa19d35117d2f7b70dd373551112343851f8d7eb4",
+      "step05_calls_SHA256": "cb06692c139f1758ec680a25fd4544275a6129a2f1a8f64c3d208cb612fb7171",
+      "step06_table_SHA256": "c6987f5b82458c3fc640de538adddf5932fa319b27c994c26ed06666809943b0",
+      "step08_manifest_SHA256": "5091387538082f0ecef923c18300fac71173132e6832e4d1a4986bb2a2548f63"
+    },
+    {
+      "well": "W9",
+      "step04_manifest_SHA256": "30885801820a5bbcd4911d23b0ef30d9c9751a076f8ebb8600baad092994aa21",
+      "step05_calls_SHA256": "791db823d93c4ae58b85873085495252d2425bf587c0db383a88aad24fcd5bce",
+      "step06_table_SHA256": "49d2b06963b13d711c1b919049825a2c88bfb5b9fd4b0fe4f025dca64e27f240",
+      "step08_manifest_SHA256": "a65a19f8b6c5afcb8198e72d5969892c1fc220c1120aadeef7d601f97d1eae79"
+    }
+  ],
+  "software": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1"
+  },
+  "validated_core_exports": 2,
+  "exported_cells": 28331,
+  "source_counts_unchanged": true,
+  "other_libraries_not_finalized": true,
+  "no_server_submission_performed": true,
+  "failures": []
+}

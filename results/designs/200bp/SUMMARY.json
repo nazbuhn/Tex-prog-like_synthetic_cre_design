@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "designs": 1024,
+  "native_ISE_steps": 30,
+  "substitutions_evaluated_per_step": 600,
+  "design_mutant_predictions": 18432000,
+  "known_motifs_used": false,
+  "native_CREsted_ISE": true,
+  "models_retrained": false,
+  "target_cells": 4440,
+  "natural_parent_peaks": 50,
+  "unique_sequences_up_to_reverse_complement": 1024,
+  "frozen_shortlist": 128,
+  "confirmed_frozen_shortlist": 0,
+  "confirmed_parent_families": 0,
+  "descriptive_all_library_gate_passes": 0,
+  "arms": {
+    "natural_retention0.25": {
+      "designs": 256,
+      "frozen_shortlist": 19,
+      "confirmed_frozen_shortlist": 0,
+      "median_Borzoi_audit_ratio": 1.9643752574920654,
+      "median_CREsted_audit_ratio": 1.9857640862464905
+    },
+    "natural_retention0.5": {
+      "designs": 256,
+      "frozen_shortlist": 29,
+      "confirmed_frozen_shortlist": 0,
+      "median_Borzoi_audit_ratio": 1.9668737649917603,
+      "median_CREsted_audit_ratio": 2.0083125829696655
+    },
+    "random_retention0.25": {
+      "designs": 256,
+      "frozen_shortlist": 44,
+      "confirmed_frozen_shortlist": 0,
+      "median_Borzoi_audit_ratio": 1.7658802270889282,
+      "median_CREsted_audit_ratio": 1.8438997268676758
+    },
+    "random_retention0.5": {
+      "designs": 256,
+      "frozen_shortlist": 36,
+      "confirmed_frozen_shortlist": 0,
+      "median_Borzoi_audit_ratio": 1.7864011526107788,
+      "median_CREsted_audit_ratio": 1.779597520828247
+    }
+  },
+  "attribution_performed": false,
+  "TF_binding_inferred": false,
+  "interpretation": "Computational sequence-selectivity screen. 14 fresh contexts are training-DNA backgrounds, not new biological samples. Secondary model overlaps biological training data. Output FRPM is predicted accessibility, not enhancer reporter activity or a probability. Thresholds are prespecified project follow-up rules, not universal validated cutoffs. No selection reranking on final audit. No known motif insertion, scan or motif-based filtering; nucleotide attribution and de novo discovery follow library evaluation."
+}

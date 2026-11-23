@@ -1,0 +1,56 @@
+{
+  "verified_scripts": [
+    {
+      "stage": "04_rna_count_preparation",
+      "script": "prepare_rna_qc.py",
+      "script_SHA256": "b33aa9747033f26e9e0007d7ccfc19f4e80ff1cb44e62747045dc56390120385",
+      "source_run_manifest_SHA256": "c47db454fb895ed421266cf2aaf12b60b8997d37a297346b81d196565dc757f6"
+    },
+    {
+      "stage": "05_rna_qc_review",
+      "script": "qc_and_hashsolo.py",
+      "script_SHA256": "cdec4a441ce295faf55355f871739f2b85230b5daabffb7b940556ad14791518",
+      "source_run_manifest_SHA256": "2a9156a914fc52ead0318386529173f4b7a750a7997b1fe4f34dd93bc86ae211"
+    },
+    {
+      "stage": "06_scrublet",
+      "script": "rna_doublet_review.py",
+      "script_SHA256": "a84de8263be05e6b7eb695ea47a473ba85af5033f45ddd41ae0c628b99d7f4af",
+      "source_run_manifest_SHA256": "4cde992bec9bd2a7a55e5c0e5ae3b4ccb144253294d227be42a94f472d49dfb1"
+    },
+    {
+      "stage": "08_cluster_review",
+      "script": "embedding_review.py",
+      "script_SHA256": "334cc4ce0bc3a4407c23ac5753bed3d339cf9260cd6b057f46110500fa91e772",
+      "source_run_manifest_SHA256": "f559962675dfbb0f14e652fd6f260f04effdae9b45ae1186c09ea6bc4ff6d72c"
+    },
+    {
+      "stage": "09_count_export",
+      "script": "export_counts.py",
+      "script_SHA256": "86a1ddc5114e819dcb1fcb2d52c3a2104611802868bc8241a6f2e97409f58c3d",
+      "source_run_manifest_SHA256": "517d26253e8a6951afdbdb45c8aa9bcceaf76214cd591f19875186caf99167b2"
+    },
+    {
+      "stage": "10_doubletdetection",
+      "script": "secondary_doublet_review.py",
+      "script_SHA256": "2596ad4af5f16d813e196f0242893c67d3c7ff83a91eebeda7cad29c5a9664d4",
+      "source_run_manifest_SHA256": "54945c7cf44d4c6bd8ca7ce4b6bbc573a20287a9a73552ab94cd86490e5255fa"
+    },
+    {
+      "stage": "11_final_rna_export",
+      "script": "final_exports.py",
+      "script_SHA256": "205a0e4982e51d8b0a8888d5336456edecb4f19fd27c198442e4877e11ad3dbe",
+      "source_run_manifest_SHA256": "e9c578bcbbf4a3e42f71148eb462184aad322b8e4e0b7db2b3f56609143dd563"
+    }
+  ],
+  "final_RNA_export_cells": 161773,
+  "final_analysis_cohort_cells": 111347,
+  "all_final_cohort_IDs_present_in_original_RNA_export": true,
+  "all_final_cohort_cells_pass_recorded_RNA_thresholds": true,
+  "source_policy_hash_verified": true,
+  "per_library_manifest_links_verified": 46,
+  "original_files_modified": false,
+  "new_RNA_QC_or_doublet_models_run": false,
+  "final_Harmony_integration_script_found_in_CD8_annotation_folder": false,
+  "subsequent_integration_recovery": "INTEGRATION_RECOVERY.json"
+}

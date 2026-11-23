@@ -1,0 +1,11 @@
+.DS_Store
+._*
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.weights.h5
+*.keras
+*.pt
+*.pth
+source_audit_private.json

@@ -1,0 +1,142 @@
+{
+  "code_SHA256": "205a0e4982e51d8b0a8888d5336456edecb4f19fd27c198442e4877e11ad3dbe",
+  "selection_policy_SHA256": "1c94e2a0dd642df97d1394344137de71f3e04c8e7909708581263285f06010fc",
+  "source_step04": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/rna_qc/step04_20261016T160319_2076025",
+  "source_step09": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/exports/step09_20261019T134043_1496663",
+  "source_step10": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/secondary_doublet_review/step10_20261019T142225_1508265",
+  "source_provenance": [
+    {
+      "library": "GSE230363__GSM7220513",
+      "Step04_manifest_SHA256": "09d2080ee29a332ccb9a779d4e75311d81cfe26e23e7ef526985b9b0fe500478",
+      "Step10_manifest_SHA256": "788885fe8e783d11d18fbf852ae2552258c43c2cfe48c6e2159c8b47b80c71c5"
+    },
+    {
+      "library": "GSE230363__GSM7220515",
+      "Step04_manifest_SHA256": "126420156c84b1eac8b4387c3de006114c90a756652fc8db48e6c6151883c6cf",
+      "Step10_manifest_SHA256": "574fb9313dae058f134e8a67f7aaad3ae1db9f7f899aaccd3a953a7612d53568"
+    },
+    {
+      "library": "GSE230363__GSM7220517",
+      "Step04_manifest_SHA256": "0b6de72ca095e8bbb316525d0c0158d77c07a051d9559ece28ef86f543c5e8bf",
+      "Step10_manifest_SHA256": "6e117ef820510263e22db6c90176d895095dcbc9a23a26d1598415a29ec21cb4"
+    },
+    {
+      "library": "GSE230363__GSM7220519",
+      "Step04_manifest_SHA256": "b3dc95baf58a3690f2ab40378248b6ff440e7eff970a851f5022f159a42cb713",
+      "Step10_manifest_SHA256": "e5e87545ee8f541d122b4a8fdb2ddb841fa91050d2eaddfe4c8e41ab44e7a0ce"
+    },
+    {
+      "library": "GSE230363__GSM7220521",
+      "Step04_manifest_SHA256": "a89532a282d007f9a8ca949df792668ea7018f384951b03da0bc0727701085b9",
+      "Step10_manifest_SHA256": "acb1dca96c8add6d825078860801e45ed77c6c263fa4e6a93778bca8cb3a8d97"
+    },
+    {
+      "library": "GSE230363__GSM7220523",
+      "Step04_manifest_SHA256": "eeb27af5936a147b98fc40a50973709e59f028f972e54fd114c142cb47b51f24",
+      "Step10_manifest_SHA256": "0a7206e88e64ccfee0ad76866a9592b0b83ce863b8d604c85f99c80270cdac94"
+    },
+    {
+      "library": "GSE230363__GSM7220525",
+      "Step04_manifest_SHA256": "d7dfd49d1bac794d4e9c447ea78a04fa8d6b1ba9561ee9c313b3dfd9512c43e5",
+      "Step10_manifest_SHA256": "939c1964166dcfd5e25f988514b19a9744ccf81606bee956a164b299b9fa9cab"
+    },
+    {
+      "library": "GSE255042__GSM8062936",
+      "Step04_manifest_SHA256": "74c3b67ec068713be896d2846cff4e93b1a096d7d90c4916130dd05b5f6fd3c2",
+      "Step10_manifest_SHA256": "cb32aea40d4d2141311ceaf1b805b34cb050fc3d6575204fe947bdeae782a93a"
+    },
+    {
+      "library": "GSE267584__GSM8269389",
+      "Step04_manifest_SHA256": "56fbcfe46c0fb9557c72949fff1e60aaf018fc95709a4e96a1a14bd37f9500e1",
+      "Step10_manifest_SHA256": "6ad39a31fec433a2f46999d8e3d364824201b176f388f2cd115ed309ae18e5f0"
+    },
+    {
+      "library": "GSE267584__GSM8269390",
+      "Step04_manifest_SHA256": "ea2fe3fceec3901b3190c3f78d3b63bfa62bda014301f05742285ee190c6c1d5",
+      "Step10_manifest_SHA256": "f14a6a2f4916d7ae757485eb8248ddf9569baf099110085e10c73986782dc887"
+    },
+    {
+      "library": "GSE267584__GSM8269391",
+      "Step04_manifest_SHA256": "1891b5281b042706647c691f2606d98e701c2150debb34d777659128bcbefd65",
+      "Step10_manifest_SHA256": "87d09dfd16407f2d97edbbe7a9d5b18065141adde155e59a8eaca17eeaa25b16"
+    },
+    {
+      "library": "GSE267584__GSM8269392",
+      "Step04_manifest_SHA256": "9b1a4344a22fac516c8ec7e4ceee520a0f5597e83f0ee9eae7051c78d84574b8",
+      "Step10_manifest_SHA256": "cf9f1f929142712aa6ed385f5b415218988065ed6c64131ab8edb48417bd2320"
+    },
+    {
+      "library": "GSE267584__GSM8269393",
+      "Step04_manifest_SHA256": "10a41cc9d7d1d30543ed7c3783fc02098dad7024bcb286d0d0c0aefd5eff1571",
+      "Step10_manifest_SHA256": "3f4fa9cefd2e65f473f0430f5f19581cfaf7a10f30e400653ff602545ea85a56"
+    },
+    {
+      "library": "GSE267584__GSM8269394",
+      "Step04_manifest_SHA256": "43848ca7beb9cb9ea189653fd0bf215040cbed5be963f1ed26c9bcd7277d7674",
+      "Step10_manifest_SHA256": "4e58e8d19dbb55ca7c0c44eb3e89397e57a13924f141660e55d79c08fe5d5fd9"
+    },
+    {
+      "library": "GSE267584__GSM8269395",
+      "Step04_manifest_SHA256": "01b712848c81a9093d5eefe117f9e7422b10d515c50d4dc0b778d75a52733e35",
+      "Step10_manifest_SHA256": "c2a8ef20bffe41f45e5852b12a3f1fbf805a8e962d96097e61befa1d9eebb227"
+    },
+    {
+      "library": "GSE267584__GSM8269396",
+      "Step04_manifest_SHA256": "02b1d38f9550a9b2092b6b4dd55f1f2927bd20bd54ec196593b79fd0c7fbcfd5",
+      "Step10_manifest_SHA256": "8cadff89fe4360f8d090e187394c4f1abfeb2ced99e8643f83753c72db5088db"
+    },
+    {
+      "library": "GSE267584__GSM8269397",
+      "Step04_manifest_SHA256": "6df3502fe46d330a3956942a29e377704067980ff7a116d837016120ff6ace60",
+      "Step10_manifest_SHA256": "bef4cfe68c9e46fbdfbf997d7a7ec07a04a8dc09c14adcdbc42db585928a8cde"
+    },
+    {
+      "library": "GSE267584__GSM8269398",
+      "Step04_manifest_SHA256": "f79a6694adca566b47f28e0907f5569318636ee3c87da2df39793c808d58f828",
+      "Step10_manifest_SHA256": "e8f53de3b82bf743d106fd31b036a1e4c31c753b18d4822e827b00e031cb2329"
+    },
+    {
+      "library": "GSE267584__GSM8269399",
+      "Step04_manifest_SHA256": "24b05d89034b3ad6b807065cc4748bac038065df07b568202c513cec653e9c14",
+      "Step10_manifest_SHA256": "c9c47f344fac8c905126254e9bcdf1feaef481fc23389eff8fefc8591a29c5d2"
+    },
+    {
+      "library": "GSE278342__GSM8545120",
+      "Step04_manifest_SHA256": "ce4018ec965b187e8668c39aa19d35117d2f7b70dd373551112343851f8d7eb4",
+      "Step10_manifest_SHA256": "fa1d8e7f2bb4b8ba7389319c108b5e68b58a3ada8bcdddad68386fb8455cffe9"
+    },
+    {
+      "library": "GSE278342__GSM8545124",
+      "Step04_manifest_SHA256": "30885801820a5bbcd4911d23b0ef30d9c9751a076f8ebb8600baad092994aa21",
+      "Step10_manifest_SHA256": "82730b15385acfce95617bec7f94dc0e560cbe7963a6e98972f1fe089c8ca3c1"
+    },
+    {
+      "library": "GSE290618__gut",
+      "Step04_manifest_SHA256": "09029a0e5b5854160b3219613f85cb6b156c2364f46c52c7bd070945000be586",
+      "Step10_manifest_SHA256": "091ddf25228df58e81f698c5a68e0b40eaf44d91c9ffc7cbcd45d9b7bb9c0073"
+    },
+    {
+      "library": "GSE290618__tumor",
+      "Step04_manifest_SHA256": "22ef3d015ad2c088919e8b2bbc3e0cb28876b809f423835aa61239445207d8ef",
+      "Step10_manifest_SHA256": "a842fd07c7faa6f7aa27e174f41baf29ace21c368992125b9470b0b911b1344a"
+    }
+  ],
+  "completed_libraries": 23,
+  "nonempty_libraries": 23,
+  "validated_upload_jobs": 8,
+  "exported_cells": 161773,
+  "CD8_cells": 158955,
+  "AllT_lineage_verification_cells": 2818,
+  "cycling_override_retained_cells": 453,
+  "all_retained_cells_exported_exactly_once": true,
+  "raw_counts_and_prior_exports_unchanged": true,
+  "Step09_exports_superseded_for_new_submissions_by_this_run": true,
+  "no_models_refit": true,
+  "no_server_submission": true,
+  "software": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1"
+  },
+  "failures": []
+}

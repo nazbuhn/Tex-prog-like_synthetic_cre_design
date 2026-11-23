@@ -1,0 +1,15 @@
+context_id	global_index	role	split	reviewed_in_pilot	chrom	peak_start_0based	peak_end_exclusive	model_input_start_0based	model_input_end_exclusive
+fresh_01	80550	optimization	training	False	chr11	103216262	103216762	103215488	103217536
+fresh_02	169918	optimization	training	False	chr16	49854631	49855131	49853857	49855905
+fresh_03	189268	selection	training	False	chr17	50163419	50163919	50162645	50164693
+fresh_04	399	selection	training	False	chr1	10037128	10037628	10036354	10038402
+fresh_05	78921	selection	training	False	chr11	100694752	100695252	100693978	100696026
+fresh_06	173683	selection	training	False	chr16	91884054	91884554	91883280	91885328
+fresh_07	267657	final_audit	training	False	chr3	90412430	90412930	90411656	90413704
+fresh_08	116609	final_audit	training	False	chr13	55105664	55106164	55104890	55106938
+fresh_09	228726	final_audit	training	False	chr2	28514363	28514863	28513589	28515637
+fresh_10	270112	final_audit	training	False	chr3	100681718	100682218	100680944	100682992
+fresh_11	138640	final_audit	training	False	chr14	77871086	77871586	77870312	77872360
+fresh_12	251202	final_audit	training	False	chr2	157278170	157278670	157277396	157279444
+fresh_13	124708	final_audit	training	False	chr13	112509445	112509945	112508671	112510719
+fresh_14	218892	final_audit	training	False	chr19	41481454	41481954	41480680	41482728

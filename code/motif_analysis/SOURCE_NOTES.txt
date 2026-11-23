@@ -1,0 +1,15 @@
+CREsted paper: https://www.nature.com/articles/s41592-026-03057-2
+CREsted enhancer-code tutorial supplied by the user on 13 November 2026.
+Native installed CREsted APIs, sources and versions are recorded in NATIVE_API.json.
+The existing CREsted 1.10.0 source snapshot on SanDisk was inspected while preparing this code.
+JASPAR2026 paper: https://doi.org/10.1093/nar/gkaf1209
+JASPAR2026 official downloads: https://jaspar2026.elixir.no/downloads/
+JASPAR SQL metadata layout checked against Biopython JASPAR database access code:
+https://github.com/biopython/biopython/blob/master/Bio/motifs/jaspar/db.py
+MGI reference definition: https://www.informatics.jax.org/downloads/reports/index.html
+
+RNA sparse-count reader retained from the original presentation workflow.
+No old custom attribution maps, old TF-MoDISco patterns or prior motif matches are used as new results.
+Primary greedy/IC clustering and threshold/Pearson TF matching are explicit paper-era choices;
+newer agglomerative/NNLS defaults are not silently treated as the quoted methods.
+No Aerts resource download is called by this workflow.

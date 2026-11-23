@@ -1,0 +1,41 @@
+comparison	motif	width	STREME_E	STREME_E_below_0p05	significant_JASPAR2026_matches	lowest_Tomtom_q	best_q_profile_IDs	best_q_profile_names	match_status
+vs_initial	1-GCGCAA	6	0.0013	True	0				no reference match at q<=0.05
+vs_initial	2-ATGAGTCATWTCRA	14	0.0023	True	32	1.29987e-05	MA0490.3	JUNB	significant reference match
+vs_initial	3-ACATCAAAGGV	11	0.0083	True	5	0.000721025	MA1991.2;MA0523.2	Hnf1A;TCF7L2	significant reference match
+vs_initial	4-ATGCAAATWK	10	0.019	True	11	0.0129839	MA0627.3	POU2F3	significant reference match
+vs_initial	5-YAATTAGCAC	10	0.025	True	54	0.00534467	MA0709.2;MA0666.3;MA0125.2;MA0890.2	Msx3;MSX1;Nobox;GBX2	significant reference match
+vs_initial	6-CGCCCACD	8	0.069	False	8	0.00315671	MA0162.5	EGR1	significant reference match
+vs_initial	7-AKTCATTHTGARAVTDW	17	0.17	False	0				no reference match at q<=0.05
+vs_initial	8-CATTCAAT	8	0.17	False	0				no reference match at q<=0.05
+vs_initial	9-GCCCACGCAY	10	0.2	False	4	0.000830285	MA0472.2;MA0732.2	EGR2;EGR3	significant reference match
+vs_initial	10-ATGGAAAATD	10	0.38	False	4	0.00255922	MA0606.3	Nfat5	significant reference match
+vs_initial	11-AAGTGTGAA	9	0.62	False	10	0.0215727	MA0802.2;MA0800.2;MA1566.3;MA0690.3;MA1567.3;MA0689.1	TBR1;EOMES;TBX3;TBX21;Tbx6;TBX20	significant reference match
+vs_initial	12-AAGTGTCAATT	11	0.91	False	0				no reference match at q<=0.05
+vs_initial	13-CCCTTTCA	8	1.9	False	0				no reference match at q<=0.05
+vs_initial	14-TGCAAAAG	8	1.9	False	0				no reference match at q<=0.05
+vs_initial	15-TGAATAACA	9	4.0	False	0				no reference match at q<=0.05
+vs_initial	16-KGGGCCCM	8	6.6	False	0				no reference match at q<=0.05
+vs_initial	17-TAAATGAGTC	10	10.0	False	0				no reference match at q<=0.05
+vs_initial	18-AAATGAATAGBT	12	10.0	False	0				no reference match at q<=0.05
+vs_initial	19-GCAATTGC	8	10.0	False	0				no reference match at q<=0.05
+vs_initial	20-TGGAAACAAT	10	19.0	False	1	0.0203711	MA0624.3	Nfatc1	significant reference match
+vs_dinucleotide	1-ATKAGTCATWTYRARAVTD	19	2.4e-05	True	33	9.31745e-06	MA1135.2;MA1134.2;MA1137.2	FOSB::JUNB;FOS::JUNB;FOSL1::JUNB	significant reference match
+vs_dinucleotide	2-ABTCATTYTGAAANTD	16	0.0013	True	0				no reference match at q<=0.05
+vs_dinucleotide	3-TATGCAAATW	10	0.0083	True	12	2.26843e-06	MA0627.3	POU2F3	significant reference match
+vs_dinucleotide	4-CDCCCACDC	9	0.009	True	4	0.00111848	MA0472.2;MA0162.5	EGR2;EGR1	significant reference match
+vs_dinucleotide	5-CCACCCACW	9	0.011	True	0				no reference match at q<=0.05
+vs_dinucleotide	6-WAATGGAAAATWT	13	0.019	True	4	0.000130093	MA0152.3	Nfatc2	significant reference match
+vs_dinucleotide	7-TAATTACCAY	10	0.29	False	91	0.00695425	MA0886.2	EMX2	significant reference match
+vs_dinucleotide	8-ACAGCTGG	8	0.99	False	25	0.00661167	MA0521.3;MA1635.2;MA1472.3;MA1641.2;MA0633.3;MA1993.2;MA1997.2;MA1619.2	Tcf12;BHLHE22;Bhlha15;MYF5;Twist2;Neurod2;Olig2;Ptf1A	significant reference match
+vs_dinucleotide	9-CCTTTGATS	9	0.99	False	5	0.00016243	MA0768.3;MA1991.2	Lef1;Hnf1A	significant reference match
+vs_dinucleotide	10-ACWTCAAAGGVA	12	1.2	False	5	0.000886261	MA0523.2	TCF7L2	significant reference match
+vs_dinucleotide	11-ATGCAAATA	9	1.9	False	0				no reference match at q<=0.05
+vs_dinucleotide	12-AATGAGTCADWTHT	14	2.7	False	28	0.000384257	MA0835.3;MA1988.2;MA0462.3;MA1634.2;MA2486.1	BATF3;Atf3;BATF::JUN;BATF;Fosb	significant reference match
+vs_dinucleotide	13-AGAAATGACTR	11	3.2	False	0				no reference match at q<=0.05
+vs_dinucleotide	14-VAGGCCCCYN	10	3.4	False	0				no reference match at q<=0.05
+vs_dinucleotide	15-AAAAGAACAV	10	6.6	False	0				no reference match at q<=0.05
+vs_dinucleotide	16-AAGTGTCAATTG	12	6.6	False	0				no reference match at q<=0.05
+vs_dinucleotide	17-WAGGCCTW	8	10.0	False	0				no reference match at q<=0.05
+vs_dinucleotide	18-AAAGTGAGAAA	11	10.0	False	0				no reference match at q<=0.05
+vs_dinucleotide	19-AGGTGTTAATDTKV	14	16.0	False	16	0.000217	MA1960.2	MGA::EVX1	significant reference match
+vs_dinucleotide	20-GGAAAGCCCCWYW	13	20.0	False	2	0.0236679	MA0101.1	REL	significant reference match

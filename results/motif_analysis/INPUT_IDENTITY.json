@@ -1,0 +1,26 @@
+{
+  "checkpoint": "2aaccf0606f3832e8a768602298ab91d977ea0831dc31bb89360e8d6a3750e48",
+  "dataset": "8c8bed2433cff73991137e1daf0619096f2c2ffb8888c177f716708a24ab782d",
+  "designs": 196,
+  "cells": 111347,
+  "names": [
+    "BG_R1_C0",
+    "BG_R1_C1",
+    "BG_R1_C2",
+    "BG_R1_C3",
+    "BG_R1_C4",
+    "BG_R1_C5",
+    "BG_R1_C6",
+    "BG_R1_C7",
+    "BG_R1_C8",
+    "OTHER_SMALL_ATAC",
+    "TARGET_C1"
+  ],
+  "natural_top_k": 2000,
+  "attribution": "native CREsted raw per-output gradients; RC-averaged, population scales removed",
+  "baseline": "zeros for IG; 25 whole-input mononucleotide permutations per input for EIG",
+  "reference_database": "JASPAR2026 CORE vertebrates; MGI-verified mouse TF associations",
+  "reference_database_is_paper_adaptation": true,
+  "sequence_scope": "full 2048 bp explained; central 1000 bp used for TF-MoDISco",
+  "independence": "Interpretation of existing fitted model/data; no independent biological validation"
+}

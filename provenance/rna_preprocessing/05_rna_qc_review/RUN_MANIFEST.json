@@ -1,0 +1,153 @@
+{
+  "source_step04": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/rna_qc/step04_20261016T160319_2076025",
+  "code_SHA256": "cdec4a441ce295faf55355f871739f2b85230b5daabffb7b940556ad14791518",
+  "software": {
+    "scanpy": "1.10.3",
+    "anndata": "0.10.9",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.2.3",
+    "matplotlib": "3.9.4",
+    "scikit-learn": "1.5.2",
+    "numba": "0.60.0"
+  },
+  "source_checkpoints": [
+    {
+      "library": "GSM7220513",
+      "step04_manifest_sha256": "09d2080ee29a332ccb9a779d4e75311d81cfe26e23e7ef526985b9b0fe500478",
+      "cell_QC_sha256": "b1d9aa8f9d36481f2f222dd25c19e11af20cd67609664b0b5627b06d0842331c"
+    },
+    {
+      "library": "GSM7220515",
+      "step04_manifest_sha256": "126420156c84b1eac8b4387c3de006114c90a756652fc8db48e6c6151883c6cf",
+      "cell_QC_sha256": "1cf54823417de1869e82006eb7f566b18870e4e12c101602a5501f9ba1a86fce"
+    },
+    {
+      "library": "GSM7220517",
+      "step04_manifest_sha256": "0b6de72ca095e8bbb316525d0c0158d77c07a051d9559ece28ef86f543c5e8bf",
+      "cell_QC_sha256": "d2ab978a5da622fe7889b3f024e355ffa61a9f02bff038d43efee1b6ba5c654e"
+    },
+    {
+      "library": "GSM7220519",
+      "step04_manifest_sha256": "b3dc95baf58a3690f2ab40378248b6ff440e7eff970a851f5022f159a42cb713",
+      "cell_QC_sha256": "80b79aac974863b4a62bbe33f77d265c13abc6a6137ae0f8c2deb251a8420a7e"
+    },
+    {
+      "library": "GSM7220521",
+      "step04_manifest_sha256": "a89532a282d007f9a8ca949df792668ea7018f384951b03da0bc0727701085b9",
+      "cell_QC_sha256": "79d2b532777af972f4e0aa839b26d6cfd4eaf607f839c50e9714167f8a83d7bb"
+    },
+    {
+      "library": "GSM7220523",
+      "step04_manifest_sha256": "eeb27af5936a147b98fc40a50973709e59f028f972e54fd114c142cb47b51f24",
+      "cell_QC_sha256": "6d8f5b9f955638a9822fd648df08b012cfcb90424d7cbc822cf0bbf8db01bab1"
+    },
+    {
+      "library": "GSM7220525",
+      "step04_manifest_sha256": "d7dfd49d1bac794d4e9c447ea78a04fa8d6b1ba9561ee9c313b3dfd9512c43e5",
+      "cell_QC_sha256": "727abd71f3325afe37f593f1149ca075c1760c112ea53afb288f974180dd3e28"
+    },
+    {
+      "library": "GSM8062936",
+      "step04_manifest_sha256": "74c3b67ec068713be896d2846cff4e93b1a096d7d90c4916130dd05b5f6fd3c2",
+      "cell_QC_sha256": "1cb175a951e1967a2e7a37fb376af2a5a03dbc8c20a408fa990752ed0e3ff252"
+    },
+    {
+      "library": "GSM8269389",
+      "step04_manifest_sha256": "56fbcfe46c0fb9557c72949fff1e60aaf018fc95709a4e96a1a14bd37f9500e1",
+      "cell_QC_sha256": "69f45ad3de17ffb3f0e0838ad4b955ed573697c21c1036722aa2f0c0ad8b5454"
+    },
+    {
+      "library": "GSM8269390",
+      "step04_manifest_sha256": "ea2fe3fceec3901b3190c3f78d3b63bfa62bda014301f05742285ee190c6c1d5",
+      "cell_QC_sha256": "147e65781caaed372ccc10340e11e75cb52977b02b62cbb35f9b5ac592dfc28a"
+    },
+    {
+      "library": "GSM8269391",
+      "step04_manifest_sha256": "1891b5281b042706647c691f2606d98e701c2150debb34d777659128bcbefd65",
+      "cell_QC_sha256": "823fd50c061310836e027bc04cf3650b3b3f268eb6cc4b4278f5bc8023c662a0"
+    },
+    {
+      "library": "GSM8269392",
+      "step04_manifest_sha256": "9b1a4344a22fac516c8ec7e4ceee520a0f5597e83f0ee9eae7051c78d84574b8",
+      "cell_QC_sha256": "8263c6df4ce4b33e1ae26d0e62abab82ccd614ea40874458ebb7e54409a8e4e9"
+    },
+    {
+      "library": "GSM8269393",
+      "step04_manifest_sha256": "10a41cc9d7d1d30543ed7c3783fc02098dad7024bcb286d0d0c0aefd5eff1571",
+      "cell_QC_sha256": "6230fdc0e1429a7887fddc3000ccc51788e3e489f258492e661973df84609772"
+    },
+    {
+      "library": "GSM8269394",
+      "step04_manifest_sha256": "43848ca7beb9cb9ea189653fd0bf215040cbed5be963f1ed26c9bcd7277d7674",
+      "cell_QC_sha256": "73919d57b344f561ce874a2af39c8f123d38b3a1179d74dff5d603efead1ef64"
+    },
+    {
+      "library": "GSM8269395",
+      "step04_manifest_sha256": "01b712848c81a9093d5eefe117f9e7422b10d515c50d4dc0b778d75a52733e35",
+      "cell_QC_sha256": "da6ef6ea2a1168b4bdb145605b5bbad4eaff2e11ca06aab3adf2825d157002fe"
+    },
+    {
+      "library": "GSM8269396",
+      "step04_manifest_sha256": "02b1d38f9550a9b2092b6b4dd55f1f2927bd20bd54ec196593b79fd0c7fbcfd5",
+      "cell_QC_sha256": "0ec9a00abd7be05a91bf9e9542a7fdbcd584fd1d65c96d8a110b52eaa0f8ef1b"
+    },
+    {
+      "library": "GSM8269397",
+      "step04_manifest_sha256": "6df3502fe46d330a3956942a29e377704067980ff7a116d837016120ff6ace60",
+      "cell_QC_sha256": "79077174a2103f1df981a84bc0cd701056f6e6fe51e26427eef4482462c38c4d"
+    },
+    {
+      "library": "GSM8269398",
+      "step04_manifest_sha256": "f79a6694adca566b47f28e0907f5569318636ee3c87da2df39793c808d58f828",
+      "cell_QC_sha256": "3167e93b9accd9e78ba396508ea4ceac2b7c12a01fc0e14abddefca5b19066ef"
+    },
+    {
+      "library": "GSM8269399",
+      "step04_manifest_sha256": "24b05d89034b3ad6b807065cc4748bac038065df07b568202c513cec653e9c14",
+      "cell_QC_sha256": "06e44d600f540a2337cbbc4091fcddadb25bd1f9c366dc2ba47313071e1ac802"
+    },
+    {
+      "library": "GSM8545120",
+      "step04_manifest_sha256": "ce4018ec965b187e8668c39aa19d35117d2f7b70dd373551112343851f8d7eb4",
+      "cell_QC_sha256": "b80931ceaf9918be1eb4ff2caf9cfb56e7537a72706aa6c2201c32016bb61471"
+    },
+    {
+      "library": "GSM8545124",
+      "step04_manifest_sha256": "30885801820a5bbcd4911d23b0ef30d9c9751a076f8ebb8600baad092994aa21",
+      "cell_QC_sha256": "c87b7a7f97f28572c185682fcb206de2fd85c3fcf10a9d3c635f7e054932be95"
+    },
+    {
+      "library": "gut",
+      "step04_manifest_sha256": "09029a0e5b5854160b3219613f85cb6b156c2364f46c52c7bd070945000be586",
+      "cell_QC_sha256": "081d596f869d8f768994af40d09761df6d2a26c1a82f14b9cc9fe7a7cc293a2f"
+    },
+    {
+      "library": "tumor",
+      "step04_manifest_sha256": "22ef3d015ad2c088919e8b2bbc3e0cb28876b809f423835aa61239445207d8ef",
+      "cell_QC_sha256": "c3a881c04f967eddaf6c6deb234e17af7ce10d6be643337a6c2c8548ca2ba0eb"
+    }
+  ],
+  "hashsolo_priors": {
+    "default": [
+      0.01,
+      0.8,
+      0.19
+    ],
+    "more_negative": [
+      0.05,
+      0.75,
+      0.2
+    ],
+    "more_doublet": [
+      0.01,
+      0.69,
+      0.3
+    ]
+  },
+  "hashsolo_model_mito_max": 20.0,
+  "plot_and_marker_masks_not_final_selection": true,
+  "RNA_counts_unchanged": true,
+  "cells_approved_for_upload": 0,
+  "failures": []
+}

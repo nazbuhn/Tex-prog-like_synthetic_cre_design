@@ -1,0 +1,50 @@
+{
+  "code_sha256": "b33aa9747033f26e9e0007d7ccfc19f4e80ff1cb44e62747045dc56390120385",
+  "prior_successful_step03": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/audits/step03_20261016T154909_2071979",
+  "source_mapping_sha256": "609323cfa9aa64888149cbf5e825bb587515d2d1741e5a35386351b50c76ff53",
+  "thread_limits": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/envs/metadata_py39_numpy126_h5py311/lib/python3.9/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/envs/metadata_py39_numpy126_h5py311/lib/python3.9/site-packages/scipy.libs/libopenblasp-r0-01191904.3.27.so",
+      "version": "0.3.27",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "scipy",
+      "internal_api": "scipy_mmio",
+      "num_threads": 0,
+      "prefix": "_fmm_core",
+      "filepath": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/envs/metadata_py39_numpy126_h5py311/lib/python3.9/site-packages/scipy/io/_fast_matrix_market/_fmm_core.cpython-39-x86_64-linux-gnu.so"
+    }
+  ],
+  "successful_libraries": 23,
+  "failures": [],
+  "all_output_cells_NOT_APPROVED": true,
+  "GSE262306": "HOLD normalized expression; original counts needed",
+  "GSE334878": "HOLD gene coverage/count provenance and experimental-control eligibility; Trim28 excluded",
+  "excluded": [
+    "GSM7220527",
+    "GSM7220528",
+    "GSM8062937",
+    "GSM8062934"
+  ]
+}

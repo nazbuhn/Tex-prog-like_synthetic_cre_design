@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "files": {
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/ALL196_MUTATION_SUMMARY.tsv": "74ed11dbd229c58a5519dc960c483e7e74db6568ae9284ffd542d54f4109c9f8",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/KNOWN_REFERENCE_FIMO_COMPLETE.json": "279ade755cdacc7e9f74d98495204c1410f221ad989ddc485031f9abf53e4ac4",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/REFERENCE_MANIFEST.json": "24873c8e4a15e0cd28379f8edbe144ac6efddb86bf91caef5b8f58112f880739",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/RNA_COMPLETE.json": "e76d199f0e1d3e7fdc30871462bce470d363f876dced06d2c4f7a21d67a77f73",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/RUN_SUMMARY.json": "bce2bcea16f617b903907fecda665d77e929cfe3aa9889f5a1356bbe488b5955",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/PATTERN_COUNTS_ALL_RUNS.tsv": "e0b3297edb44474d8a10a0b1e1306c6818346eb59155f74fa60d1b9860fe241f"
+  },
+  "status": "complete",
+  "designs": 196,
+  "methods": [
+    "integrated_grad",
+    "expected_integrated_grad"
+  ],
+  "natural_top_k_per_population": 2000,
+  "population_outputs": 11,
+  "biological_validation": false
+}

@@ -1,0 +1,9 @@
+{
+  "epoch": 8,
+  "metrics": {
+    "macro_selectivity_AP": 0.06502620286992997,
+    "calibration_error": 0.17814314365386963
+  },
+  "weights_file": "EPOCH_008.weights.h5",
+  "sha256": "2aaccf0606f3832e8a768602298ab91d977ea0831dc31bb89360e8d6a3750e48"
+}

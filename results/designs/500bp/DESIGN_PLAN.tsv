@@ -1,0 +1,33 @@
+arm	parent_id	offset	supporting_captures	informative_captures	index	design_id	retention_fraction	shard
+natural	seed_043	0	1	7	0	C1L_0001	0.25	0
+natural	seed_031	0	0	6	1	C1L_0002	0.5	0
+natural	seed_035	0	0	5	2	C1L_0003	0.5	1
+natural	seed_005	0	3	11	3	C1L_0004	0.5	1
+natural	seed_008	0	5	10	4	C1L_0005	0.5	2
+natural	seed_024	0	1	8	5	C1L_0006	0.5	2
+natural	seed_042	0	4	8	6	C1L_0007	0.25	3
+natural	seed_015	0	5	5	7	C1L_0008	0.5	3
+natural	seed_045	0	1	3	8	C1L_0009	0.25	4
+natural	seed_026	0	3	8	9	C1L_0010	0.25	4
+natural	seed_012	0	2	8	10	C1L_0011	0.25	5
+natural	seed_048	0	3	9	11	C1L_0012	0.25	5
+natural	seed_006	0	1	9	12	C1L_0013	0.5	6
+natural	seed_039	0	3	11	13	C1L_0014	0.25	6
+natural	seed_001	0	5	9	14	C1L_0015	0.5	7
+natural	seed_050	0	1	11	15	C1L_0016	0.25	7
+random	random_0001				16	C1L_0017	0.5	8
+random	random_0002				17	C1L_0018	0.25	8
+random	random_0003				18	C1L_0019	0.25	9
+random	random_0004				19	C1L_0020	0.25	9
+random	random_0005				20	C1L_0021	0.25	10
+random	random_0006				21	C1L_0022	0.5	10
+random	random_0007				22	C1L_0023	0.5	11
+random	random_0008				23	C1L_0024	0.5	11
+random	random_0009				24	C1L_0025	0.5	12
+random	random_0010				25	C1L_0026	0.25	12
+random	random_0011				26	C1L_0027	0.5	13
+random	random_0012				27	C1L_0028	0.25	13
+random	random_0013				28	C1L_0029	0.25	14
+random	random_0014				29	C1L_0030	0.25	14
+random	random_0015				30	C1L_0031	0.5	15
+random	random_0016				31	C1L_0032	0.5	15

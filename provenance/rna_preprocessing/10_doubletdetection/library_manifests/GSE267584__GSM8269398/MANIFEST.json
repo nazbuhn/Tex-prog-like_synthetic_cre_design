@@ -1,0 +1,149 @@
+{
+  "signature": {
+    "code_SHA256": "2596ad4af5f16d813e196f0242893c67d3c7ff83a91eebeda7cad29c5a9664d4",
+    "review_policy_SHA256": "317ab513d1db265965b8d796637a2ba61e98f20cf84eaff5c0cabe08f9940c29",
+    "step04_manifest_SHA256": "f79a6694adca566b47f28e0907f5569318636ee3c87da2df39793c808d58f828",
+    "step06_table_SHA256": "ffcb422db6e0279e770d48b222baee4e26617d62e19e0cb926475ed399f9173e",
+    "step08_manifest_SHA256": "eb3c4f4c4552fa19609750f74a465ae8165e15847f10854f6e8d513aaabf1fc1",
+    "parameters": {
+      "n_iters": 25,
+      "n_components": 30,
+      "n_top_var_genes": 10000,
+      "boost_rate": 0.25,
+      "replace": false,
+      "clustering_algorithm": "louvain",
+      "clustering_kwargs": {
+        "resolution": 4,
+        "directed": false
+      },
+      "standard_scaling": true,
+      "pseudocount": 0.1,
+      "random_state": 1729,
+      "n_jobs": 1,
+      "verbose": false
+    },
+    "software": {
+      "doubletdetection": "4.2",
+      "PhenoGraph": "1.5.7",
+      "louvain": "0.8.2",
+      "scanpy": "1.10.3",
+      "anndata": "0.10.9",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.5.2",
+      "igraph": "0.11.8",
+      "leidenalg": "0.10.2",
+      "numba": "0.60.0",
+      "llvmlite": "0.43.0",
+      "umap-learn": "0.5.7",
+      "pynndescent": "0.5.13"
+    }
+  },
+  "effective_parameters": {
+    "n_iters": 25,
+    "n_components": 30,
+    "n_top_var_genes": 10000,
+    "boost_rate": 0.25,
+    "replace": false,
+    "clustering_algorithm": "louvain",
+    "clustering_kwargs": {
+      "resolution": 4,
+      "directed": false
+    },
+    "standard_scaling": true,
+    "pseudocount": 0.1,
+    "random_state": 1729,
+    "n_jobs": 1,
+    "verbose": false
+  },
+  "summary": {
+    "GSE": "GSE267584",
+    "library": "GSM8269398",
+    "source_cells": 3005,
+    "modeled_cells": 2860,
+    "modeled_step04_candidates": 2860,
+    "DD_positive_vote_ge_0_9": 39,
+    "DD_positive_vote_ge_0_5": 86,
+    "DD_positive_p1e6_vote_ge_0_5": 92,
+    "DD_unresolved_modeled": 0,
+    "candidate_DD_positive_vote_ge_0_9": 39,
+    "review_B_cluster_cells": 0,
+    "condition_conflict": false,
+    "status": "SCORED_NEEDS_REVIEW"
+  },
+  "cluster_rows": [
+    {
+      "GSE": "GSE267584",
+      "library": "GSM8269398",
+      "cluster_review": "1",
+      "cells": 720,
+      "step04_candidates": 720,
+      "DD_positive_vote_ge_0_9": 1,
+      "DD_positive_vote_ge_0_5": 1,
+      "DD_vote_median": 0.0,
+      "Scrublet_score_median": 0.0926966292134831,
+      "median_RNA_counts": 3692.5,
+      "Mki67_measured": true,
+      "Mki67_detected_cells": 15,
+      "review_B_cluster_cells": 0
+    },
+    {
+      "GSE": "GSE267584",
+      "library": "GSM8269398",
+      "cluster_review": "2",
+      "cells": 664,
+      "step04_candidates": 664,
+      "DD_positive_vote_ge_0_9": 13,
+      "DD_positive_vote_ge_0_5": 33,
+      "DD_vote_median": 0.0,
+      "Scrublet_score_median": 0.1778846153846154,
+      "median_RNA_counts": 4206.0,
+      "Mki67_measured": true,
+      "Mki67_detected_cells": 13,
+      "review_B_cluster_cells": 0
+    },
+    {
+      "GSE": "GSE267584",
+      "library": "GSM8269398",
+      "cluster_review": "3",
+      "cells": 268,
+      "step04_candidates": 268,
+      "DD_positive_vote_ge_0_9": 1,
+      "DD_positive_vote_ge_0_5": 4,
+      "DD_vote_median": 0.0,
+      "Scrublet_score_median": 0.0765492102065613,
+      "median_RNA_counts": 4090.5,
+      "Mki67_measured": true,
+      "Mki67_detected_cells": 2,
+      "review_B_cluster_cells": 0
+    },
+    {
+      "GSE": "GSE267584",
+      "library": "GSM8269398",
+      "cluster_review": "0",
+      "cells": 1208,
+      "step04_candidates": 1208,
+      "DD_positive_vote_ge_0_9": 24,
+      "DD_positive_vote_ge_0_5": 48,
+      "DD_vote_median": 0.0,
+      "Scrublet_score_median": 0.1347248576850094,
+      "median_RNA_counts": 4144.0,
+      "Mki67_measured": true,
+      "Mki67_detected_cells": 25,
+      "review_B_cluster_cells": 0
+    }
+  ],
+  "HTO_rows": [],
+  "outputs_SHA256": {
+    "DD_ITERATION_LOG_PVALUES.npy": "8688770346e2913c569bf4d8051265c7e628d17f2cfc4e268bbb56b94459324f",
+    "DD_ITERATION_SYNTHETIC_FRACTIONS.npy": "2c7db630ec355d93e736891fd96e742545c1b9f628b2029036ccdb482c1b6190",
+    "MODEL_CELL_ORDER.tsv.gz": "0d5c8258ccdc96cc3e5f339e365b1e088d6e1ac293bd58941b5cc0918129fc09",
+    "ALL_SOURCE_CELL_SECOND_CALLER_REVIEW.tsv.gz": "862121545668e208531186bef8330d980b5edaf862fad1e996db4c7586245ae4",
+    "CLUSTER_SECOND_CALLER_SUMMARY.tsv": "4e44c5d34be01ed563e6b25bf59895b5d71574a0f3cf4901aaa3caac5f499c92",
+    "DD_COMPARISON_REVIEW.png": "5f647c9e9fffd4927fb52cda9ed60fb84a4aa7f8c1b1810809e2b1d89ebff599"
+  },
+  "no_source_counts_or_exports_modified": true,
+  "no_final_cell_selection": true,
+  "physical_capture_mapping": "GSE278342 W8/W9 identified; remaining supplied libraries modeled separately, physical capture boundaries not independently established"
+}

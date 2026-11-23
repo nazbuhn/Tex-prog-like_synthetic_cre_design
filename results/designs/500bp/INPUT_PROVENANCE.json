@@ -1,0 +1,28 @@
+{
+  "target_cells": 4440,
+  "target": "Frozen ATAC resolution0.3 C1",
+  "natural_parent_peaks": 16,
+  "natural_windows": 16,
+  "random_starts": 16,
+  "source_tokens_sha256": "1f6972124839af9febe0df0fbb2eccb943b4836d0a3cd4637b4289d02e17ce1d",
+  "source_splits_sha256": "9041f375a2a635dfbed302a2e40f159460c7dfcce9b0825e642fdcc1fa60571b",
+  "training_only": true,
+  "prior_pilot_contexts_excluded": [
+    299226,
+    252156,
+    266191,
+    323017,
+    139871,
+    145741,
+    303273,
+    266439,
+    133292,
+    59890,
+    245161,
+    11095
+  ],
+  "motif_inputs_used": false,
+  "cell_membership_changed": false,
+  "models_retrained": false,
+  "caveat": "Contexts are training-chromosome DNA backgrounds, not independent biological samples. Sixteen non-overlapping parent identities sampled from 50 verified original parents. Prior tests already inspected."
+}

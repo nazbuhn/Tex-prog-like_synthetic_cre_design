@@ -1,0 +1,20 @@
+{
+  "source_sequence_archive": "/Users/nasreenbuhn/Documents/Codex/C1_PAPER_FINAL_ANALYSIS_20261110/inputs/ACCEPTED_ATTRIBUTION_MAPS.npz",
+  "source_sequence_archive_sha256": "442c97f48c6963f251e5eb3ac6f53d6e95bee187b12cb74ef748117223a19dad",
+  "source_metadata_sha256": "1140e8e152cf0b3e6bba28070e52e1a5a619fa6f74ce5c1fd6c274e70e587c2d",
+  "token_encoding": "0=A, 1=C, 2=G, 3=T; verified against earlier DNA FASTA",
+  "prior_stage_sequences_verified": 236,
+  "designs": 196,
+  "families": 118,
+  "groups": {
+    "natural_0.5": 64,
+    "natural_0.25": 64,
+    "random_0.25": 32,
+    "random_0.5": 36
+  },
+  "file_sha256": {
+    "inputs/DESIGN_METADATA.tsv": "1140e8e152cf0b3e6bba28070e52e1a5a619fa6f74ce5c1fd6c274e70e587c2d",
+    "inputs/INITIAL_196.fa": "9ef92aa97ef38d54985cb154dfa0738db197c8d75b5998264e1621ac2947f284",
+    "inputs/SELECTED_196.fa": "74414ede5ffd966f1ac83713f3d8e6f33e3dbd7d3b90d850046f60c8eab4a917"
+  }
+}

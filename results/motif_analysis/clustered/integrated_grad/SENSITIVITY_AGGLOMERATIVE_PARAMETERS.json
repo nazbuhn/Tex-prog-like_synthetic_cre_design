@@ -1,0 +1,10 @@
+{
+  "sim_threshold": 6.0,
+  "trim_ic_threshold": 0.025,
+  "discard_ic_threshold": 0.1,
+  "verbose": true,
+  "clustering": "agglomerative",
+  "representative": "n_seqlets",
+  "linkage_method": "average",
+  "sort_by": "n_seqlets"
+}

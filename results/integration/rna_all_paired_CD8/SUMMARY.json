@@ -1,0 +1,13 @@
+{
+  "cells": 117653,
+  "genes": 32245,
+  "captures": 21,
+  "confirmed_solid_TIL_cells": 13317,
+  "normalized_RNA_unchanged": true,
+  "raw_counts_unchanged": true,
+  "existing_annotations_unchanged": true,
+  "RNA_X_fingerprint": "32d9ae227f56c9e7fe95b7f4201daa277b4272d6f7abc81c6bcfb79ae840d503",
+  "raw_count_fingerprint": "c3c145f333c0f67773596a6040cadff5d6aa35f46aca96519228e9f5fe1d4258",
+  "final_phenotype_labels_assigned": false,
+  "correction_choice": "UNSELECTED_PENDING_REVIEW"
+}

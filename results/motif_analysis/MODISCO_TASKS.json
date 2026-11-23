@@ -1,0 +1,442 @@
+[
+  {
+    "method": "integrated_grad",
+    "label": "BG_R1_C0"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "BG_R1_C1"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "BG_R1_C2"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "BG_R1_C3"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "BG_R1_C4"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "BG_R1_C5"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "BG_R1_C6"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "BG_R1_C7"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "BG_R1_C8"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "OTHER_SMALL_ATAC"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "TARGET_C1"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context0__BG_R1_C0"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context0__BG_R1_C1"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context0__BG_R1_C2"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context0__BG_R1_C3"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context0__BG_R1_C4"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context0__BG_R1_C5"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context0__BG_R1_C6"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context0__BG_R1_C7"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context0__BG_R1_C8"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context0__OTHER_SMALL_ATAC"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context0__TARGET_C1"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context1__BG_R1_C0"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context1__BG_R1_C1"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context1__BG_R1_C2"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context1__BG_R1_C3"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context1__BG_R1_C4"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context1__BG_R1_C5"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context1__BG_R1_C6"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context1__BG_R1_C7"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context1__BG_R1_C8"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context1__OTHER_SMALL_ATAC"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_initial_context1__TARGET_C1"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context0__BG_R1_C0"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context0__BG_R1_C1"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context0__BG_R1_C2"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context0__BG_R1_C3"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context0__BG_R1_C4"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context0__BG_R1_C5"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context0__BG_R1_C6"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context0__BG_R1_C7"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context0__BG_R1_C8"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context0__OTHER_SMALL_ATAC"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context0__TARGET_C1"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context1__BG_R1_C0"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context1__BG_R1_C1"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context1__BG_R1_C2"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context1__BG_R1_C3"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context1__BG_R1_C4"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context1__BG_R1_C5"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context1__BG_R1_C6"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context1__BG_R1_C7"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context1__BG_R1_C8"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context1__OTHER_SMALL_ATAC"
+  },
+  {
+    "method": "integrated_grad",
+    "label": "design_selected_context1__TARGET_C1"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "BG_R1_C0"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "BG_R1_C1"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "BG_R1_C2"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "BG_R1_C3"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "BG_R1_C4"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "BG_R1_C5"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "BG_R1_C6"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "BG_R1_C7"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "BG_R1_C8"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "OTHER_SMALL_ATAC"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "TARGET_C1"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context0__BG_R1_C0"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context0__BG_R1_C1"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context0__BG_R1_C2"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context0__BG_R1_C3"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context0__BG_R1_C4"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context0__BG_R1_C5"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context0__BG_R1_C6"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context0__BG_R1_C7"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context0__BG_R1_C8"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context0__OTHER_SMALL_ATAC"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context0__TARGET_C1"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context1__BG_R1_C0"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context1__BG_R1_C1"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context1__BG_R1_C2"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context1__BG_R1_C3"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context1__BG_R1_C4"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context1__BG_R1_C5"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context1__BG_R1_C6"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context1__BG_R1_C7"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context1__BG_R1_C8"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context1__OTHER_SMALL_ATAC"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_initial_context1__TARGET_C1"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context0__BG_R1_C0"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context0__BG_R1_C1"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context0__BG_R1_C2"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context0__BG_R1_C3"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context0__BG_R1_C4"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context0__BG_R1_C5"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context0__BG_R1_C6"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context0__BG_R1_C7"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context0__BG_R1_C8"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context0__OTHER_SMALL_ATAC"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context0__TARGET_C1"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context1__BG_R1_C0"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context1__BG_R1_C1"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context1__BG_R1_C2"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context1__BG_R1_C3"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context1__BG_R1_C4"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context1__BG_R1_C5"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context1__BG_R1_C6"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context1__BG_R1_C7"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context1__BG_R1_C8"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context1__OTHER_SMALL_ATAC"
+  },
+  {
+    "method": "expected_integrated_grad",
+    "label": "design_selected_context1__TARGET_C1"
+  }
+]

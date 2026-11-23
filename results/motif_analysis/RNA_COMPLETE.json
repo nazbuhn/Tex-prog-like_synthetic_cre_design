@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "files": {
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/RNA_MEAN_CPM.tsv": "b7ebcbd0982ea8aa6301777b03fb92653fc9302896b3116601024f9761683a69",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/RNA_SOURCE.json": "4fcc7de0206d5553519925c754727c48acc539315a5014a0acfd93f04242872b",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/RNA_GENE_AVAILABILITY.tsv": "bdc87994a37e7f38252defc64eb69ba6d09f74fa0812ecd2d4dcbf97e8d09c27",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/clustered/integrated_grad/RNA_PATTERN_ID_MAP.tsv": "ad17759d41ca4a96e3d5a1a0b07c0d2a67575991aec67219fbb9ff99fb11c6eb",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/clustered/integrated_grad/RNA_SUPPORTED_TF_PATTERNS.tsv": "9ca47db5a6e4389d7d3377b0eaa96c7ecbccceb41d5c52763132ac8a9357bf91",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/clustered/integrated_grad/TF_POPULATION_MATRIX.npz": "08d0bfcca7716726998278ed49b099d5b2f108fb68064b4b93d99ea348923f89",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/clustered/integrated_grad/TF_SELECTION_PARAMETERS.json": "7b1c2cd7a01be368edc3ab6de8fac478d07f6981387b986954b250b2acde542a",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/clustered/expected_integrated_grad/RNA_PATTERN_ID_MAP.tsv": "b47111644b0d04015e58d26ccaf1a7586a7774069d954d9e120769602c85e8a5",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/clustered/expected_integrated_grad/RNA_SUPPORTED_TF_PATTERNS.tsv": "f30e9902a33def558c7ec728cba1b16ab12a68c38839bfd56da89e846486b4e7",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/clustered/expected_integrated_grad/TF_POPULATION_MATRIX.npz": "44de92d78bbb7cbd68f7ceb67f7980eb07e3e8927b68ef9703c31fe7638f7e20",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/clustered/expected_integrated_grad/TF_SELECTION_PARAMETERS.json": "7b1c2cd7a01be368edc3ab6de8fac478d07f6981387b986954b250b2acde542a"
+  }
+}

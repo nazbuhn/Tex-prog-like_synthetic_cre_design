@@ -1,0 +1,43 @@
+{
+  "status": "VERIFIED_PRIORITY_PUBLICATION_CONTENTS",
+  "starting_candidate_pairs": 1252,
+  "starting_candidate_records": 2504,
+  "saved_audit_controls": 20032,
+  "background_sequences": 14,
+  "backgrounds_by_role": {
+    "optimization": 2,
+    "selection": 4,
+    "final_audit": 8
+  },
+  "all_three_runs_have_byte_identical_background_arrays": true,
+  "actual_1000bp_control_sequences_verified": true,
+  "completed_1000bp_inputs_mapped_by_original_design_index": true,
+  "exact_peak_split_assignments": 439167,
+  "split_counts": {
+    "training": 356938,
+    "validation": 45032,
+    "test": 37197
+  },
+  "training_source_manifest_all_files_match": true,
+  "checkpoint_SHA256": "2aaccf0606f3832e8a768602298ab91d977ea0831dc31bb89360e8d6a3750e48",
+  "reported_test_C1_AP_recomputed": true,
+  "all_top_k_hits_reproduced": true,
+  "largest_absolute_AP_recomputation_difference": 7.487743102635447e-09,
+  "saved_reported_metrics_changed": false,
+  "new_model_inference": false,
+  "new_controls_generated": false,
+  "original_streme_internal_negative_FASTA_found": false,
+  "original_all_upstream_RNA_QC_and_integration_source_history_verified": false,
+  "portable_fresh_environment_model_execution_tested": false,
+  "repository_published": false,
+  "DOI_assigned": false,
+  "license_assigned": false,
+  "RNA_preprocessing_scripts_verified": 7,
+  "all_final_cohort_cells_linked_to_original_RNA_export": true,
+  "final_Harmony_integration_script_verified": true,
+  "RNA_Harmony_historical_source_checksum_match": true,
+  "ATAC_Harmony_historical_source_checksum_available": false,
+  "both_plotted_embedding_coordinates_verified": true,
+  "RNA_Harmony_batch_key": "source_GSE",
+  "ATAC_Harmony_batch_key": "batch"
+}

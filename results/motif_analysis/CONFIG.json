@@ -1,0 +1,48 @@
+{
+  "seed": 20261113,
+  "natural_top_k": 2000,
+  "natural_splits": [
+    0,
+    1,
+    2
+  ],
+  "methods": [
+    "integrated_grad",
+    "expected_integrated_grad"
+  ],
+  "design_attribution_outputs": "all_11",
+  "integration_batch_size": 4,
+  "prediction_batch_size": 8,
+  "records_per_task": 64,
+  "mutagenesis_designs_per_task": 1,
+  "gpu_array_concurrency": 1,
+  "array_batch_size": 400,
+  "gpu_time": "04:00:00",
+  "cpu_time": "04:00:00",
+  "modisco_window": 1000,
+  "modisco_max_seqlets": 20000,
+  "modisco_fdr": 0.05,
+  "modisco_sliding_window": 20,
+  "modisco_flank": 5,
+  "sim_threshold": 6.0,
+  "trim_ic_threshold": 0.025,
+  "discard_ic_threshold": 0.1,
+  "correlation_threshold": 0.2,
+  "design_contexts": [
+    0,
+    1
+  ],
+  "rna": "/vast/projects/saargill/cell-type-specific/nazbuhn/scenicplus_inputs/07_common_matrix/runs/common_20261022T131906_562560/RNA_QC_PASSED.h5ad",
+  "meme_bin": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/c1_core_analysis_tools/envs/meme_cpu_v1/bin",
+  "meme_database_q": 0.05,
+  "design_records_per_task": 4,
+  "reference_database": "JASPAR2026_CORE_vertebrates_nonredundant",
+  "reference_motif_count": 1019,
+  "mapping_column": "Mouse_JASPAR_MGI_candidates",
+  "RNA_cpm_normalize": true,
+  "clustering_primary": "greedy",
+  "clustering_representative": "ic_mean",
+  "tf_selection": "threshold",
+  "simplex_correction": false,
+  "cpu_modisco_threads": 16
+}

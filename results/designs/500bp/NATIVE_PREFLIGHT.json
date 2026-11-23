@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "native_function": "crested.tl.design._design.in_silico_evolution",
+  "native_source_sha256": "8c827713305e870653924870491aea14a6c3a16a6d98a4569c1e7054b37344a1",
+  "adapter": "500bp -> fixed2048bp contexts -> RC mean normalized FRPM",
+  "target_index": 10,
+  "class_names": [
+    "BG_R1_C0",
+    "BG_R1_C1",
+    "BG_R1_C2",
+    "BG_R1_C3",
+    "BG_R1_C4",
+    "BG_R1_C5",
+    "BG_R1_C6",
+    "BG_R1_C7",
+    "BG_R1_C8",
+    "OTHER_SMALL_ATAC",
+    "TARGET_C1"
+  ],
+  "mutations_forward_evaluated_per_step": 1500,
+  "gradient_shortlist_used": false,
+  "known_motifs_used": false,
+  "checkpoint_replay_max_difference": 0.00033295154571533203,
+  "native_trajectory_replayed": true,
+  "replay_diagnostics": {
+    "status": "PASS",
+    "exact_native_sequence_and_score_mapping": true,
+    "preflight_iterations": 3,
+    "same_batch_replay_pass": true,
+    "isolated_repeat_pass": true,
+    "isolated_cross_batch_replay_pass": true,
+    "original_strict_isolated_check_pass": false,
+    "same_batch_max_absolute_difference": 0.0,
+    "isolated_max_absolute_difference": 0.0031290054321289062,
+    "isolated_max_relative_difference": 0.0002856948703993112,
+    "same_batch_tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-06
+    },
+    "cross_batch_tolerance": {
+      "rtol": 0.003,
+      "atol": 0.0003
+    },
+    "cross_batch_tolerance_basis": "Same tolerance as existing saved-checkpoint validation replay; a changed cross-batch numerical gate, not proof of the original failure cause."
+  },
+  "benchmark_seconds_three_steps": 19.820114523987286,
+  "benchmark_seconds_one_step": 6.606704841329095,
+  "rough_design_only_GPU_hours": 5.872626525625861,
+  "estimate_caveat": "Three-step warm benchmark; excludes queue, model loads, evaluation and variation in throughput.",
+  "versions": {
+    "crested": "1.10.0",
+    "keras": "3.15.1",
+    "torch": "2.13.0+cu130",
+    "numpy": "2.5.3"
+  },
+  "GPU": "NVIDIA B200"
+}

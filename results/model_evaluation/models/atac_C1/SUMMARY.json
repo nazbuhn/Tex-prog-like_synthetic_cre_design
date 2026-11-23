@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "panel": "atac_C1",
+  "task": "count",
+  "best": {
+    "epoch": 8,
+    "metrics": {
+      "macro_selectivity_AP": 0.06502620286992997,
+      "calibration_error": 0.17814314365386963
+    },
+    "weights_file": "EPOCH_008.weights.h5",
+    "sha256": "2aaccf0606f3832e8a768602298ab91d977ea0831dc31bb89360e8d6a3750e48"
+  },
+  "cells": 111347,
+  "outputs": 11,
+  "input_bp": 2048,
+  "measured_peak_bp": 500,
+  "eventual_insert_bp": 200,
+  "epochs_completed": 15,
+  "checkpoint_selection": "Validation macro AP of supported selective targets; calibration breaks ties.",
+  "test_used_for_checkpoint_or_target_selection": false,
+  "native_numeric_check": "PASS",
+  "batch_size": 32,
+  "all_peak_training": true,
+  "high_Gini_only_stage": false,
+  "seed_targets": [
+    "TARGET_C1",
+    "BG_R1_C7",
+    "BG_R1_C6",
+    "BG_R1_C8",
+    "BG_R1_C4"
+  ],
+  "sequence_design_performed": false,
+  "automatic_design_approval": false,
+  "warnings": [
+    "State-selective accessibility is not measured enhancer activity.",
+    "Reference labels are transferred annotations; original Foxp3 subgroup restored to its individual parent labels.",
+    "Saved clustering/topics and consensus peaks were informed by the full dataset; existing test chromosomes have been reviewed.",
+    "Borzoi pretraining overlap with held-out DNA is not excluded.",
+    "Capture support is descriptive; captures are not guaranteed biological replicates and no formal DA p-values are computed.",
+    "Primary count comparisons exclude ambiguous CD8/not-classified/pooled-small groups; TEST_ALL_GROUPS_SENSITIVITY reports them as competitors too. These exclusions do not establish specificity in those cells.",
+    "2048bp input does not establish standalone200bp specificity.",
+    "Topic metrics concern latent DNA programs and are not directly comparable to cell-state metrics."
+  ]
+}

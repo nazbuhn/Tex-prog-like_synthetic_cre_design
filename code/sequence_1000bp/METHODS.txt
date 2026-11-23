@@ -1,0 +1,25 @@
+Borzoi-only V4 design experiment
+
+Fine-tuned 2048-bp Borzoi checkpoint from matched_v1 is frozen. Native CREsted
+in_silico_evolution (ISE) exhaustively evaluates all three alternative DNA
+bases at every one of 1000 sequence positions, for 200 edit iterations.
+Predictions are RC-averaged and normalized to FRPM for the ATAC-defined C1
+target and the ten other target-panel output classes. Centered 1000-bp
+replacement DNA is inserted into immutable 2048-bp contexts; the original
+Borzoi model weights, training data, and Python environment are unchanged.
+
+Library: 256 designs (128 natural starts from at most 50 vetted parent peaks;
+128 composition-matched random starts), each with 25% or 50% target-floor
+retention assignment balanced by arm. Nature of context: 2 optimization,
+4 selection, 8 audit windows drawn from training DNA and excluded from pilot.
+Per-candidate objective = robust mean/worst log1p(C1) - log1p(strongest
+competitor) minus 10 times the mean C1 floor shortfall. Entire 201-sequence
+trajectory retained; the best step satisfying optimization-context floors is
+selected post hoc; otherwise minimum-penalty solution selected and explicitly
+marked nonfeasible. Final-audit contexts not used in selection.
+
+The pipeline applies no known PWM or motif information. 16 dinucleotide
+shuffles of selected sequences control for composition in selection and audit.
+Scores are predictions, not cell-state-exclusive enhancer activity; training
+DNA contexts do not constitute a true held-out sequence validation.
+No secondary CREsted predictor is loaded, and no model is trained or fine-tuned.

@@ -1,0 +1,137 @@
+{
+  "source_GSE": "GSE290618",
+  "library": "tumor",
+  "orientation": "cells_by_genes",
+  "source_RNA_features": 32285,
+  "canonical_symbols": 32245,
+  "cells": 1784,
+  "nonzero_counts": 2921412,
+  "total_UMIs": 6527686,
+  "pass_RBI_RNA_minimum": 1784,
+  "minimum_rule": "detected canonical RNA symbols >300 AND RNA counts >500; no other cell filtering applied",
+  "mitochondrial_symbols": 13,
+  "quantiles": {
+    "RNA_counts": {
+      "min": 617.0,
+      "p01": 1022.58,
+      "p05": 1553.0,
+      "p25": 2696.0,
+      "median": 3504.0,
+      "p75": 4365.0,
+      "p95": 6295.099999999999,
+      "p99": 8241.720000000001,
+      "max": 9625.0
+    },
+    "detected_symbols": {
+      "min": 430.0,
+      "p01": 648.3000000000001,
+      "p05": 911.3,
+      "p25": 1362.5,
+      "median": 1620.0,
+      "p75": 1885.25,
+      "p95": 2399.0,
+      "p99": 2777.8500000000004,
+      "max": 2987.0
+    },
+    "percent_mito": {
+      "min": 0.12412081092263136,
+      "p01": 1.058917745034276,
+      "p05": 1.6534309219943646,
+      "p25": 2.5439310701440134,
+      "median": 3.2877320124011318,
+      "p75": 4.259281463462141,
+      "p95": 6.377316672071338,
+      "p99": 8.172875243664722,
+      "max": 9.823399558498897
+    }
+  },
+  "renamed_feature_rows": [
+    [
+      "ENSMUSG00000076749",
+      "Tcrg-C1",
+      "Trgc1",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076752",
+      "Tcrg-C2",
+      "Trgc2",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000091682",
+      "Tcrg-C3",
+      "Trgc3",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076757",
+      "Tcrg-C4",
+      "Trgc4",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076755",
+      "Tcrg-V1",
+      "Trgv1",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076750",
+      "Tcrg-V3",
+      "Trgv3",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076745",
+      "Tcrg-V4",
+      "Trgv4",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076747",
+      "Tcrg-V5",
+      "Trgv5",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076746",
+      "Tcrg-V6",
+      "Trgv6",
+      "UNIQUE_NCBI_ALIAS"
+    ],
+    [
+      "ENSMUSG00000076744",
+      "Tcrg-V7",
+      "Trgv7",
+      "ENSEMBL_ID"
+    ]
+  ],
+  "duplicate_symbol_excess_rows": 40,
+  "missing_required_genes": [],
+  "source_sha256": {
+    "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE290618/GSE290618_tumor_filtered_feature_bc_matrix.h5": "e272ce4f29b0f9e2cbe1be7b7dd8cbdfb534c67c0cfd76353d08a1448fc47133",
+    "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE290618/GSE290618_metadata.tsv.gz": "ae42e8a9c5a003906d64794582816ab33f57b7a55c7d76ee4276be3ebf745374"
+  },
+  "source_selection": {
+    "rule": "Author labels PD1+ CD8, Cytotoxic CD8 or CCR7+ CD8; other lineages excluded from this checkpoint",
+    "source_cells": 10119,
+    "author_metadata_cells": 8466,
+    "source_cells_without_author_metadata": 1653,
+    "author_other_lineages": 6682,
+    "selected_CD8_candidates": 1784
+  },
+  "export_ready": false,
+  "pending": [
+    "cell eligibility and conventional CD8 purity review",
+    "doublet removal",
+    "per-library mitochondrial QC review",
+    "verified encapsulation-run assignment"
+  ],
+  "output_sha256": {
+    "source_feature_map.tsv.gz": "e09f8ce71e0909ae87436ecc243454594b677874b11714686ffcace22402227c",
+    "cell_QC.tsv.gz": "c3a881c04f967eddaf6c6deb234e17af7ce10d6be643337a6c2c8548ca2ba0eb",
+    "genes.tsv.gz": "3a05c875b558b3533519ef7d1262145aac514c3becde189c579fb9fb83420a7a",
+    "RNA_counts_cells_by_genes.npz": "0827ee2fb7833a966eccea75beb23e0b1728ce3773160b75a2ebf48d7d90a800"
+  }
+}

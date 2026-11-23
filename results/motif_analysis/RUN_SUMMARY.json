@@ -1,0 +1,37 @@
+{
+  "designs": 196,
+  "stages": [
+    "initial",
+    "selected"
+  ],
+  "contexts": [
+    0,
+    1
+  ],
+  "design_explanations_per_method": 784,
+  "population_outputs": 11,
+  "natural_regions_per_population": 2000,
+  "saturation_mutagenesis_designs": 196,
+  "mutation_maps": 392,
+  "substitutions_within_designs": 1176000,
+  "motif_runs": 110,
+  "methods": [
+    {
+      "method": "integrated_grad",
+      "clustered_patterns": 187,
+      "native_RNA_supported_TF_pattern_pairs": 33
+    },
+    {
+      "method": "expected_integrated_grad",
+      "clustered_patterns": 166,
+      "native_RNA_supported_TF_pattern_pairs": 36
+    }
+  ],
+  "reference_collection": "JASPAR2026 CORE vertebrates",
+  "TF_mapping": "Identifier-supported JASPAR/MGI mouse candidates; not the Aerts collection",
+  "RNA_correlation_selection": "Native CREsted threshold/Pearson with r>=0.2 and native positive-importance/expression and z-score gates",
+  "native_clustering_primary": "Paper-era greedy; highest mean-information-content representative",
+  "secondary_clustering": "Native agglomerative, average linkage, most-supported representative if available",
+  "seed_generation": "Existing designed sequences retained; this interpretation run does not generate new seeds or claim to regenerate the library.",
+  "interpretation": "Model contribution, motif similarity and RNA-supported TF candidates. No direct measurement of TF binding or synthetic enhancer function."
+}

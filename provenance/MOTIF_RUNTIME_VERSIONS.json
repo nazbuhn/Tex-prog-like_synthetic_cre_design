@@ -1,0 +1,12 @@
+{
+  "crested": "1.10.0",
+  "keras": "3.15.1",
+  "torch": "2.13.0+cu130",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "h5py": "3.16.0",
+  "modisco-lite": "3.0.0",
+  "memelite": "0.5.0",
+  "scanpy": "1.10.3",
+  "anndata": "0.13.3.post0"
+}

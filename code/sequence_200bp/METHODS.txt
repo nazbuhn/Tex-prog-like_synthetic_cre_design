@@ -1,0 +1,135 @@
+REPLAY REPAIR V2 (2026-11-04)
+The original run prepared all inputs but stopped at the strict isolated-versus-
+mutant-batch score replay assertion. The uploaded log has no difference values;
+its exact numerical cause is not yet established. No designs were completed.
+
+This separate native_library1024_v2 run copies only the four committed input
+files from v1, verifying each against both the original receipt and the hashes
+in the uploaded report. No starts or context sequences are regenerated; the
+original run is unchanged. Existing model weights/environment are unchanged.
+
+The optimizer now verifies exact native selected-token/history correspondence
+and exact selected-score/history correspondence on EVERY design trajectory.
+A three-step GPU preflight additionally saves REPLAY_DIAGNOSTICS.json and a
+private numeric replay file BEFORE stopping on any replay failure. It replays
+the selected variants in the original 32-row forward batch (including padding),
+then separately and twice. Same-batch replay and repeated isolated replay retain
+the original tight rtol=1e-5, atol=1e-6 check. Cross-batch replay explicitly uses
+rtol=0.003, atol=0.0003, matching the already-existing saved-checkpoint replay
+threshold. This is a changed numerical gate; it does not establish the cause
+of the original failure or alter biological candidate acceptance thresholds.
+All checks must pass before any of the 1,024 designs can start. If they fail,
+the diagnostic evidence is retained and downstream jobs are dependency-blocked
+or cancelled. No model score is called reporter activity.
+
+PURPOSE AND ORDER
+Generate 1,024 motif-agnostic 200bp candidates, evaluate all candidates, freeze
+a diverse shortlist, then inspect nucleotide contributions and discover patterns
+de novo in a later analysis of the resulting library. This packet implements
+generation and evaluation. It does not insert, scan or select known motifs.
+No biological activity is established by passing this computational screen.
+
+FROZEN TARGET AND MODELS
+All 4,440 original ATAC Leiden resolution0.3 C1 cells remain the target,
+including cycling cells. Every other output group remains an off-target.
+No RNA label overrides C1 membership; no clustering or model retraining occurs.
+Primary: completed Borzoi C1 epoch8. Secondary: completed CREsted500 C1 model.
+Exact source checksums and axes are checked. Each scorer uses forward/reverse
+complement averaging and divides its own normalization weights to recover FRPM.
+Outputs are predicted accessibility, not probabilities or reporter activity.
+The secondary model uses overlapping biological data and is not independent
+biological replication. Prior held-out results have already been inspected.
+
+INITIAL LIBRARY
+512 distinct natural windows, drawn round-robin from 50 authenticated C1
+training peaks, with 20bp offset spacing across original500bp peaks. These are
+50 parent regions, NOT 512 independent natural loci. Plus512 independent random
+starts sampled using the pooled A/C/G/T distribution of natural windows.
+Each start is assigned, before predictions, a 25% or50% initial-target retention
+setting, balanced within natural/random arms. Exact plan, sequences and seeds
+are saved. No validation/test DNA supplies design seeds or context backbones.
+
+NATIVE CRESTED DESIGN
+Calls installed crested.tl.design.in_silico_evolution with30 native iterations
+and return_intermediate=True, using the documented EnhancerOptimizer extension.
+ALL600 single-base alternatives (200positions x3alternatives) are forward scored
+at EVERY iteration; no gradient-ranked candidate shortlist or known motif
+insertion is used. An explicit prediction adapter maps200bp inputs into two
+immutable2048bp backgrounds and returns flattened context x class normalized
+RC-averaged predictions from the actual trained Borzoi model. This is a custom
+context/selection objective around native ISE, not an assertion that Borzoi is
+a native200bp model or that our custom objective is CREsted's default.
+
+Objective: half mean plus half minimum across two contexts of
+log1p(target_FRPM)-log1p(strongest_offtarget_FRPM), minus10 times the mean
+positive log1p target-floor deficit. Floor in each context is the larger of
+the assigned retention fraction times its initial target score and25% of
+the median natural-start target score in that context. The activity anchor
+helps avoid rewarding a random start for turning everything off.
+
+Native ISE always makes a substitution. All31 trajectory sequences, including
+step0, are retained. Choose the highest-margin feasible trajectory step using
+ONLY optimization contexts. If none meets the floor, record the highest
+penalized-score step as infeasible; do not silently relax thresholds.
+The last iteration is also scored/reported even when an earlier step wins.
+30iterations can revisit positions; Hamming distance can be less than30.
+
+FRESH-CONTEXT AND SECOND-MODEL EVALUATION
+Fourteen new shared-accessibility training backgrounds are selected excluding
+all12 contexts reviewed in the pilot and all50 parent peaks. Two optimization,
+four shortlist-selection and eight final-audit contexts are fixed in advance.
+The backgrounds are not presumed neutral. These tests ask about model-context
+portability; they are not new cell samples or held-out chromosomes.
+Score initial, selected, native endpoint and16 exact dinucleotide shuffles of
+every selected candidate across all14 contexts using BOTH trained models.
+Shuffle sampler preserves GC, endpoints and dinucleotides but is not uniform;
+distinct/control-identity counts are reported. Empirical control tail fractions
+are descriptive, not corrected statistical significance tests.
+Full all-output predictions and class/context axes are retained in numeric NPZ,
+and readable initial/selected/endpoint audit profiles are exported as TSV.gz.
+
+SHORTLIST FREEZE AND COMPUTATIONAL FOLLOW-UP RULES
+Use PRIMARY model and FOUR SELECTION contexts only to freeze up to128 candidates:
+target/strongestoff>=1.5 in all4, target floor met in all4, robust margin greater
+than all16 shuffled controls, >=12 distinct controls and none identical to the
+design, GC20-80%, homopolymer<=8. Rank by robust margin, prefer distinct natural
+parents first, allow max4 per parent, require>=15bp Hamming separation allowing
+reverse complement. Selection identities and criteria receive a hash receipt
+before second-model scores are considered. Final-audit scores never rerank it.
+
+A frozen candidate passes the prespecified computational follow-up gate if:
+PRIMARY: target highest in all8 fresh audit contexts, >=2fold in >=6/8,
+target floor in all8, robust margin above every dinucleotide control;
+SECONDARY: target highest in all8, >=1.5fold in >=6/8, its own scale-specific
+target floor in all8, robust margin above every dinucleotide control;
+and sequence/control QC still pass. These are pragmatic project decision
+criteria, not universal CRE success thresholds. All-library flags are provided
+descriptively; using those flags to create a new shortlist consumes that audit.
+No threshold relaxation, claiming all designs work, or hiding failed candidates.
+
+COMPUTE AND RECOVERY
+CPU input preparation -> GPU native preflight ->32 GPU-array shards of32 designs
+(maximum2 concurrent full B200 GPUs) -> oneGPU evaluation -> CPU collection.
+Total18,432,000 native mutant sequences, each scored in two contexts and both
+orientations: roughly73.7million model forwards before evaluation/baselines.
+This is substantial computational work. The preflight records measured per-step
+time and a rough total GPU-hour estimate. Queue time is additional.
+Each completed design and evaluation candidate has a receipt; --resume reuses
+committed results after a terminal failure. An interrupted in-progress design
+restarts its30-step trajectory. Native API/checkpoint replay must pass on Betty.
+No shared environment changes or packages are installed. If installed CREsted's
+API differs, stop with the error rather than replacing native ISE silently.
+
+NEXT ANALYSIS AFTER EVALUATION
+Use the resulting library to decide whether/which candidates merit experimental
+testing and nucleotide-level analysis. Native CREsted contribution scores,
+exhaustive mutagenesis and de novo TF-MoDISco patterns can explain the learned
+sequence logic, including context, spacing and orientation. Matching discovered
+patterns to known TF motifs comes afterward. Neither native ISE nor this screen
+establishes a global optimum or functional enhancer specificity.
+
+OFFICIAL REFERENCES
+https://crested.readthedocs.io/en/stable/api/_autosummary/crested.tl.design.in_silico_evolution.html
+https://github.com/aertslab/CREsted/blob/main/src/crested/tl/design/_design.py
+https://github.com/aertslab/CREsted/blob/main/src/crested/tl/design/_utils.py
+https://crested.readthedocs.io/en/stable/tutorials/enhancer_code_analysis.html

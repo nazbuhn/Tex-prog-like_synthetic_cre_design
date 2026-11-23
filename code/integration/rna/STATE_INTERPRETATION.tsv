@@ -1,0 +1,18 @@
+review_label	supporting_RNA_evidence	counterevidence_or_expected_lower	interpretation_limit
+Naive-like	Tcf7 Lef1 Ccr7 Sell Klf2	Gzmb Havcr2 Entpd1	Distinguish TCM and TPEX using antigen history, exhaustion context and other markers.
+TCM-like	Tcf7 Il7r Ccr7 Sell	Cytotoxic program	Memory history cannot be proved by this expression profile alone.
+TEM-like	Antigen-experienced/effector programs	Ccr7 Sell	Broad heterogeneous category; lacks a unique RNA gate.
+Terminal effector / SLEC-like	Klrg1 Cx3cr1 Tbx21 Zeb2 Gzmb	Il7r Tcf7	Not equivalent to exhausted; short lifespan is not proved by RNA.
+MPEC-like	Il7r Cd27 Tcf7 Id3	Klrg1 Cx3cr1	Survival propensity needs longitudinal/functional evidence.
+EEC-like	Tbx21 Cxcr3 activation	Klrg1 Il7r Tcf7	Time and stimulation context needed; no definitive RNA gate.
+LLEC-like	Klrg1 Cx3cr1 Gzmb		Long-lived function cannot be inferred from a snapshot.
+Activated	Il2ra Cd69 Myc Irf4 Nr4a1	Klf2	Activation may coexist with memory or exhaustion; immediate-early response can reflect processing.
+Cycling	Mki67 Top2a Cdk1 Cenpf		Overlay on differentiation/exhaustion state rather than a mutually exclusive fate.
+TRM-like	Cd69 Itgae Itga1 Cxcr6 Zfp683 P2rx7	Klf2 S1pr1 Ccr7 Sell	Tissue residency needs migration/retention evidence; activation also induces Cd69.
+TPEX-like	Pdcd1 Tox Tcf7 Slamf6 Lef1 Bcl6	Havcr2 Entpd1	Require chronic-antigen/exhaustion context; Tcf7 alone also marks naive/memory.
+TEX-int-like	Pdcd1 Tox Havcr2 Gzmb Prf1 Cx3cr1 Tbx21	Tcf7 Slamf6 Cd101	Coordinated exhaustion plus effector-like program; compare within each sample.
+TEX-term-like	Pdcd1 Tox Havcr2 Entpd1 Cd101 Cd244a	Tcf7 Slamf6 Cx3cr1 Cxcr3	Use coherent evidence; low Tcf7 or high cytotoxicity alone is insufficient.
+Anergic-like	Izumo1r Nt5e Nrp1	Foxp3	Hyporesponsiveness/IL2 defect requires functional evidence; do not assign from these genes alone.
+Virtual memory / TSCM / TPM / exTRM			Antigen history, migration and fate are not established by this RNA clustering.
+TEMRA	Not applicable to mouse		CD45RA/RO isoforms cannot be resolved from total Ptprc gene expression.
+Gamma-delta / MAIT / iNKT lineage	Trdc Trgc1 Trgc2 Zbtb16 and receptor evidence		Use paired receptor, tetramer or convincing lineage evidence; NK-associated genes alone are insufficient.

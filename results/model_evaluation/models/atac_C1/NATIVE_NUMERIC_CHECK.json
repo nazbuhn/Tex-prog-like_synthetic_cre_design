@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "ordinary_forward_and_gradient_equivalence": true,
+  "zero_and_tiny_prediction_backward_finite": true,
+  "norm_floor_before_reciprocal_sqrt": true,
+  "environment_modified": false,
+  "multiplier": 1.0,
+  "max_weight": 100.0,
+  "norm_floor": 1e-07,
+  "versions": {
+    "torch": "2.13.0+cu130",
+    "keras": "3.15.1",
+    "crested": "1.10.0",
+    "numpy": "2.5.3"
+  }
+}

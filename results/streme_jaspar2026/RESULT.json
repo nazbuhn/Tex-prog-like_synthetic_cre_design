@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "tomtom_version": "5.5.9",
+  "database": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/references/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt",
+  "database_sha256": "ae4f77a17256c7b8b7b73402810c1ecf4fc411e9ad7832cdc87d586dee9a4a15",
+  "database_profiles": 1019,
+  "query_patterns": 40,
+  "STREME_enriched_outputs": 11,
+  "enriched_outputs_with_reference_match": 8,
+  "inputs": {
+    "vs_initial": {
+      "source": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_STREME_ALL196_BETTY_V1/runs/all196_20261111T210800_73354/vs_initial/streme.txt",
+      "input_sha256": "4facb71cbdcce55a0bf217761de9969b575ea87d47ddb4a3bf09fedf6c46bd80",
+      "command": [
+        "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/c1_core_analysis_tools/envs/meme_cpu_v1/bin/tomtom",
+        "-oc",
+        "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_STREME_JASPAR2026_BETTY_V1/runs/jaspar2026_20261120T192329_14364/vs_initial",
+        "-thresh",
+        "0.05",
+        "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_STREME_JASPAR2026_BETTY_V1/runs/jaspar2026_20261120T192329_14364/STREME_vs_initial.meme",
+        "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/references/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt"
+      ]
+    },
+    "vs_dinucleotide": {
+      "source": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_STREME_ALL196_BETTY_V1/runs/all196_20261111T210800_73354/vs_dinucleotide/streme.txt",
+      "input_sha256": "664cfb3246b474fb7d5635a87c1b33341568dd02bf5c8d2e41fd6f7f50474eaf",
+      "command": [
+        "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/c1_core_analysis_tools/envs/meme_cpu_v1/bin/tomtom",
+        "-oc",
+        "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_STREME_JASPAR2026_BETTY_V1/runs/jaspar2026_20261120T192329_14364/vs_dinucleotide",
+        "-thresh",
+        "0.05",
+        "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_STREME_JASPAR2026_BETTY_V1/runs/jaspar2026_20261120T192329_14364/STREME_vs_dinucleotide.meme",
+        "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/references/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt"
+      ]
+    }
+  },
+  "STREME_discovery_rerun": false,
+  "FIMO_rerun": false,
+  "model_inference_performed": false,
+  "interpretation": "Reference motif similarity only; not a unique TF assignment or experimental binding evidence."
+}

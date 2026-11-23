@@ -1,0 +1,13 @@
+{
+  "integrated_grad": {
+    "known_gradient": 0.01,
+    "passed": true
+  },
+  "expected_integrated_grad": {
+    "known_gradient": 0.01,
+    "passed": true
+  },
+  "mutagenesis": {
+    "known_mutation_deltas_passed": true
+  }
+}

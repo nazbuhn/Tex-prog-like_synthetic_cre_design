@@ -1,0 +1,56 @@
+METHODS: COMPUTATIONAL 500-BP ISE PLATEAU PILOT
+
+Purpose: Determine whether C1-selective accessibility predictions keep improving
+when native CREsted ISE is allowed 100 single-nucleotide editing steps within a
+500-bp sequence. The intent is to determine a reasonable iteration budget for
+subsequent larger libraries, not to claim functional enhancer validation.
+
+Inputs and models: The original verified primary Borzoi ATAC C1 model, secondary
+500-bp CREsted state model, mm10 source dataset, and installed environment paths
+are all unchanged. Primary predicts 11 ATAC-defined groups. Primary input is
+2048 bp; candidate replaces its centered 500 bp (indices 774..1273). The
+secondary model receives the complete centered 500-bp candidate. All DNA
+backgrounds come from the original model's training-region pool, and must
+not be described as independent experimental biological holdouts.
+
+Designs: 16 natural 500-bp sequences drawn from 16 distinct parent peaks among
+50 original parent candidates (centered extraction preferred; small offset
+fallback if N bases occur), and 16 random A/C/G/T sequences composition matched
+to the natural starts. Both arms have eight 25% and eight 50% reference-activity
+retention choices. 32 starts is an exploratory sample and not a power analysis.
+
+Optimization: Exactly 100 native CREsted in_silico_evolution iterations,
+exhaustively evaluating the 1500 single-base substitutions in each 500-bp
+sequence at each iteration. Each candidate is scored with the fixed primary
+Borzoi model, including forward and reverse complement, across two DNA contexts.
+The primary objective is the same robust log1p(C1) versus strongest-competing
+ATAC group, with a C1 activity floor; there are no motif priors. ISE does not
+early-stop. The pipeline saves each intermediate trajectory and picks the best
+feasible iteration after all 100 iterations (not necessarily iteration 100).
+
+Plateau evaluation: For every sequence in every iteration 0..100, make model
+predictions over four other DNA contexts that were NOT used to optimize that
+sequence. Trace the robust log1p target versus strongest competitor margin,
+median predicted C1 FRPM, and median strongest-off-target FRPM. The same
+process is repeated with the independently fitted secondary CREsted model.
+This measures context/model robustness of predictions but is not independent
+wet-lab validation; data overlap and model-guided selection remain limitations.
+Do not select optimization parameters based on audit contexts. Plot median and
+IQR over natural/random starts. Compare late gains from iteration 75 to 100,
+not just the best observed training-context score.
+
+Evaluation: The old library scoring pipeline and safety checks are retained
+with changed length assumptions. The pilot still scores 16 shuffled controls
+per design, four selection contexts, and eight final audit contexts, with
+shortlist frozen prior to final audit. This is optional exploratory context
+for the main plateau question. It is intentionally more comprehensive than
+just the two-context optimization trajectory.
+
+Computational work: 32 * 100 * 1500 = 4,800,000 single-base candidate variants,
+each assessed across two contexts with forward/reverse-complement scoring.
+Model inference runtime must be measured on Betty. The 3-step preflight checks
+native CREsted, replay consistency, model outputs, and reports a warm timing
+estimate. The installed code and B200 execution have not been validated here.
+
+Provenance: V2 and old frozen run directories remain untouched. This is a new
+frozen bundle with a fresh 500-bp input preparation and separate run path.

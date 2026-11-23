@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "files": {
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/DATABASE.json": "d391f53c784c70100b4c9db29c8a594a614f11a0b77756f18f1b6d718dbdcfc4",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/PREDICT_TASKS.json": "148e4862416a09014d6cb25e960e6206f0981f7af8aee8fd3cae2debe79b6d0a",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/INPUT_IDENTITY.json": "e29fca461a7b0b5be37abedf1c39714fc41180eaec28b069ca2701b576d04976",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/NATIVE_API.json": "599916e65fecae3eeefb1e64832e884c251c6d742afe9fa1bf702927b51cf77d"
+  }
+}

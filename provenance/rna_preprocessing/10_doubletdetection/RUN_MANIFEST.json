@@ -1,0 +1,55 @@
+{
+  "code_SHA256": "2596ad4af5f16d813e196f0242893c67d3c7ff83a91eebeda7cad29c5a9664d4",
+  "software": {
+    "doubletdetection": "4.2",
+    "PhenoGraph": "1.5.7",
+    "louvain": "0.8.2",
+    "scanpy": "1.10.3",
+    "anndata": "0.10.9",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.5.2",
+    "igraph": "0.11.8",
+    "leidenalg": "0.10.2",
+    "numba": "0.60.0",
+    "llvmlite": "0.43.0",
+    "umap-learn": "0.5.7",
+    "pynndescent": "0.5.13"
+  },
+  "parameters": {
+    "n_iters": 25,
+    "n_components": 30,
+    "n_top_var_genes": 10000,
+    "boost_rate": 0.25,
+    "replace": false,
+    "clustering_algorithm": "louvain",
+    "clustering_kwargs": {
+      "resolution": 4,
+      "directed": false
+    },
+    "standard_scaling": true,
+    "pseudocount": 0.1,
+    "random_state": 1729,
+    "n_jobs": 1,
+    "verbose": false
+  },
+  "p_threshold": 1e-07,
+  "vote_thresholds_compared": [
+    0.5,
+    0.9
+  ],
+  "sensitivity_p_threshold": 1e-06,
+  "source_step04": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/rna_qc/step04_20261016T160319_2076025",
+  "source_step06": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/doublet_review/step06_20261016T170231_2092684",
+  "source_step08": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/embedding_review/step08_20261016T181508_2111521",
+  "review_policy_SHA256": "317ab513d1db265965b8d796637a2ba61e98f20cf84eaff5c0cabe08f9940c29",
+  "completed_libraries": 23,
+  "scored_libraries": 23,
+  "failures": [],
+  "new_exports_created": 0,
+  "existing_Step09_exports_modified": false,
+  "no_cells_removed": true,
+  "no_RDS_objects_loaded": true,
+  "no_server_submission": true
+}

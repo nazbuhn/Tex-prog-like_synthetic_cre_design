@@ -1,0 +1,15 @@
+context_id	global_index	role	split	reviewed_in_pilot
+fresh_01	80550	optimization	training	False
+fresh_02	169918	optimization	training	False
+fresh_03	189268	selection	training	False
+fresh_04	399	selection	training	False
+fresh_05	78921	selection	training	False
+fresh_06	173683	selection	training	False
+fresh_07	267657	final_audit	training	False
+fresh_08	116609	final_audit	training	False
+fresh_09	228726	final_audit	training	False
+fresh_10	270112	final_audit	training	False
+fresh_11	138640	final_audit	training	False
+fresh_12	251202	final_audit	training	False
+fresh_13	124708	final_audit	training	False
+fresh_14	218892	final_audit	training	False

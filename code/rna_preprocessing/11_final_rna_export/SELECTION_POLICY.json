@@ -1,0 +1,101 @@
+{
+  "decision_date": "2026-10-19",
+  "Step10_RUN_MANIFEST_SHA256": "54945c7cf44d4c6bd8ca7ce4b6bbc573a20287a9a73552ab94cd86490e5255fa",
+  "Step10_library_manifest_SHA256": {
+    "GSE230363__GSM7220513": "788885fe8e783d11d18fbf852ae2552258c43c2cfe48c6e2159c8b47b80c71c5",
+    "GSE230363__GSM7220515": "574fb9313dae058f134e8a67f7aaad3ae1db9f7f899aaccd3a953a7612d53568",
+    "GSE230363__GSM7220517": "6e117ef820510263e22db6c90176d895095dcbc9a23a26d1598415a29ec21cb4",
+    "GSE230363__GSM7220519": "e5e87545ee8f541d122b4a8fdb2ddb841fa91050d2eaddfe4c8e41ab44e7a0ce",
+    "GSE230363__GSM7220521": "acb1dca96c8add6d825078860801e45ed77c6c263fa4e6a93778bca8cb3a8d97",
+    "GSE230363__GSM7220523": "0a7206e88e64ccfee0ad76866a9592b0b83ce863b8d604c85f99c80270cdac94",
+    "GSE230363__GSM7220525": "939c1964166dcfd5e25f988514b19a9744ccf81606bee956a164b299b9fa9cab",
+    "GSE255042__GSM8062936": "cb32aea40d4d2141311ceaf1b805b34cb050fc3d6575204fe947bdeae782a93a",
+    "GSE267584__GSM8269389": "6ad39a31fec433a2f46999d8e3d364824201b176f388f2cd115ed309ae18e5f0",
+    "GSE267584__GSM8269390": "f14a6a2f4916d7ae757485eb8248ddf9569baf099110085e10c73986782dc887",
+    "GSE267584__GSM8269391": "87d09dfd16407f2d97edbbe7a9d5b18065141adde155e59a8eaca17eeaa25b16",
+    "GSE267584__GSM8269392": "cf9f1f929142712aa6ed385f5b415218988065ed6c64131ab8edb48417bd2320",
+    "GSE267584__GSM8269393": "3f4fa9cefd2e65f473f0430f5f19581cfaf7a10f30e400653ff602545ea85a56",
+    "GSE267584__GSM8269394": "4e58e8d19dbb55ca7c0c44eb3e89397e57a13924f141660e55d79c08fe5d5fd9",
+    "GSE267584__GSM8269395": "c2a8ef20bffe41f45e5852b12a3f1fbf805a8e962d96097e61befa1d9eebb227",
+    "GSE267584__GSM8269396": "8cadff89fe4360f8d090e187394c4f1abfeb2ced99e8643f83753c72db5088db",
+    "GSE267584__GSM8269397": "bef4cfe68c9e46fbdfbf997d7a7ec07a04a8dc09c14adcdbc42db585928a8cde",
+    "GSE267584__GSM8269398": "e8f53de3b82bf743d106fd31b036a1e4c31c753b18d4822e827b00e031cb2329",
+    "GSE267584__GSM8269399": "c9c47f344fac8c905126254e9bcdf1feaef481fc23389eff8fefc8591a29c5d2",
+    "GSE278342__GSM8545120": "fa1d8e7f2bb4b8ba7389319c108b5e68b58a3ada8bcdddad68386fb8455cffe9",
+    "GSE278342__GSM8545124": "82730b15385acfce95617bec7f94dc0e560cbe7963a6e98972f1fe089c8ca3c1",
+    "GSE290618__gut": "091ddf25228df58e81f698c5a68e0b40eaf44d91c9ffc7cbcd45d9b7bb9c0073",
+    "GSE290618__tumor": "a842fd07c7faa6f7aa27e174f41baf29ace21c368992125b9470b0b911b1344a"
+  },
+  "DD_exclusion": "p=1e-7 and voting >=0.9; finite resolved calls required",
+  "cycling_exception": {
+    "library": "GSE230363__GSM7220515",
+    "cluster": "4",
+    "retain_if_Scrublet_score_le": 0.3,
+    "rationale": "473/479 cells detect Mki67, median Scrublet score 0.0803; DD alone flags 455/479. Retain this reviewed cycling CD8 group unless the saved Scrublet score is also >0.30; keep an explicit override/sensitivity flag."
+  },
+  "B_cluster_hold": {
+    "library": "GSE267584__GSM8269396",
+    "cluster": "8"
+  },
+  "Step09_cores": {
+    "GSM8545120": {
+      "well": "W8",
+      "expected_cells": 14215,
+      "cluster_holds": [
+        "5",
+        "11",
+        "13"
+      ]
+    },
+    "GSM8545124": {
+      "well": "W9",
+      "expected_cells": 14116,
+      "cluster_holds": [
+        "7",
+        "10"
+      ]
+    }
+  },
+  "max_cells_per_job": 25000,
+  "allocation_seed": 1729,
+  "condition_conflicts": {
+    "GSM8269394": {
+      "GEO_title": "GEX from P14 CD8 T cell day 7 B-ALL-GP",
+      "supplementary_filenames": [
+        "GSM8269394_ArmIEL.day42.filtered_barcodes.tsv.gz",
+        "GSM8269394_ArmIEL.day42.filtered_features.tsv.gz",
+        "GSM8269394_ArmIEL.day42.filtered_matrix.mtx.gz"
+      ],
+      "status": "GEO_DESCRIPTION_FILENAME_CONFLICT_UNRESOLVED",
+      "assigned_condition": null
+    },
+    "GSM8269395": {
+      "GEO_title": "GEX from P14 CD8 T cell day 42 LCMV Arm IEL",
+      "supplementary_filenames": [
+        "GSM8269395_ArmSpl.day42.filtered_barcodes.tsv.gz",
+        "GSM8269395_ArmSpl.day42.filtered_features.tsv.gz",
+        "GSM8269395_ArmSpl.day42.filtered_matrix.mtx.gz"
+      ],
+      "status": "GEO_DESCRIPTION_FILENAME_CONFLICT_UNRESOLVED",
+      "assigned_condition": null
+    },
+    "GSM8269396": {
+      "GEO_title": "GEX from P14 CD8 T cell day 42 LCMV Arm spleen",
+      "supplementary_filenames": [
+        "GSM8269396_BALLGP.filtered_barcodes.tsv.gz",
+        "GSM8269396_BALLGP.filtered_features.tsv.gz",
+        "GSM8269396_BALLGP.filtered_matrix.mtx.gz"
+      ],
+      "status": "GEO_DESCRIPTION_FILENAME_CONFLICT_UNRESOLVED",
+      "assigned_condition": null
+    }
+  },
+  "eligibility_clarification": "User explicitly keeps P14 tumor populations activated/expanded in vitro before transfer; drug-treated and gene-perturbed cells remain excluded.",
+  "modes": {
+    "P14_sorted_libraries": "CD8",
+    "GSE290618_original_author_CD8_candidates": "All T cells, for lineage verification"
+  },
+  "batch_policy": "W8/W9 capture wells; other source-library IDs are the available run proxies. Preserve IDs across upload splits; do not invent independent mouse replicates.",
+  "scope": "All 23 eligible checkpoints; no held-study or excluded treatment/KO additions",
+  "source_review_ZIP_SHA256": "e06298bef117fabe910be2068b5ab479da1b5c356180098c1f30437f4ee76b37"
+}

@@ -1,0 +1,26 @@
+{
+  "started_UTC": "2026-11-11T21:16:43.121096+00:00",
+  "streme_version": "5.5.9",
+  "streme_executable": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/c1_core_analysis_tools/envs/meme_cpu_v1/bin/streme",
+  "inputs": {
+    "designs": 196,
+    "sequence_length": 1000,
+    "group_counts": {
+      "natural_retention_0.5": 64,
+      "natural_retention_0.25": 64,
+      "random_retention_0.25": 32,
+      "random_retention_0.5": 36
+    },
+    "parent_start_families": 118,
+    "input_manifest_sha256": "3763f8e17ffd8d0cea625204bbc6b3573ece5480268eed4b7221a7267da3735f"
+  },
+  "parameters": {
+    "order": 1,
+    "minw": 6,
+    "maxw": 20,
+    "nmotifs": 20,
+    "hofract": 0.1,
+    "seed": 20261111
+  },
+  "interpretation": "All-library exploratory motif discovery. Related designs and paired stages are not independent biological replicates. STREME internal holdout is not a family-level confirmation split."
+}

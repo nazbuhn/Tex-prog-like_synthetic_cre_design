@@ -1,0 +1,168 @@
+{
+  "review_date": "2026-10-19",
+  "source_remaining_ZIP_SHA256": "283d4ff460867a0414ff7bbdcefdeef950ba72bbad87cbc997cbdb9b60d711fd",
+  "reviewed_Step08_libraries": {
+    "GSE267584__GSM8269393": {
+      "step08_manifest_SHA256": "1049be90388c6c4fb64f2c2e5b0bf386c956c04c0f9767e98b2c057d63153686",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE267584__GSM8269399": {
+      "step08_manifest_SHA256": "8f6bfa5a21211c14901edc8c8f6436e26dd92621ef0974c85209a0314b13752d",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE278342__GSM8545120": {
+      "step08_manifest_SHA256": "5091387538082f0ecef923c18300fac71173132e6832e4d1a4986bb2a2548f63",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE278342__GSM8545124": {
+      "step08_manifest_SHA256": "a65a19f8b6c5afcb8198e72d5969892c1fc220c1120aadeef7d601f97d1eae79",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE290618__gut": {
+      "step08_manifest_SHA256": "f705595077ec6390f8b5ec9ef6fe6dca4eb4b4713fc31f57b614187c8ec05c03",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE290618__tumor": {
+      "step08_manifest_SHA256": "af1a2e14adbab0f5a718243871a5e1ec6568354ccfb0658e88ec856bf3f690cd",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE230363__GSM7220513": {
+      "step08_manifest_SHA256": "a2de5589b62b0969406ccbe7b0438e9a8f155d2eccc4866e177e32efcf0cd67e",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE230363__GSM7220515": {
+      "step08_manifest_SHA256": "d0742e255f543a35d4dbb03398fd813734b5db65b9956d7bd88422f030cf8334",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE230363__GSM7220517": {
+      "step08_manifest_SHA256": "7d28913f3d6009c7873f083ea487e6b12960b091a040c978c1a6547b78619c03",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE230363__GSM7220519": {
+      "step08_manifest_SHA256": "54cc7a8e9cbae66ee568a1c12ecba8aa1c0712974720ca8de3bdd6ef86793675",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE230363__GSM7220521": {
+      "step08_manifest_SHA256": "fab13a882b30fb52436c1508a15dc25da45eab58f32e6248e3c72fd5fdde0ecd",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE230363__GSM7220523": {
+      "step08_manifest_SHA256": "b9002da89fcb9074b19579db20a19badf3ff12764740f7ff43bf6e3c6060b661",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE230363__GSM7220525": {
+      "step08_manifest_SHA256": "8c8fa9a9e29aa28c6f64efc5b5975a2c605bf4b5651f4e8d05f464a6465e34a8",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE255042__GSM8062936": {
+      "step08_manifest_SHA256": "b09063b8d350d5d707c021362e2aabf122ef51dbd0b1b3f38920424c87594ad8",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE267584__GSM8269389": {
+      "step08_manifest_SHA256": "8831801770b3ff5021efbab9a19eb7188f04dac8be734ccd5ab3922fb113b922",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE267584__GSM8269390": {
+      "step08_manifest_SHA256": "f59f526fc49bfe278fd01a73649d23e7ac6c850023fc7110c2b95b000fc6a9d6",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE267584__GSM8269391": {
+      "step08_manifest_SHA256": "febf760c302d99ee7ef731b3b5ac545b0047045bd229565b82560d74fe0936d3",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE267584__GSM8269392": {
+      "step08_manifest_SHA256": "0cfb66aa2af6e8dd43ff458f15900b6b610eebc3801aa7ab0cfcf955eb770fce",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE267584__GSM8269394": {
+      "step08_manifest_SHA256": "182567b4cd3d6ebee390b08bcbb05982fdf7fccc1b67022c8c92f0aef0dbb7d4",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE267584__GSM8269395": {
+      "step08_manifest_SHA256": "7cf03a1ba40d16d8d70e3598ea55b4f165c3da5f888cce7b78e53378f1995daa",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE267584__GSM8269396": {
+      "step08_manifest_SHA256": "8346bba13bbe7f937a7b5913a6d6357422aebf240b622032be654cef359ad7a8",
+      "review_cluster_holds": [
+        "8"
+      ],
+      "cluster_hold_rationale": "B-cell-like cluster; not a conventional-CD8 core group"
+    },
+    "GSE267584__GSM8269397": {
+      "step08_manifest_SHA256": "412e86c6878739491b6028845dcf3c45e56765fb46f39cc2f88d2c65b15bec73",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    },
+    "GSE267584__GSM8269398": {
+      "step08_manifest_SHA256": "eb3c4f4c4552fa19609750f74a465ae8165e15847f10854f6e8d513aaabf1fc1",
+      "review_cluster_holds": [],
+      "cluster_hold_rationale": "No additional broad non-T cluster hold from this review"
+    }
+  },
+  "GSE267584_condition_conflicts": {
+    "GSM8269394": {
+      "GEO_title": "GEX from P14 CD8 T cell day 7 B-ALL-GP",
+      "supplementary_filenames": [
+        "GSM8269394_ArmIEL.day42.filtered_barcodes.tsv.gz",
+        "GSM8269394_ArmIEL.day42.filtered_features.tsv.gz",
+        "GSM8269394_ArmIEL.day42.filtered_matrix.mtx.gz"
+      ],
+      "status": "GEO_DESCRIPTION_FILENAME_CONFLICT_UNRESOLVED",
+      "assigned_condition": null
+    },
+    "GSM8269395": {
+      "GEO_title": "GEX from P14 CD8 T cell day 42 LCMV Arm IEL",
+      "supplementary_filenames": [
+        "GSM8269395_ArmSpl.day42.filtered_barcodes.tsv.gz",
+        "GSM8269395_ArmSpl.day42.filtered_features.tsv.gz",
+        "GSM8269395_ArmSpl.day42.filtered_matrix.mtx.gz"
+      ],
+      "status": "GEO_DESCRIPTION_FILENAME_CONFLICT_UNRESOLVED",
+      "assigned_condition": null
+    },
+    "GSM8269396": {
+      "GEO_title": "GEX from P14 CD8 T cell day 42 LCMV Arm spleen",
+      "supplementary_filenames": [
+        "GSM8269396_BALLGP.filtered_barcodes.tsv.gz",
+        "GSM8269396_BALLGP.filtered_features.tsv.gz",
+        "GSM8269396_BALLGP.filtered_matrix.mtx.gz"
+      ],
+      "status": "GEO_DESCRIPTION_FILENAME_CONFLICT_UNRESOLVED",
+      "assigned_condition": null
+    }
+  },
+  "eligibility_clarification": "User explicitly keeps P14 tumor populations activated/expanded in vitro before transfer; drug-treated and gene-perturbed cells remain excluded.",
+  "eligibility_source": "Direct user reply on 2026-10-19",
+  "methods_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12240711/",
+  "GEO_reference": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE267584",
+  "RDS_policy": "Local R script is unverified provenance; it writes different _paper_WNN.rds filenames, does not establish provenance for the inventoried postQC RDS objects, and references an externally defined blacklist_mm10. Do not execute it or use its labels as a whitelist.",
+  "other_findings": [
+    "Remaining 17 libraries predominantly express T/CD8 markers; NK-associated Nkg7/Klrd1 expression is not by itself an NK exclusion.",
+    "KPCGP Foxp3-associated cells are not blanket-removed.",
+    "Trdc detection alone is not a gamma/delta identity call.",
+    "No whole low-RNA CD8 cluster is removed merely for lower depth.",
+    "Existing W8/W9 Step09 exports are preserved; new scores are diagnostic comparisons only.",
+    "Gut/tumor retain original Step04 candidate flags; broader populations are modeled only for comparison."
+  ]
+}

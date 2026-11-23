@@ -1,0 +1,1506 @@
+{
+  "stage": "export compatibility only",
+  "clustering_mode": "greedy",
+  "clusters": 166,
+  "conversion_source_file": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/crested_cluster6/envs/crested_fresh_py312_torch_v1/lib/python3.12/site-packages/crested/tl/modisco/_modisco_utils.py",
+  "conversion_source_sha256": "abe20c3cd41866f177eb69f979a88ddb57673e6f734e2f2067699bbb4677f7f3",
+  "native_clustering_unchanged": true,
+  "motifs_filtered_by_adapter": 0,
+  "representatives_changed_by_adapter": 0,
+  "records": [
+    {
+      "cluster": "0",
+      "representative_id": "BG_R1_C0_pos_patterns_0",
+      "width": 7,
+      "source_instances": 64,
+      "source_classes": 26,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "1",
+      "representative_id": "TARGET_C1_pos_patterns_0",
+      "width": 9,
+      "source_instances": 89,
+      "source_classes": 44,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "2",
+      "representative_id": "BG_R1_C5_pos_patterns_4",
+      "width": 9,
+      "source_instances": 31,
+      "source_classes": 10,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "3",
+      "representative_id": "TARGET_C1_pos_patterns_2",
+      "width": 8,
+      "source_instances": 34,
+      "source_classes": 21,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "4",
+      "representative_id": "BG_R1_C8_pos_patterns_6",
+      "width": 7,
+      "source_instances": 20,
+      "source_classes": 17,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "5",
+      "representative_id": "BG_R1_C6_neg_patterns_4",
+      "width": 8,
+      "source_instances": 30,
+      "source_classes": 13,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "6",
+      "representative_id": "BG_R1_C2_neg_patterns_2",
+      "width": 23,
+      "source_instances": 33,
+      "source_classes": 10,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "7",
+      "representative_id": "BG_R1_C2_pos_patterns_24",
+      "width": 50,
+      "source_instances": 25,
+      "source_classes": 6,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "8",
+      "representative_id": "BG_R1_C3_pos_patterns_14",
+      "width": 14,
+      "source_instances": 25,
+      "source_classes": 16,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "9",
+      "representative_id": "BG_R1_C3_pos_patterns_3",
+      "width": 16,
+      "source_instances": 8,
+      "source_classes": 6,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "10",
+      "representative_id": "BG_R1_C3_pos_patterns_7",
+      "width": 38,
+      "source_instances": 12,
+      "source_classes": 10,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "11",
+      "representative_id": "BG_R1_C8_pos_patterns_3",
+      "width": 10,
+      "source_instances": 9,
+      "source_classes": 7,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "12",
+      "representative_id": "BG_R1_C3_pos_patterns_6",
+      "width": 36,
+      "source_instances": 4,
+      "source_classes": 4,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "13",
+      "representative_id": "design_initial_context0__BG_R1_C7_pos_patterns_3",
+      "width": 50,
+      "source_instances": 14,
+      "source_classes": 5,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "14",
+      "representative_id": "BG_R1_C7_neg_patterns_5",
+      "width": 40,
+      "source_instances": 8,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "15",
+      "representative_id": "BG_R1_C3_pos_patterns_23",
+      "width": 44,
+      "source_instances": 7,
+      "source_classes": 3,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "16",
+      "representative_id": "BG_R1_C3_pos_patterns_9",
+      "width": 47,
+      "source_instances": 3,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "17",
+      "representative_id": "BG_R1_C4_pos_patterns_9",
+      "width": 47,
+      "source_instances": 7,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "18",
+      "representative_id": "BG_R1_C2_neg_patterns_17",
+      "width": 48,
+      "source_instances": 12,
+      "source_classes": 5,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "19",
+      "representative_id": "BG_R1_C3_neg_patterns_6",
+      "width": 45,
+      "source_instances": 7,
+      "source_classes": 5,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "20",
+      "representative_id": "BG_R1_C5_pos_patterns_5",
+      "width": 20,
+      "source_instances": 4,
+      "source_classes": 3,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "21",
+      "representative_id": "BG_R1_C4_neg_patterns_6",
+      "width": 48,
+      "source_instances": 5,
+      "source_classes": 3,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "22",
+      "representative_id": "design_selected_context1__BG_R1_C3_neg_patterns_1",
+      "width": 44,
+      "source_instances": 10,
+      "source_classes": 8,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "23",
+      "representative_id": "design_selected_context0__BG_R1_C3_neg_patterns_11",
+      "width": 50,
+      "source_instances": 7,
+      "source_classes": 6,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "24",
+      "representative_id": "design_selected_context0__OTHER_SMALL_ATAC_neg_patterns_5",
+      "width": 48,
+      "source_instances": 9,
+      "source_classes": 6,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "25",
+      "representative_id": "design_selected_context0__BG_R1_C4_pos_patterns_2",
+      "width": 47,
+      "source_instances": 4,
+      "source_classes": 3,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "26",
+      "representative_id": "design_initial_context1__BG_R1_C6_pos_patterns_6",
+      "width": 50,
+      "source_instances": 7,
+      "source_classes": 3,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "27",
+      "representative_id": "BG_R1_C3_neg_patterns_2",
+      "width": 50,
+      "source_instances": 6,
+      "source_classes": 4,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "28",
+      "representative_id": "BG_R1_C8_pos_patterns_8",
+      "width": 25,
+      "source_instances": 4,
+      "source_classes": 3,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "29",
+      "representative_id": "BG_R1_C8_pos_patterns_18",
+      "width": 47,
+      "source_instances": 5,
+      "source_classes": 4,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "30",
+      "representative_id": "BG_R1_C8_neg_patterns_3",
+      "width": 19,
+      "source_instances": 4,
+      "source_classes": 3,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "31",
+      "representative_id": "TARGET_C1_pos_patterns_5",
+      "width": 11,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "32",
+      "representative_id": "BG_R1_C8_pos_patterns_20",
+      "width": 49,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "33",
+      "representative_id": "BG_R1_C8_neg_patterns_12",
+      "width": 45,
+      "source_instances": 4,
+      "source_classes": 4,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "34",
+      "representative_id": "BG_R1_C3_neg_patterns_7",
+      "width": 49,
+      "source_instances": 3,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "35",
+      "representative_id": "BG_R1_C3_neg_patterns_11",
+      "width": 49,
+      "source_instances": 5,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "36",
+      "representative_id": "design_initial_context0__BG_R1_C3_pos_patterns_5",
+      "width": 50,
+      "source_instances": 5,
+      "source_classes": 4,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "37",
+      "representative_id": "design_selected_context0__BG_R1_C2_neg_patterns_0",
+      "width": 50,
+      "source_instances": 6,
+      "source_classes": 4,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "38",
+      "representative_id": "BG_R1_C7_neg_patterns_29",
+      "width": 50,
+      "source_instances": 3,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "39",
+      "representative_id": "BG_R1_C6_neg_patterns_13",
+      "width": 50,
+      "source_instances": 4,
+      "source_classes": 3,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "40",
+      "representative_id": "BG_R1_C8_neg_patterns_4",
+      "width": 27,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "41",
+      "representative_id": "design_selected_context0__TARGET_C1_pos_patterns_3",
+      "width": 30,
+      "source_instances": 4,
+      "source_classes": 4,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "42",
+      "representative_id": "OTHER_SMALL_ATAC_neg_patterns_29",
+      "width": 45,
+      "source_instances": 3,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "43",
+      "representative_id": "BG_R1_C0_neg_patterns_11",
+      "width": 50,
+      "source_instances": 4,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "44",
+      "representative_id": "design_selected_context0__BG_R1_C0_neg_patterns_7",
+      "width": 50,
+      "source_instances": 4,
+      "source_classes": 3,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "45",
+      "representative_id": "design_selected_context0__BG_R1_C7_neg_patterns_14",
+      "width": 49,
+      "source_instances": 5,
+      "source_classes": 5,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "46",
+      "representative_id": "design_selected_context0__BG_R1_C2_neg_patterns_8",
+      "width": 50,
+      "source_instances": 5,
+      "source_classes": 4,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "47",
+      "representative_id": "design_selected_context0__BG_R1_C3_neg_patterns_8",
+      "width": 47,
+      "source_instances": 5,
+      "source_classes": 4,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "48",
+      "representative_id": "design_selected_context0__BG_R1_C8_neg_patterns_3",
+      "width": 50,
+      "source_instances": 4,
+      "source_classes": 3,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "49",
+      "representative_id": "design_selected_context0__BG_R1_C0_neg_patterns_12",
+      "width": 46,
+      "source_instances": 5,
+      "source_classes": 4,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "50",
+      "representative_id": "design_selected_context0__BG_R1_C5_neg_patterns_2",
+      "width": 41,
+      "source_instances": 4,
+      "source_classes": 4,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "51",
+      "representative_id": "design_selected_context0__BG_R1_C8_neg_patterns_13",
+      "width": 50,
+      "source_instances": 4,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "52",
+      "representative_id": "design_selected_context0__BG_R1_C7_neg_patterns_11",
+      "width": 48,
+      "source_instances": 3,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "53",
+      "representative_id": "BG_R1_C1_pos_patterns_9",
+      "width": 46,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "54",
+      "representative_id": "design_selected_context0__BG_R1_C5_neg_patterns_0",
+      "width": 42,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "55",
+      "representative_id": "design_selected_context0__BG_R1_C1_neg_patterns_5",
+      "width": 48,
+      "source_instances": 3,
+      "source_classes": 3,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "56",
+      "representative_id": "BG_R1_C5_neg_patterns_10",
+      "width": 48,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "57",
+      "representative_id": "design_selected_context1__OTHER_SMALL_ATAC_neg_patterns_0",
+      "width": 47,
+      "source_instances": 3,
+      "source_classes": 3,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "58",
+      "representative_id": "design_selected_context1__BG_R1_C8_neg_patterns_4",
+      "width": 48,
+      "source_instances": 3,
+      "source_classes": 3,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "59",
+      "representative_id": "BG_R1_C4_neg_patterns_19",
+      "width": 50,
+      "source_instances": 2,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "60",
+      "representative_id": "design_selected_context0__BG_R1_C2_neg_patterns_1",
+      "width": 49,
+      "source_instances": 3,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "61",
+      "representative_id": "design_selected_context0__BG_R1_C3_neg_patterns_9",
+      "width": 50,
+      "source_instances": 3,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "62",
+      "representative_id": "BG_R1_C6_neg_patterns_12",
+      "width": 50,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "63",
+      "representative_id": "BG_R1_C3_pos_patterns_27",
+      "width": 50,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "64",
+      "representative_id": "design_initial_context1__TARGET_C1_pos_patterns_2",
+      "width": 49,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "65",
+      "representative_id": "design_selected_context0__BG_R1_C5_pos_patterns_2",
+      "width": 44,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "66",
+      "representative_id": "design_selected_context0__BG_R1_C7_neg_patterns_16",
+      "width": 50,
+      "source_instances": 3,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "67",
+      "representative_id": "design_selected_context0__BG_R1_C6_neg_patterns_4",
+      "width": 50,
+      "source_instances": 3,
+      "source_classes": 3,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "68",
+      "representative_id": "design_selected_context0__OTHER_SMALL_ATAC_neg_patterns_8",
+      "width": 50,
+      "source_instances": 3,
+      "source_classes": 3,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "69",
+      "representative_id": "design_selected_context0__BG_R1_C8_neg_patterns_11",
+      "width": 50,
+      "source_instances": 3,
+      "source_classes": 3,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "70",
+      "representative_id": "design_selected_context0__BG_R1_C8_neg_patterns_8",
+      "width": 50,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "71",
+      "representative_id": "design_initial_context0__BG_R1_C6_pos_patterns_2",
+      "width": 50,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "72",
+      "representative_id": "design_selected_context0__BG_R1_C3_neg_patterns_3",
+      "width": 49,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "73",
+      "representative_id": "design_selected_context0__BG_R1_C8_neg_patterns_5",
+      "width": 49,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "74",
+      "representative_id": "design_selected_context0__BG_R1_C6_pos_patterns_1",
+      "width": 45,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "75",
+      "representative_id": "design_selected_context0__BG_R1_C5_pos_patterns_5",
+      "width": 47,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "76",
+      "representative_id": "BG_R1_C8_pos_patterns_19",
+      "width": 49,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "77",
+      "representative_id": "design_selected_context1__OTHER_SMALL_ATAC_neg_patterns_5",
+      "width": 50,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "78",
+      "representative_id": "BG_R1_C6_neg_patterns_9",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "79",
+      "representative_id": "design_selected_context1__BG_R1_C7_neg_patterns_3",
+      "width": 50,
+      "source_instances": 2,
+      "source_classes": 2,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "80",
+      "representative_id": "design_selected_context0__BG_R1_C2_neg_patterns_5",
+      "width": 47,
+      "source_instances": 2,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "81",
+      "representative_id": "BG_R1_C8_neg_patterns_11",
+      "width": 34,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "82",
+      "representative_id": "OTHER_SMALL_ATAC_neg_patterns_14",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "83",
+      "representative_id": "OTHER_SMALL_ATAC_pos_patterns_23",
+      "width": 50,
+      "source_instances": 2,
+      "source_classes": 1,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "84",
+      "representative_id": "BG_R1_C4_neg_patterns_8",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "85",
+      "representative_id": "design_selected_context0__BG_R1_C8_neg_patterns_6",
+      "width": 50,
+      "source_instances": 2,
+      "source_classes": 1,
+      "had_top_level_ppm": false,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "86",
+      "representative_id": "design_selected_context1__BG_R1_C8_neg_patterns_1",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "87",
+      "representative_id": "BG_R1_C0_neg_patterns_5",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "88",
+      "representative_id": "BG_R1_C4_neg_patterns_9",
+      "width": 46,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "89",
+      "representative_id": "design_selected_context1__BG_R1_C4_neg_patterns_1",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "90",
+      "representative_id": "BG_R1_C4_neg_patterns_15",
+      "width": 40,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "91",
+      "representative_id": "BG_R1_C7_pos_patterns_17",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "92",
+      "representative_id": "BG_R1_C4_neg_patterns_17",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "93",
+      "representative_id": "BG_R1_C3_pos_patterns_21",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "94",
+      "representative_id": "design_selected_context1__BG_R1_C5_neg_patterns_1",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "95",
+      "representative_id": "BG_R1_C8_neg_patterns_14",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "96",
+      "representative_id": "design_initial_context1__BG_R1_C0_pos_patterns_3",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "97",
+      "representative_id": "design_initial_context1__BG_R1_C1_pos_patterns_3",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "98",
+      "representative_id": "design_selected_context0__BG_R1_C3_neg_patterns_4",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "99",
+      "representative_id": "BG_R1_C5_pos_patterns_20",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "100",
+      "representative_id": "design_initial_context0__BG_R1_C5_pos_patterns_2",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "101",
+      "representative_id": "design_initial_context1__BG_R1_C1_pos_patterns_4",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "102",
+      "representative_id": "design_initial_context1__BG_R1_C1_pos_patterns_5",
+      "width": 47,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "103",
+      "representative_id": "design_initial_context1__BG_R1_C5_pos_patterns_3",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "104",
+      "representative_id": "BG_R1_C0_neg_patterns_9",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "105",
+      "representative_id": "BG_R1_C7_neg_patterns_27",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "106",
+      "representative_id": "design_initial_context0__BG_R1_C6_pos_patterns_1",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "107",
+      "representative_id": "design_initial_context0__OTHER_SMALL_ATAC_neg_patterns_0",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "108",
+      "representative_id": "design_selected_context0__BG_R1_C1_neg_patterns_4",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "109",
+      "representative_id": "design_selected_context1__OTHER_SMALL_ATAC_neg_patterns_3",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "110",
+      "representative_id": "design_initial_context1__BG_R1_C2_pos_patterns_4",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "111",
+      "representative_id": "design_selected_context1__BG_R1_C1_neg_patterns_2",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "112",
+      "representative_id": "BG_R1_C7_neg_patterns_28",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "113",
+      "representative_id": "design_initial_context0__OTHER_SMALL_ATAC_pos_patterns_1",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "114",
+      "representative_id": "design_initial_context1__BG_R1_C5_pos_patterns_4",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "115",
+      "representative_id": "design_selected_context0__BG_R1_C5_pos_patterns_3",
+      "width": 45,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "116",
+      "representative_id": "design_selected_context0__BG_R1_C6_neg_patterns_2",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "117",
+      "representative_id": "design_selected_context1__BG_R1_C8_neg_patterns_5",
+      "width": 46,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "118",
+      "representative_id": "BG_R1_C1_neg_patterns_9",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "119",
+      "representative_id": "BG_R1_C1_neg_patterns_10",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "120",
+      "representative_id": "design_initial_context0__BG_R1_C5_pos_patterns_4",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "121",
+      "representative_id": "design_initial_context0__BG_R1_C6_pos_patterns_3",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "122",
+      "representative_id": "design_selected_context0__BG_R1_C0_neg_patterns_9",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "123",
+      "representative_id": "design_selected_context0__BG_R1_C6_neg_patterns_3",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "124",
+      "representative_id": "design_selected_context1__BG_R1_C0_neg_patterns_3",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "125",
+      "representative_id": "design_selected_context1__BG_R1_C2_neg_patterns_0",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "126",
+      "representative_id": "design_selected_context1__BG_R1_C6_neg_patterns_4",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "127",
+      "representative_id": "BG_R1_C1_neg_patterns_11",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "128",
+      "representative_id": "BG_R1_C4_neg_patterns_25",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "129",
+      "representative_id": "BG_R1_C5_neg_patterns_15",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "130",
+      "representative_id": "BG_R1_C7_neg_patterns_31",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "131",
+      "representative_id": "design_initial_context0__BG_R1_C3_pos_patterns_4",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "132",
+      "representative_id": "design_initial_context0__TARGET_C1_pos_patterns_4",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "133",
+      "representative_id": "design_initial_context1__BG_R1_C7_pos_patterns_5",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "134",
+      "representative_id": "design_initial_context1__BG_R1_C8_pos_patterns_4",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "135",
+      "representative_id": "design_selected_context0__BG_R1_C3_neg_patterns_10",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "136",
+      "representative_id": "design_selected_context0__BG_R1_C3_neg_patterns_12",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "137",
+      "representative_id": "design_selected_context0__BG_R1_C8_neg_patterns_7",
+      "width": 46,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "138",
+      "representative_id": "design_selected_context1__BG_R1_C1_neg_patterns_3",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "139",
+      "representative_id": "design_selected_context1__BG_R1_C1_neg_patterns_5",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "140",
+      "representative_id": "design_selected_context1__BG_R1_C3_neg_patterns_4",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "141",
+      "representative_id": "BG_R1_C0_neg_patterns_10",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "142",
+      "representative_id": "BG_R1_C2_neg_patterns_18",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "143",
+      "representative_id": "BG_R1_C4_neg_patterns_26",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "144",
+      "representative_id": "design_initial_context0__BG_R1_C2_pos_patterns_3",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "145",
+      "representative_id": "design_initial_context0__OTHER_SMALL_ATAC_pos_patterns_2",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "146",
+      "representative_id": "design_initial_context1__BG_R1_C7_pos_patterns_6",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "147",
+      "representative_id": "design_initial_context1__BG_R1_C7_pos_patterns_7",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "148",
+      "representative_id": "design_initial_context1__BG_R1_C8_pos_patterns_6",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "149",
+      "representative_id": "design_selected_context0__BG_R1_C0_neg_patterns_11",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "150",
+      "representative_id": "design_selected_context0__BG_R1_C1_neg_patterns_6",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "151",
+      "representative_id": "design_selected_context1__BG_R1_C1_neg_patterns_6",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "152",
+      "representative_id": "design_selected_context1__BG_R1_C2_neg_patterns_2",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "153",
+      "representative_id": "design_selected_context1__BG_R1_C6_neg_patterns_5",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "154",
+      "representative_id": "design_selected_context1__BG_R1_C7_neg_patterns_4",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "155",
+      "representative_id": "design_selected_context1__BG_R1_C8_neg_patterns_6",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "156",
+      "representative_id": "design_selected_context1__OTHER_SMALL_ATAC_neg_patterns_6",
+      "width": 46,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "157",
+      "representative_id": "design_initial_context0__BG_R1_C2_pos_patterns_4",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "158",
+      "representative_id": "design_selected_context0__BG_R1_C1_neg_patterns_8",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "159",
+      "representative_id": "design_selected_context0__BG_R1_C2_neg_patterns_11",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "160",
+      "representative_id": "design_selected_context0__BG_R1_C4_pos_patterns_4",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "161",
+      "representative_id": "design_selected_context0__BG_R1_C5_pos_patterns_4",
+      "width": 48,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "162",
+      "representative_id": "design_selected_context0__BG_R1_C8_neg_patterns_12",
+      "width": 50,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "163",
+      "representative_id": "design_selected_context1__BG_R1_C0_neg_patterns_8",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "164",
+      "representative_id": "design_selected_context1__BG_R1_C2_neg_patterns_3",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    },
+    {
+      "cluster": "165",
+      "representative_id": "design_selected_context1__BG_R1_C3_neg_patterns_5",
+      "width": 49,
+      "source_instances": 1,
+      "source_classes": 1,
+      "had_top_level_ppm": true,
+      "probabilities_from": "native _pattern_to_ppm on the unchanged selected representative"
+    }
+  ]
+}

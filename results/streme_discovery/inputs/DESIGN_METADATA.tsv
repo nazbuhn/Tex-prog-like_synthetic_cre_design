@@ -1,0 +1,197 @@
+arm	parent_id	offset	supporting_captures	informative_captures	index	design_id	retention_fraction	shard	result_sha256	parent_family	parent_split	family_representative
+natural	seed_002	0	5	8	0	C1L_0001	0.5	0	e75a79fe6ae11c265f82c708f66b73e7668642d77b10768da28383c95c5dff2a	natural:seed_002	discovery	True
+natural	seed_020	0	1	11	1	C1L_0002	0.5	0	c706f51742ed51dfed84ece93553104589821e7865c35a4fbdd830439957c7d2	natural:seed_020	discovery	True
+natural	seed_012	0	2	8	2	C1L_0003	0.25	0	8c787680112656ded9343c2e66dace1a898960e48c45517f4e02954d7e692d97	natural:seed_012	discovery	True
+natural	seed_005	0	3	11	3	C1L_0004	0.25	0	4f4dfce61e3bb90a17de956f2efae8714d5ba29e637466566f343b98825b2efa	natural:seed_005	discovery	True
+natural	seed_036	0	2	7	4	C1L_0005	0.5	1	177161436e10f16355363036d457affa084be2a7bce845f4c03f7215d9cf3814	natural:seed_036	discovery	True
+natural	seed_025	0	3	10	5	C1L_0006	0.5	1	caf7371eec5e9bcf515e03e1d80e43bad69502db1996b608735af83f1362c7c2	natural:seed_025	confirmation	True
+natural	seed_017	0	5	8	6	C1L_0007	0.5	1	95b9b1f8b4763684f6d4ca4ee3e1684b29b1df696fcbd9fb94642a3ba49eca96	natural:seed_017	confirmation	False
+natural	seed_021	0	1	7	7	C1L_0008	0.5	1	53fcf429f15c3dc9826f86b7c8e8adb14791ac46ede96cb67421a40892d938e3	natural:seed_021	confirmation	False
+natural	seed_038	0	2	7	8	C1L_0009	0.25	2	7958508b871a02aedf8671d68492698635efe6c9a648877a76b21970f4569832	natural:seed_038	confirmation	False
+natural	seed_016	0	1	11	9	C1L_0010	0.25	2	273eb53abe648089ce55acd9ec10457d6bf20698371980dda121006171582370	natural:seed_016	discovery	False
+natural	seed_014	0	6	9	10	C1L_0011	0.5	2	4e42ef46f6ec851046ef87aa6bf425b2bbf45305126b29f40f59c3dd0dcd1086	natural:seed_014	confirmation	True
+natural	seed_019	0	3	11	11	C1L_0012	0.5	2	7e8c6dcba62b5a3185deeb05eeee3b42e8a51b68168cd4b2a14a2e2201751b12	natural:seed_019	confirmation	False
+natural	seed_049	0	4	11	12	C1L_0013	0.25	3	5a2aecb54954e6f2e89d4ba7445f9195124ec6d87c0eddc63f8d55858f276ca8	natural:seed_049	discovery	True
+natural	seed_001	0	5	9	13	C1L_0014	0.25	3	426539943eb04615024e46cea0e101645e40c3032e95c11bf7f6be0606c2af08	natural:seed_001	confirmation	False
+natural	seed_037	0	3	8	14	C1L_0015	0.25	3	28c795c733ae9db3332c97e764c6be7b12914ad10a77174c9642f15990aa0101	natural:seed_037	discovery	False
+natural	seed_033	0	7	10	15	C1L_0016	0.25	3	b93de3e3f2f48e2761f9eb50d7f2feb105af46b1e34cc600f096c4f1bf90dc84	natural:seed_033	confirmation	True
+natural	seed_050	0	1	11	16	C1L_0017	0.25	4	30a1cb3adca3c9ad5a5374ad288fd19ec12ebe53efbf1f30413b171cf50912d8	natural:seed_050	confirmation	False
+natural	seed_028	0	3	9	17	C1L_0018	0.25	4	8b21b399dc4325dc4c5f3b4b5e21f37cbf34b3618f21f291945ecda903ca92a8	natural:seed_028	discovery	False
+natural	seed_047	0	0	11	18	C1L_0019	0.5	4	a39b14a93a4ee9d34c095b54795650e8f7c49442974b7ef72677996611f5f0db	natural:seed_047	confirmation	False
+natural	seed_008	0	5	10	19	C1L_0020	0.25	4	6796306ec17abc6e487373d0035385329dd9752260a4457f38677ddcd271dff6	natural:seed_008	confirmation	True
+natural	seed_043	0	1	7	20	C1L_0021	0.25	5	a82954bd22f98bd28bbbdcbf72dd85f8fd6c7987e5a04d753d09fcc9935cdf42	natural:seed_043	discovery	True
+natural	seed_042	0	4	8	21	C1L_0022	0.5	5	410ec1bb57de8782d1e2f16bd5e916d0bd0b03f0a95eac3375e6c911310681e4	natural:seed_042	discovery	False
+natural	seed_044	0	0	6	22	C1L_0023	0.25	5	123bc7e7314420fb90ce9369557f403e629ca32083cd32bfd019a8a6dbf3815a	natural:seed_044	discovery	False
+natural	seed_041	0	1	11	23	C1L_0024	0.25	5	93963014e894889dbe70a0985cc2944b0ffb897d66782ddc1154424c33fd766e	natural:seed_041	confirmation	False
+natural	seed_007	0	1	1	24	C1L_0025	0.5	6	4494343c5e93fd5cc139d0d547ff0389ef4879e6753cb52fa932bcb1bccf0004	natural:seed_007	confirmation	False
+natural	seed_045	0	1	3	25	C1L_0026	0.5	6	f8746a33cdd6ca53201a9671b4bd8d4cbea5c18192dd17d6dda9afc564aad73d	natural:seed_045	discovery	False
+natural	seed_006	0	1	9	26	C1L_0027	0.5	6	3e6b3bb2057225b2bfecabf6baa855cf2df73c115ee63259c6ae4350d6b2c0b8	natural:seed_006	discovery	False
+natural	seed_015	0	5	5	27	C1L_0028	0.5	6	19f1d2d2e0431d5bb89dd6969fb65afab0b4c1fe893fa08eef3ac960c598be13	natural:seed_015	discovery	False
+natural	seed_010	0	3	11	28	C1L_0029	0.5	7	e3152f55035fe4878fbec775af55014a8cd86366581d7bb13cd493f889d09ffe	natural:seed_010	confirmation	False
+natural	seed_013	0	2	10	29	C1L_0030	0.25	7	2d1a157f32eac67240a2427faae76ddfa9ff4756e5711580f651defa2c5175c4	natural:seed_013	discovery	False
+natural	seed_039	0	3	11	30	C1L_0031	0.25	7	98b5baa45151791e85158d545e38f1c25932337a541fe608b17d0c479b9e77d3	natural:seed_039	confirmation	False
+natural	seed_034	0	1	4	31	C1L_0032	0.25	7	ce1d313188478660056d0b6b0099d747ba5d2228f57cbcecd76d34d5256c99ce	natural:seed_034	discovery	True
+natural	seed_026	0	3	8	32	C1L_0033	0.5	8	a59e25ecec927d3465f5fa10200d5de2c7fd2bac05bd16e5ff4e1d5ef9b6fe89	natural:seed_026	confirmation	True
+natural	seed_023	0	6	11	33	C1L_0034	0.25	8	87d0a450541e5227a7164f35bda6a8ea05197465ea1c83f43fc79c0d9eb3327d	natural:seed_023	discovery	True
+natural	seed_032	0	0	11	34	C1L_0035	0.5	8	8ce37417812aa68a78d4f94920782a8bf7fcd0413ad955ea2a02593daa6a350a	natural:seed_032	discovery	True
+natural	seed_003	0	3	9	35	C1L_0036	0.25	8	31e4cd168fd05fdd28ea1567d776b599f467e6c02fe1847635365a97c7785054	natural:seed_003	discovery	True
+natural	seed_040	0	4	11	36	C1L_0037	0.5	9	7329ab72847ff93ffe1356ea2dd359912ccbff8efeb9108fd5e41dc37e202e80	natural:seed_040	discovery	False
+natural	seed_048	0	3	9	37	C1L_0038	0.5	9	c99de5335e3951e35874f93e682c4d06c2c65276a735f187083bfae580a60b68	natural:seed_048	discovery	False
+natural	seed_030	0	1	10	38	C1L_0039	0.5	9	1b340a8441bb3a38ec7b0973409aaa9b7fd2ff4e30ea66bd51cb533d6c25d6bd	natural:seed_030	discovery	True
+natural	seed_046	0	6	10	39	C1L_0040	0.25	9	7e5b93b8541beb4a784895501285e593f8f4c470d97efbe84993663b6ca7b8ed	natural:seed_046	discovery	True
+natural	seed_027	0	2	10	40	C1L_0041	0.25	10	cf49c11b21157f54f8812348c304f964021e6de686fd064fe1d825b3017b54e6	natural:seed_027	confirmation	False
+natural	seed_022	0	1	11	41	C1L_0042	0.25	10	2e22ff2757a838f1e0d54ccc5ad5bd5e5e03e89234782381db83c20fffdd0281	natural:seed_022	discovery	True
+natural	seed_011	0	0	7	42	C1L_0043	0.5	10	8a28165df127ab520c691253e9f27d8fd46a3cf812e6fc68d921da6e46cb4288	natural:seed_011	discovery	False
+natural	seed_031	0	0	6	43	C1L_0044	0.5	10	3e02767b5be855652c1097c44202c4ecb06f4d1c13cc910991540bcaaac85094	natural:seed_031	discovery	False
+natural	seed_024	0	1	8	44	C1L_0045	0.25	11	da8846c897d058b209eaeba8512383df854b42b58f4d93e959abda412f473227	natural:seed_024	confirmation	False
+natural	seed_018	0	4	10	45	C1L_0046	0.25	11	fc9f16c8ca9cca0718c8cd26cec4320701159069abd3ee89a6b3f1a05f393c08	natural:seed_018	confirmation	False
+natural	seed_004	0	5	11	46	C1L_0047	0.25	11	a50db2ac30a05aca9308c96f569c83ea211e9f29ff104c17074e0612b9b63b05	natural:seed_004	confirmation	False
+natural	seed_029	0	4	11	47	C1L_0048	0.5	11	e86c2b9847f59fd9bc035eab99d4c444302b3b6bdb135d2d043727719efa3c99	natural:seed_029	discovery	True
+natural	seed_035	0	0	5	48	C1L_0049	0.25	12	1b9710866de8d7545b6c06cf1e2a0fb1071ecb810b6df3f6a8f098bf7df4604d	natural:seed_035	confirmation	True
+natural	seed_009	0	5	11	49	C1L_0050	0.5	12	caf17e7e2a67aaabede53946d6dd60d0fe5a88f5eec995c20e5292d941b6cd82	natural:seed_009	discovery	False
+natural	seed_002	-400	5	8	50	C1L_0051	0.25	12	fe696d5e3ba8ff3af986e769f0667a6e9a3bb9e54f3bb9de7a6e67a61380f92c	natural:seed_002	discovery	False
+natural	seed_020	-400	1	11	51	C1L_0052	0.25	12	4c02dff9ef404b580a85ae5a6a9af997d42008a38da92d07e0d7397f7b6c4149	natural:seed_020	discovery	False
+natural	seed_012	-400	2	8	52	C1L_0053	0.25	13	e74c443ad7f34633e328ec2a463f082ad8841c6cfcfeba7b2023e537d3a1d2b8	natural:seed_012	discovery	False
+natural	seed_005	-400	3	11	53	C1L_0054	0.5	13	eba9606f95003ecb264418925b507c9436ee0639f78eefdaff0cec604fe369be	natural:seed_005	discovery	False
+natural	seed_036	-400	2	7	54	C1L_0055	0.25	13	21f5b81cd88a6c8a49b0342efd0f3c5b4250f0a774745482477dcdc8fe5833ad	natural:seed_036	discovery	False
+natural	seed_025	-400	3	10	55	C1L_0056	0.25	13	29397c4e18cd9879a00c219592e18d1d411906fd2fb2e4ad3e4162861d150e6f	natural:seed_025	confirmation	False
+natural	seed_017	-400	5	8	56	C1L_0057	0.25	14	d9f3f237ce97c23d4ec90565ffff9ec63fe97af6fe410a203ed863dd53bb474c	natural:seed_017	confirmation	True
+natural	seed_021	-400	1	7	57	C1L_0058	0.25	14	bacb2e6622618d787b1ca442e566fe4e098a95784ddd5b922f76ff74ec26f499	natural:seed_021	confirmation	True
+natural	seed_038	-400	2	7	58	C1L_0059	0.25	14	91b912fd5e9a3b56dfea3f21f0346105665842bcafab17de692ffde7ad4359f4	natural:seed_038	confirmation	True
+natural	seed_016	-400	1	11	59	C1L_0060	0.5	14	c43131663a0239d39b3206e883a26c9d59968319c6d8756e6ad64dd706cbe56b	natural:seed_016	discovery	False
+natural	seed_014	-400	6	9	60	C1L_0061	0.5	15	54332b25acf5f9f06fae4b3c8fceb960b2cc59dc914f00ffba3dcd8730c6ee7f	natural:seed_014	confirmation	False
+natural	seed_019	-400	3	11	61	C1L_0062	0.5	15	13149bbe4321befe3a20d97444d6b084d10cbc9ecb334363d0a06d9302533b71	natural:seed_019	confirmation	False
+natural	seed_049	-400	4	11	62	C1L_0063	0.5	15	8babd61eb73cddcf4910a0fa73dd9773ec8b8210cc62b81c6cc94f4705053010	natural:seed_049	discovery	False
+natural	seed_001	-400	5	9	63	C1L_0064	0.5	15	79e0e3b1ab973847c5cde8b83b9258c9f42d52bddd2128fb5640d6d3031b9f57	natural:seed_001	confirmation	True
+natural	seed_037	-400	3	8	64	C1L_0065	0.25	16	73443fcf586e629a1011be20360d96992cdf099aa3fae4ba4c2567a7ce3447d0	natural:seed_037	discovery	True
+natural	seed_033	-400	7	10	65	C1L_0066	0.25	16	0fcba3a9068ec68585e296fa9e629b840016ab74b97c07ae526052812da49a32	natural:seed_033	confirmation	False
+natural	seed_050	-400	1	11	66	C1L_0067	0.5	16	d726816fa8e4115dc175fe9dc294a8a8b8558b2c22d1e3daa9066e3dc367d9bd	natural:seed_050	confirmation	False
+natural	seed_028	-400	3	9	67	C1L_0068	0.5	16	23c563fe7849147006772720d8ece08888d5eb4d137978347afd212115106b37	natural:seed_028	discovery	True
+natural	seed_047	-400	0	11	68	C1L_0069	0.25	17	2e5d2cc203b474bf7c8fb4f1fb4708d466d87ee848c21df729379bc57f5fd43e	natural:seed_047	confirmation	True
+natural	seed_008	-400	5	10	69	C1L_0070	0.5	17	c94f99fddf4206a25803a77a6d65d42e2bc557cb3f45b4c16d79e2fb0c585868	natural:seed_008	confirmation	False
+natural	seed_043	-400	1	7	70	C1L_0071	0.5	17	127d914b75db310591c002d191f5129d6f16cf57c4c140df33b4946ac7243991	natural:seed_043	discovery	False
+natural	seed_042	-400	4	8	71	C1L_0072	0.5	17	30bdbd03d1c23679e5c452aa15b40d0bc59c034c5cd4cf1634dba37333585055	natural:seed_042	discovery	True
+natural	seed_044	-400	0	6	72	C1L_0073	0.5	18	e7b42b9b296baf6e8814a3ae93d22f2f6211e3e901b00d9995c8a18724f6371b	natural:seed_044	discovery	True
+natural	seed_041	-400	1	11	73	C1L_0074	0.25	18	47cdb6984131dcf59cc777cf594d7867a6b5bcb2b75f2f5145333de69ccb03a4	natural:seed_041	confirmation	False
+natural	seed_007	-400	1	1	74	C1L_0075	0.5	18	6b592391652fd42812f2f00145dd4a6bee3b0412818d503137e5ec1195473d87	natural:seed_007	confirmation	False
+natural	seed_045	-400	1	3	75	C1L_0076	0.25	18	a952f25348765b9570aedb6bcd7a3ef9675e62b0a2ffc1d906375f6548233164	natural:seed_045	discovery	False
+natural	seed_006	-400	1	9	76	C1L_0077	0.25	19	dd918cc73890a0500bdd435c8e9f3106f110ffc3e88fbec2bebb1e5da9e91c3f	natural:seed_006	discovery	True
+natural	seed_015	-400	5	5	77	C1L_0078	0.5	19	36a3712a7d83310998d9729e9d5bff7b12da2fa2ec1ea4ac77bfbfc8754542d3	natural:seed_015	discovery	False
+natural	seed_010	-400	3	11	78	C1L_0079	0.25	19	74f663bdfac64bf168971f3488d9a1d555524326b29c5b8e579ce25d6e36889d	natural:seed_010	confirmation	True
+natural	seed_013	-400	2	10	79	C1L_0080	0.5	19	cc83f42fb4e5b7776a28d7b7b3a972563a2efbb08e7d0917e1070b95b020e548	natural:seed_013	discovery	True
+natural	seed_039	-400	3	11	80	C1L_0081	0.25	20	996ffb2f22e9b60427c2ebb11ec964617297735e1ce1cb99f3abc70d035fa435	natural:seed_039	confirmation	True
+natural	seed_034	-400	1	4	81	C1L_0082	0.5	20	b3f45de7e760b68d1b501192d2e120963ac6edc6f2aaebb151f120c3af88fc25	natural:seed_034	discovery	False
+natural	seed_026	-400	3	8	82	C1L_0083	0.5	20	57dd5e9dadee8f9643be41544deb2d508bbecfa7d27e46721d055a0876f4dd9c	natural:seed_026	confirmation	False
+natural	seed_023	-400	6	11	83	C1L_0084	0.5	20	8860c8b87d497f7e152e5855208d2186e53281a5063ec7d17f3911c33b39fe00	natural:seed_023	discovery	False
+natural	seed_032	-400	0	11	84	C1L_0085	0.5	21	ea5829f75385ed837b61bd54bf4a9283f12c87edf96e4924492c19801aaa1527	natural:seed_032	discovery	False
+natural	seed_003	-400	3	9	85	C1L_0086	0.5	21	aa1d005edc3343125d62141fb1ff4df0eb8c54370fa0c72611945fc4fa3e2109	natural:seed_003	discovery	False
+natural	seed_040	-400	4	11	86	C1L_0087	0.25	21	2315a93d3f434dac4cd5faa3ccd8332aca380e19e4b60e5183992c768ece4441	natural:seed_040	discovery	True
+natural	seed_048	-400	3	9	87	C1L_0088	0.25	21	b64c1af568ae8caca89ce33514b8f698af01eefa82ea48ce0bf48cb12c508e4c	natural:seed_048	discovery	True
+natural	seed_030	-400	1	10	88	C1L_0089	0.5	22	cb3dae1e044ca8e673ba12b71c4a3e30efe659cca3e172abd90890f45d7bdc34	natural:seed_030	discovery	False
+natural	seed_046	-400	6	10	89	C1L_0090	0.25	22	de0b49ae44f5a0501b4196ae976f0a5d5aaa286e177848d0bb53105d450cb3dc	natural:seed_046	discovery	False
+natural	seed_027	-400	2	10	90	C1L_0091	0.25	22	5fe0f31ed4bda631566012b635457889456831cc8b50d970f3f9d75368062718	natural:seed_027	confirmation	True
+natural	seed_022	-400	1	11	91	C1L_0092	0.5	22	0f4cb32efae3a38fcb720e3f8119ccb1d75a637f3b59fad083375ef90334432a	natural:seed_022	discovery	False
+natural	seed_011	-400	0	7	92	C1L_0093	0.25	23	d2e44a514c33fccbc2034bd2bd616ed094ae27eec7d586f62b3ab27ad431ec71	natural:seed_011	discovery	True
+natural	seed_031	-400	0	6	93	C1L_0094	0.25	23	57339801ec85d49f01f58ddcd60ac104cb75e8fd4df4d58ab7fb827834d3d2f9	natural:seed_031	discovery	True
+natural	seed_024	-400	1	8	94	C1L_0095	0.25	23	760c19ba79f7875600fdf848ca7a25238f45d2a13df69b07a2a3308b20bce93b	natural:seed_024	confirmation	True
+natural	seed_018	-400	4	10	95	C1L_0096	0.5	23	f4b7e93c929e6a43ba28c5c47b63a36b4a15f77e0a18c44d210aaa5f352d3fbe	natural:seed_018	confirmation	True
+natural	seed_004	-400	5	11	96	C1L_0097	0.5	24	9f71cf7634cbe8ffc36693a12ed31154aaedc37de01fea0645e90912e352b30b	natural:seed_004	confirmation	True
+natural	seed_029	-400	4	11	97	C1L_0098	0.5	24	f4ba0f455f41ad7a071d6897eb01fa26e19edd97d3efa07dc1e91c20e715c06e	natural:seed_029	discovery	False
+natural	seed_035	-400	0	5	98	C1L_0099	0.5	24	56561365115fc69a0a0556fd421e1cdea68c8b5e83170afac61c9be7b0a207b4	natural:seed_035	confirmation	False
+natural	seed_009	-400	5	11	99	C1L_0100	0.25	24	ffb4409543f48f2a3ba8391669cc4775a1c18062d1ed8856c0d4ddac25d235d9	natural:seed_009	discovery	True
+natural	seed_002	400	5	8	100	C1L_0101	0.25	25	45299324e7da5ef663bfabe368762446e1ec40aea5fa0872abe3f99bfca14f68	natural:seed_002	discovery	False
+natural	seed_020	400	1	11	101	C1L_0102	0.5	25	a5b65efb997ab48fb830d625a501aa8b736b5755d27d908b4fa36032dcfd5292	natural:seed_020	discovery	False
+natural	seed_012	400	2	8	102	C1L_0103	0.5	25	8acf82510084c6177b8a8a3d6a952848f23f8cab7562a5c08d7fba979a1db84e	natural:seed_012	discovery	False
+natural	seed_005	400	3	11	103	C1L_0104	0.5	25	3819caef3ffc88a886cf37dd857ccdde0a7cc7c2c728472716c153763c2e0449	natural:seed_005	discovery	False
+natural	seed_036	400	2	7	104	C1L_0105	0.25	26	28afb241e6ea582280a28c5930eb912bea7113c7c0f82185713ce87a71bf2f8a	natural:seed_036	discovery	False
+natural	seed_025	400	3	10	105	C1L_0106	0.5	26	48f2897e0ecbc21477b367a8928fc2843b4fe0fd84474bd7dafdd1521bc1d06d	natural:seed_025	confirmation	False
+natural	seed_017	400	5	8	106	C1L_0107	0.5	26	d7d8305cd3c65a581c1d60955414f5a56f8a34b5b1ba3216b0b6f9ff1f5d9660	natural:seed_017	confirmation	False
+natural	seed_021	400	1	7	107	C1L_0108	0.25	26	46e9c7aae61797fdea80198646ac50c129e4ddb765db42b0228fb36590c0c6ff	natural:seed_021	confirmation	False
+natural	seed_038	400	2	7	108	C1L_0109	0.25	27	7adc6d5cf737d0598bf9f8213d6b5f0523fadd7f4cbefa75b9a39484c293e7ab	natural:seed_038	confirmation	False
+natural	seed_016	400	1	11	109	C1L_0110	0.5	27	759f949d04d06b23e5ed0f858bc1593361fbcf66dd240bcb42692bdf5f867063	natural:seed_016	discovery	True
+natural	seed_014	400	6	9	110	C1L_0111	0.5	27	a0523c889e4312049e9aac82edb7abdc72173350f77a8e74f1e0cfd7fe55da01	natural:seed_014	confirmation	False
+natural	seed_019	400	3	11	111	C1L_0112	0.5	27	12894df7950769ebe8632e439fcb51330c471bbb2c2c74200e03e79b81b1da22	natural:seed_019	confirmation	True
+natural	seed_049	400	4	11	112	C1L_0113	0.5	28	ac1b0c0ac81863607273799aa99d3b1bf3310f0cc757c3b23ac8949740bfbca0	natural:seed_049	discovery	False
+natural	seed_001	400	5	9	113	C1L_0114	0.5	28	2b67ba08b94ca0bc8abd4a7882dd2da7d34a762497afa902bdec3721c0dfbb20	natural:seed_001	confirmation	False
+natural	seed_037	400	3	8	114	C1L_0115	0.25	28	a2a965d19e11fccf7c940faa9b2536660109aa03aa291e8dbae9c1376235b8e0	natural:seed_037	discovery	False
+natural	seed_033	400	7	10	115	C1L_0116	0.25	28	8829bbee40fd5da6e527c4c603369b173d637023676a9cdfcb740be1bb47152d	natural:seed_033	confirmation	False
+natural	seed_050	400	1	11	116	C1L_0117	0.5	29	de235fda72c5d815671cb9b281cef9230d3c5a5e895b3410414f7a2e8d75b028	natural:seed_050	confirmation	True
+natural	seed_028	400	3	9	117	C1L_0118	0.25	29	934cace2472901e21db9a9bb189af0d1d8941a2bbcf9dfe1a650b91e6190f74d	natural:seed_028	discovery	False
+natural	seed_047	400	0	11	118	C1L_0119	0.5	29	fe6086850ca5db0686367c354b5ecb218786576bb2734753ae32f442ee65e840	natural:seed_047	confirmation	False
+natural	seed_008	400	5	10	119	C1L_0120	0.25	29	6f5c7f413971188e7e9f9252c2d61106daad6ba29d90b16df6d0b8cb8e62c74a	natural:seed_008	confirmation	False
+natural	seed_043	400	1	7	120	C1L_0121	0.5	30	ce964ebc79eab12d1fe6da6b9865e032bfb8a839332f043d5a2268ee4b5a60d2	natural:seed_043	discovery	False
+natural	seed_042	400	4	8	121	C1L_0122	0.5	30	d8ec371f1b299d4c737730d2b1cabf50a1487473d47569765b95f0805f224184	natural:seed_042	discovery	False
+natural	seed_044	400	0	6	122	C1L_0123	0.25	30	ef9c93a9f082550394036cf7e3764a24fece2dcb805b37ff2c2b7005d0d4160f	natural:seed_044	discovery	False
+natural	seed_041	400	1	11	123	C1L_0124	0.25	30	847f1097c1ec95976c75e7f816d26d5ac7707c516a0fb9dcd366b28bb161f12f	natural:seed_041	confirmation	True
+natural	seed_007	400	1	1	124	C1L_0125	0.25	31	f6ce92233f2f4ba700d10692a356be120325376a62f7330203ab09b5924a373b	natural:seed_007	confirmation	True
+natural	seed_045	400	1	3	125	C1L_0126	0.25	31	45001b5da696fafc9996510c7e854b0b899b5cda4d5010abba39328900475ada	natural:seed_045	discovery	True
+natural	seed_006	400	1	9	126	C1L_0127	0.25	31	75ebb77b8d1d68cfb51cf242b89e6172a975d75e5d01925649e1eefbe0c268de	natural:seed_006	discovery	False
+natural	seed_015	400	5	5	127	C1L_0128	0.25	31	ccf711346309564b711df666f43f732a991ca62d078bef50f46b99e3796d789c	natural:seed_015	discovery	True
+random	random_0001				128	C1L_0129	0.25	32	9829748d8dacdd104501729f5b7dd8d9a1f2724e88aa6fdf1068b691f725965f	random:C1L_0129	discovery	True
+random	random_0002				129	C1L_0130	0.5	32	fd77d5aa8418848f064a0758ec50fae76e19b6b4c87ac1a097805fadf485d33c	random:C1L_0130	discovery	True
+random	random_0003				130	C1L_0131	0.5	32	71430cd7e816e165fbef1f1f90363f276c329cef7b5e84dc2713c95d4dd6af0f	random:C1L_0131	discovery	True
+random	random_0004				131	C1L_0132	0.25	32	40ba681c878055e7426226229315416d88dd197e633e394bb9db61bcb5948052	random:C1L_0132	confirmation	True
+random	random_0005				132	C1L_0133	0.5	33	65d5a61a310be44add54e728f1f1c7aff8921ebe71c60989aab2619e0e4d34f2	random:C1L_0133	discovery	True
+random	random_0006				133	C1L_0134	0.5	33	7296c4175570e1a6227b4c5a05926ac24be1e13c6493dc8bf87226d9bd3d32c5	random:C1L_0134	confirmation	True
+random	random_0007				134	C1L_0135	0.25	33	a4b334742618165513668612c87eff342ccd7a2066f874d45b455a08658e21d0	random:C1L_0135	confirmation	True
+random	random_0008				135	C1L_0136	0.5	33	b95c550a07c206535820062e1d092facd5ec18dab5e380d8c9efc888f1d540eb	random:C1L_0136	confirmation	True
+random	random_0009				136	C1L_0137	0.5	34	c01ad7d5d9286b9020e412dbbe967f759bfa99df49f8484cd4e6b6944bdf44f6	random:C1L_0137	discovery	True
+random	random_0010				137	C1L_0138	0.25	34	c6c4f828fc700fb24aa5462c75f20be36ca4f80d288d2b31db96f6ee22d45926	random:C1L_0138	confirmation	True
+random	random_0011				138	C1L_0139	0.5	34	b4c6aacd659a57e39bd46d9b8ffe5d3c439b1cec556f9527f434f2b9fca72097	random:C1L_0139	confirmation	True
+random	random_0012				139	C1L_0140	0.5	34	ecd9d03d8c6a3cbc545ff3e22782c919df4e34a366ff2beb5d456ad2f562327a	random:C1L_0140	confirmation	True
+random	random_0013				140	C1L_0141	0.5	35	eb7f3bb1e78004ed110f2fc305ab5c867d07e463a681ad5730967bc41f31f09a	random:C1L_0141	discovery	True
+random	random_0014				141	C1L_0142	0.5	35	484d6bf3846f627299225d8c37670df0181905de31d3c3cb0bf2ddcd18fc42d4	random:C1L_0142	confirmation	True
+random	random_0015				142	C1L_0143	0.25	35	4bd5194dc49fa5a761aafd344e574a3bc08a13d255979452e03698dfff135153	random:C1L_0143	confirmation	True
+random	random_0016				143	C1L_0144	0.25	35	d57305b69b952eecfd7416e7fdaa1c14834cf4f097927525e44a2d5a2578ba26	random:C1L_0144	confirmation	True
+random	random_0017				144	C1L_0145	0.5	36	56ee8f588594fd851d0a286cd7599a44736f40088e82b48ad3fff05cb590cdf0	random:C1L_0145	discovery	True
+random	random_0018				145	C1L_0146	0.5	36	750fabfdae05dccbfb9e8f4da4f592e1d8f16dd9b2ad1070e51afc13a7f2416e	random:C1L_0146	discovery	True
+random	random_0019				146	C1L_0147	0.25	36	17586f5492c1d8209b99fa4f514de6a67e6f53a513169f1f6eb92bc89b2b863d	random:C1L_0147	discovery	True
+random	random_0020				147	C1L_0148	0.25	36	1a6f88f9e23bb62d58575d69a336a9043676355d5af06e0fe0ea1597eb270fe5	random:C1L_0148	discovery	True
+random	random_0021				148	C1L_0149	0.5	37	5c72dfaeb79ae83c3d80a837b317edbbb8d70b8b57eba9cbf7f43b85e581a27f	random:C1L_0149	discovery	True
+random	random_0022				149	C1L_0150	0.25	37	90a14b5656aa4fbcb6074a049fe5e1816019b773231e555ea00e52184d864a95	random:C1L_0150	discovery	True
+random	random_0023				150	C1L_0151	0.25	37	53c10447b43a6bb3adaa9b3b171103c7119aebcd4bd2128ff43a454969dbe510	random:C1L_0151	confirmation	True
+random	random_0024				151	C1L_0152	0.5	37	23731f38fbc46fea62d16d0eeb5c75ba63e7a28f74aa03dc61301124c2579a05	random:C1L_0152	discovery	True
+random	random_0025				152	C1L_0153	0.25	38	af879fceda9f03924f622aeeac330581608d3b400d6e2193c0f15276625a4cee	random:C1L_0153	discovery	True
+random	random_0026				153	C1L_0154	0.25	38	4c95290bce14d1ac09446d681c9afac5f31883c6afd9cacf8482ca3266eb1498	random:C1L_0154	confirmation	True
+random	random_0027				154	C1L_0155	0.5	38	99713da54c92cdb754c02847a2c76469a17ccdaec33c2c667115da77093b0997	random:C1L_0155	confirmation	True
+random	random_0028				155	C1L_0156	0.5	38	54d311fa5f244fb57308e02b2ea3b6305a41a1db4458a8a463f8899c667124d3	random:C1L_0156	confirmation	True
+random	random_0029				156	C1L_0157	0.25	39	4556e1f73addb41595f105932cc420bb87e6c615b067401bd368482f3f0685eb	random:C1L_0157	discovery	True
+random	random_0030				157	C1L_0158	0.25	39	0cfacfe3d5233dfba5caeeffbb63b0346df1b18058d077f06bd6e2d2f5f57a65	random:C1L_0158	discovery	True
+random	random_0031				158	C1L_0159	0.5	39	1d3d3a0a52b3e8a1d8a1795ba14e79337c0980bcda5992ead201b3dda8020820	random:C1L_0159	discovery	True
+random	random_0032				159	C1L_0160	0.5	39	1a0252d688626851aa8a7de66f96e7a19ec20282c34f622886ee8e6f46da8371	random:C1L_0160	confirmation	True
+random	random_0033				160	C1L_0161	0.25	40	24aa0e226ec10bc4d30f05d30648fcf95aac77175256a2797549d3931012e01e	random:C1L_0161	discovery	True
+random	random_0034				161	C1L_0162	0.25	40	6a2aa639e4d08cc5d526c1971c40ebdaedd9f8416a1adde51b3b1fafd0f49e22	random:C1L_0162	discovery	True
+random	random_0035				162	C1L_0163	0.5	40	f95e08b32c67265009541129db57688d5ef52f226c11d965da9562777a6f8e4a	random:C1L_0163	discovery	True
+random	random_0036				163	C1L_0164	0.25	40	0d139115de549e8830bbb0ee9892df2318a0a1af1426de08995e5c82aeb6fe2c	random:C1L_0164	confirmation	True
+random	random_0037				164	C1L_0165	0.25	41	0e62bb74f344d3886bda188becfb8bd551e7816acaf15c3f91b2711f5be01c7c	random:C1L_0165	discovery	True
+random	random_0038				165	C1L_0166	0.25	41	13b3ebdc73cabcc448d083c5a7c71bbd9bb93b32536a374cb35a1da034c8ce60	random:C1L_0166	discovery	True
+random	random_0039				166	C1L_0167	0.25	41	1ef875a07770d25dfb59b3b140aa6cdf33da9e5b87e3967c5b61c8ff1808393b	random:C1L_0167	confirmation	True
+random	random_0040				167	C1L_0168	0.5	41	9f4e6904f972f8f2a4c7f63f0dd7f655d22c4c577866e164d4a4b7c8721a1015	random:C1L_0168	discovery	True
+random	random_0041				168	C1L_0169	0.25	42	07816e7c4d57a3b6b5c9d88138c46338141bb0fbdeb10a0f4395a127b879cbb8	random:C1L_0169	discovery	True
+random	random_0042				169	C1L_0170	0.5	42	a87525c128114b32f8bc6254371949bbeb811891a15c7c2ce411d7f575eceadd	random:C1L_0170	confirmation	True
+random	random_0043				170	C1L_0171	0.25	42	d672eea94c26360ee8500bed412ffce7c0ebbb85a31fc4c3404ba3542d8db50b	random:C1L_0171	discovery	True
+random	random_0044				171	C1L_0172	0.25	42	c68807fbfd07b8340656063974adde26d4c0759584d97c2ae7efce3b35311b31	random:C1L_0172	discovery	True
+random	random_0045				172	C1L_0173	0.5	43	81d6570e585877a2d6f4b9fbd49c3fb0c2c25b4ea8ba6e15bda2a3f5a3f95655	random:C1L_0173	discovery	True
+random	random_0046				173	C1L_0174	0.5	43	af7bbe2839c413adb634f1f21b1cdfa7fa1caaf164db5ed11810c423c76cd5eb	random:C1L_0174	discovery	True
+random	random_0047				174	C1L_0175	0.25	43	989ebfc99715edae941792277f1e8af214cb42d8b74672e957da2dcb05de453b	random:C1L_0175	discovery	True
+random	random_0048				175	C1L_0176	0.5	43	366820d1b0ae61da59acc7b494901619b815ac7fbf30f35f2cd03ed97daa51d5	random:C1L_0176	confirmation	True
+random	random_0049				176	C1L_0177	0.25	44	3627090118badab1b6235b25360ed18def754e0fe54a67d482945981877fdec7	random:C1L_0177	discovery	True
+random	random_0050				177	C1L_0178	0.5	44	0d5d365db9cd7000938f5c6e874e48aabd5238ed7b9b33bb74969a17afdaa52a	random:C1L_0178	confirmation	True
+random	random_0051				178	C1L_0179	0.5	44	604ea65133a4cd047d083bea4d8f74cf9603e79eba6957f5be1fced449569bdf	random:C1L_0179	confirmation	True
+random	random_0052				179	C1L_0180	0.5	44	8ff3578c38451cb886a0203bc55694021ab036ade3cd8aa31e66e673c4745f46	random:C1L_0180	discovery	True
+random	random_0053				180	C1L_0181	0.25	45	7575ebe635251cf869b34a47e7b6ad8be08b17ed93bb744311ec31afdce5e1df	random:C1L_0181	confirmation	True
+random	random_0054				181	C1L_0182	0.25	45	047e82ba280a4a702a670e3e8062fadf11f01c16f4ce2c63ee6d178c858ad87c	random:C1L_0182	discovery	True
+random	random_0055				182	C1L_0183	0.5	45	0b8cadcd174373dd82c858d2659e06c6861cac2b294708b5f92a64f0c85543c5	random:C1L_0183	discovery	True
+random	random_0056				183	C1L_0184	0.5	45	300466a0d669e873c5c791f3237194a3da387ec9258d92a1fa236074017f4268	random:C1L_0184	discovery	True
+random	random_0057				184	C1L_0185	0.5	46	7d53710de64ab0eb14b56b1bc2df9ae3b349e529582fd862730cad1b86fa1ed7	random:C1L_0185	discovery	True
+random	random_0058				185	C1L_0186	0.5	46	ffaa664242be9ee2869fb1d935a268f3d6c28d2b0bc6489e8a2e1bea8af983ac	random:C1L_0186	confirmation	True
+random	random_0059				186	C1L_0187	0.5	46	55e6e7c5a08aadffe738968e1d47bc8d0027c160644b8989d7ebd0a245fb29f9	random:C1L_0187	discovery	True
+random	random_0060				187	C1L_0188	0.5	46	2936f54da035110cab6bd4cc94920ba06d8218b6556d24d11a27a1732b39f1e8	random:C1L_0188	discovery	True
+random	random_0061				188	C1L_0189	0.5	47	9f084b9a217cfb1f75c2f0af8c9938b63a5c99cd3437e5aebec037d12d2e6e60	random:C1L_0189	discovery	True
+random	random_0062				189	C1L_0190	0.5	47	c8bfebdd752247c1a4721fd572acdeef328d730eb5f67b64089e50937aee2f97	random:C1L_0190	discovery	True
+random	random_0063				190	C1L_0191	0.25	47	f8fbd8ab7ae317a6676294659b875c694089d752778bcf6dab4cdc0d15ee7563	random:C1L_0191	discovery	True
+random	random_0064				191	C1L_0192	0.5	47	dc2ac1ec01f9f70b468d73beba2346bc7a1a401be2258897897e5fc7f88120cf	random:C1L_0192	discovery	True
+random	random_0065				192	C1L_0193	0.25	48	27c0e6611fb4e6f75613068763bd75e337c597b575a3ad2d1762d631242624cc	random:C1L_0193	confirmation	True
+random	random_0066				193	C1L_0194	0.25	48	ce4641f5b3edece38199409e04533872ebf3603373add64e05b1a1e18352e18b	random:C1L_0194	discovery	True
+random	random_0069				196	C1L_0197	0.25	49	a3745e4b6fc92c28eb7d33fbefd16b3389f2d77c57e88bd3afff15087cfb4b7f	random:C1L_0197	confirmation	True
+random	random_0070				197	C1L_0198	0.25	49	dd317975d8276cb5917cb241cc0b8c82d5ee503ab596a4f687f1e379de8e5506	random:C1L_0198	discovery	True

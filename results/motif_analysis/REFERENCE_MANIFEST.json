@@ -1,0 +1,28 @@
+{
+  "release": 2026,
+  "collection": "CORE",
+  "tax_group": "vertebrates",
+  "profiles": 1019,
+  "mapped_profiles": 947,
+  "unmapped_profiles": 72,
+  "frozen_UTC": "2026-11-13T15:55:41.707489+00:00",
+  "sources": {
+    "JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt": "https://jaspar2026.elixir.no/download/data/2026/CORE/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt",
+    "JASPAR2026.sqlite3": "https://mencius-pub.uio.no/JASPAR/JASPAR_metadata/2026/JASPAR2026.sqlite3",
+    "HOM_MouseHumanSequence.rpt": "https://www.informatics.jax.org/downloads/reports/HOM_MouseHumanSequence.rpt"
+  },
+  "files": {
+    "JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt": "ae4f77a17256c7b8b7b73402810c1ecf4fc411e9ad7832cdc87d586dee9a4a15",
+    "JASPAR2026.sqlite3": "88d0e383de979ccae8d19c3815784ef63306b6233ecce28dac413ab4bc96eee6",
+    "HOM_MouseHumanSequence.rpt": "0b8eb746eb41eb9505b3bf3c5c8b986aba8a51e6a75df77642dcac34322aeb06",
+    "JASPAR2026_MOUSE_TF_MAPPING.tsv": "055fd685f06a333a5ebca638bae61d7540b2d20762f33601ec6ec8ae61bf0fc6",
+    "JASPAR2026_MOUSE_MAPPING_AUDIT.tsv": "91072101df4f30fc79879242091917db5709bd8df7e716f693edf5a4573e91a6"
+  },
+  "mapping_rule": "JASPAR protein identifiers to MGI mouse genes or MGI human-to-mouse homology; source-species approved-symbol fallback; no TF assigned from sequence resemblance alone.",
+  "limitations": [
+    "One-to-many homologies remain candidate sets.",
+    "All 1,019 profiles enter Tomtom/FIMO, including profiles with no verified mouse TF assignment.",
+    "Complex profiles can have multiple TF subunits; this does not prove cooperation.",
+    "This is a documented JASPAR/MGI adaptation, not the identical Aerts motif-to-TF collection."
+  ]
+}

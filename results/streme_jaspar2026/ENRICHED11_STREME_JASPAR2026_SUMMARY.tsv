@@ -1,0 +1,12 @@
+comparison	motif	width	STREME_E	STREME_E_below_0p05	significant_JASPAR2026_matches	lowest_Tomtom_q	best_q_profile_IDs	best_q_profile_names	match_status
+vs_initial	1-GCGCAA	6	0.0013	True	0				no reference match at q<=0.05
+vs_initial	2-ATGAGTCATWTCRA	14	0.0023	True	32	1.29987e-05	MA0490.3	JUNB	significant reference match
+vs_initial	3-ACATCAAAGGV	11	0.0083	True	5	0.000721025	MA1991.2;MA0523.2	Hnf1A;TCF7L2	significant reference match
+vs_initial	4-ATGCAAATWK	10	0.019	True	11	0.0129839	MA0627.3	POU2F3	significant reference match
+vs_initial	5-YAATTAGCAC	10	0.025	True	54	0.00534467	MA0709.2;MA0666.3;MA0125.2;MA0890.2	Msx3;MSX1;Nobox;GBX2	significant reference match
+vs_dinucleotide	1-ATKAGTCATWTYRARAVTD	19	2.4e-05	True	33	9.31745e-06	MA1135.2;MA1134.2;MA1137.2	FOSB::JUNB;FOS::JUNB;FOSL1::JUNB	significant reference match
+vs_dinucleotide	2-ABTCATTYTGAAANTD	16	0.0013	True	0				no reference match at q<=0.05
+vs_dinucleotide	3-TATGCAAATW	10	0.0083	True	12	2.26843e-06	MA0627.3	POU2F3	significant reference match
+vs_dinucleotide	4-CDCCCACDC	9	0.009	True	4	0.00111848	MA0472.2;MA0162.5	EGR2;EGR1	significant reference match
+vs_dinucleotide	5-CCACCCACW	9	0.011	True	0				no reference match at q<=0.05
+vs_dinucleotide	6-WAATGGAAAATWT	13	0.019	True	4	0.000130093	MA0152.3	Nfatc2	significant reference match

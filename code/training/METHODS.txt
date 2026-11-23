@@ -1,0 +1,161 @@
+PURPOSE AND DECISION
+Compare supported sequence selectivity under alternative target definitions,
+then export natural TRAINING-region seeds for a subsequent200bp context test.
+This bundle trains models. It does not optimize synthetic sequences or establish
+functional enhancer activity. It reuses existing count matrices, cached DNA,
+clustering and topic labels; it does not repeat alignment, clustering or LDA.
+
+DEFAULT EXPERIMENT
+Use the same111347-cell cohort and439167 consensus500bp peaks for four independent
+models: reference_parent, immgent, atac_C1, topics_K40. All start independently
+from the same strictly loaded official borzoi_mouse_rep0 pretrained trunk and a
+new output head. No previously fine-tuned project trunk initializes these runs.
+The optional --all-topics mode uses K20,K40,K80,K100 instead of K40 alone: seven
+models total in a separate matched_v1_all_topics run. Choose a mode once; do not
+launch both modes as a way to extend a running experiment, as that repeats fits.
+
+reference_parent: authenticate the existing full reference-state preparation and
+restore each of its983Foxp3-high cells to its own original reference-state label.
+This gives26outputs. Do NOT put all983cells into TIL Tex-term:38had other parent
+labels. The earlier992versus executed983count discrepancy is not resolved by
+this experiment; it stops if the authenticated983-cell assignment changes.
+
+immgent: original trbi_level2 labels from the frozen cohort metadata,22outputs.
+The CD8.S population retains its original Foxp3-subgroup cells. Generic/unknown
+labels are retained as measured outputs and their cell membership is not dropped.
+
+atac_C1: all4440original resolution0.3C1 cells are the target. Non-C1 cells use
+their saved resolution1.0 backgrounds, with backgrounds under200cells pooled
+as OTHER_SMALL_ATAC. No RNA label decides C1 membership; no cycling/TCR screen
+removes cells. This is not identical to the earlier C1 benchmark: the new matched
+experiment fits all cohort captures rather than withholding its one C1 capture.
+
+topics: native Otsu REGION memberships from the receipt-verified OVERLAP_CACHE
+produced by the completed separation audit. BCE training retains overlapping
+labels; the model is not forced to invent exclusive labels. Selection measures
+ranking of regions belonging only to one topic. Associated CELL topic weights
+are separately summarized by reference/ImmGen/ATAC labels. Topic membership
+does not establish a single biological cell state or enhancer selectivity.
+The saved topics were fitted on117653cells, including6306outside this review,
+and all genomic regions. These are fixed transductive topic labels, not a new
+independently discovered held-out regulatory program.
+
+DATA AND NORMALIZATION
+Read the verified original integer regions-by-cells ATAC matrix. Align every
+Cell_ID exactly. Rebuild raw pseudobulks for each count panel, divide counts by
+the sum of group fragment-library exposures to get FRPM, and fit native CREsted
+constitutive-peak scaling on TRAINING chromosomes only. Groups with>=200cells
+fit the normalization; smaller outputs are aligned on the same constitutive
+training peaks. Capture-by-group counts are stored for descriptive corroboration.
+No normalized labels are added together to undo the Foxp3 split.
+
+All four models use the SAME cached2048bp DNA windows preserving each measured
+500bp interval. Unknown bases remain all-zero one-hot, not random DNA. No rows
+are removed. Splits are356938training,45032validation(chr8/chr10),37197test
+(chr9/chr18), matching the reference-state experiment. Previously inspected test
+chromosomes, full-data peak discovery/clustering and possible Borzoi pretraining
+overlap mean this remains exploratory. All cohort captures contribute fitting
+targets; capture consistency is not an independent sample-held-out benchmark.
+
+NUMERICAL REPAIR
+The C1 replay traced RsqrtBackward0 failure to keras.utils.normalize(y_pred)
+inside native CREsted CosineMSELogLoss. The count loss here matches native peak_regression_count
+multiplier1/max_weight100: global log1pMSE plus dynamically clipped
+[1,100] MSE-weighted negative mean raw-profile cosine.
+The squared L2 norm is floored at1e-14 BEFORE reciprocal square root, equivalent
+to a1e-7norm floor. Ordinary-input forward values and gradients must agree with
+the installed native loss. Zero/tiny prediction vectors must have finite backward
+gradients. Those native PyTorch checks run on Betty before large model fits.
+This is a local loss implementation; no shared package/environment is edited.
+The finite-loss and finite-gradient clipping guards remain enabled.
+
+TRAINING AND SELECTION
+Full B200; FP32 with TF32 allowed; fixed batch32; Adam initial LR1e-5 epsilon1e-7;
+all layers trainable, deterministic per-epoch shuffle and RC augmentation;
+gradient norm clip5; max20epochs; stop after7epochs without selection improvement;
+halve LR after3stalls down to1e-6. No high-Gini-only refinement stage.
+Count models use measured accessibility labels, never fabricated off-target zeros.
+Topic models use BCEWithLogits on overlapping Otsu memberships.
+
+Checkpoint targets are fixed during preparation: >=200target cells, >=50selective
+training peaks and>=10selective validation peaks for count targets; analogous
+exclusive-region thresholds for topics. Unsupported panels are reported as such,
+not silently rescued by relaxing thresholds. Among trained epochs select highest
+validation macro AP over the fixed target panel, breaking ties by calibration
+error. The random new-head epoch0 is a diagnostic baseline, not an eligible winner.
+Calibration is reported rather than used as an automatic design-approval gate;
+AP improvement alone does not establish accurate target/off-target magnitudes.
+Both orientations are averaged for predictions. No test metric selects weights.
+
+MEASURED SPECIFICITY AND TARGET BOUNDARIES
+For each state, positives require>=10pooled target fragments and target FRPM at
+least2x the strongest adequately sampled other group(>=50cells). Rankings use
+log1p(predicted target FRPM)-log1p(strongest predicted competitor FRPM). Report
+AP, prevalence and tie-adjusted precision/recall at20,50,100,500. Actual and
+predicted target/off-target magnitudes are exported for top test regions.
+Primary backgrounds exclude generic CD8/not classified/unknown/pooled-small
+groups; those groups remain in outputs, data and calibration. A separate
+TEST_ALL_GROUPS_SENSITIVITY includes ambiguous AND tiny groups as competitors. Primary results do
+not demonstrate specificity in ambiguous or tiny populations.
+
+Separately report fragment-exposure-weighted POOLS CD8.R+CD8.S and
+TIL Tex-term+Tex-term where applicable. These pooled-pseudobulk definitions
+should not be confused with requiring activity in every member, or with the
+different question of preserving one anchor state while allowing another.
+
+For exported candidate peaks, capture checks require>=30target cells and at
+least one>=30cell competing group in that capture. A peak is informative with
+>=10total target+background fragments. Support requires>=3target fragments and
+>=2fold FRPM over the strongest competitor(pseudocount0.1FRPM). Zero target
+counts with substantial background counts count AGAINST consistency. Report
+the informative denominator, supported numerator and fraction, not a p-value.
+Captures can be biologically/technically confounded and are not guaranteed
+independent biological replicates. No formal differential-accessibility test,
+GC/depth/TSS-matched-control significance claim or functional enhancer claim.
+
+SEEDS AND FOLLOW-UP
+Choose up to5targets PER PANEL by validation precision@50 then AP. Freeze those
+choices before computing test results. Export up to50natural selective TRAINING
+peaks per chosen target, ranked by model margin. Validation/test DNA never
+enters the editing seed pool. Topic seeds are topic-exclusive region labels;
+they require additional measured-cell-accessibility validation before CRE design.
+No genomic FA/sequence file is exported, no synthetic editing is performed, and
+2048bp predictions do not establish standalone200bp activity or selectivity.
+After reviewing the tables and capture support, the next step is200bp native
+window/variant testing with controlled flanks and independently trained scorers.
+
+EXECUTION, STORAGE AND RECOVERY
+One16CPU/88GiB preparation job, then an array of independent full-B200 jobs with
+%1concurrency(one GPU at a time), then a small CPU collection job. Default four
+models, optional seven. Each GPU job has a24hwall limit. Compute and queue time
+depend on convergence and availability; the earlier short fits do not guarantee
+these runs' duration. Require>=100GiBserver-filesystem free space; this does not
+measure project quota. Cached inputs and original models remain read-only.
+No environment installation, existing-job cancellation or model scratch fallback.
+Weights and optimizer state checkpoint at epoch boundaries. An interrupted epoch
+restarts from its last committed epoch. The immediately previous transient
+optimizer file is removed only after a new checkpoint+receipt is committed;
+selected epoch weight files remain. Pending array ranges count as active when
+checking retries. Submission records/locks prevent duplicates; unknown sbatch
+outcomes block blind retry. Use --resume only after a terminal failure.
+
+LOCAL VALIDATION LIMITS
+Local CPU tests cover restored parent labels, target preservation, exact sparse
+aggregation, capture-count conservation, pooled FRPM, strongest competitors,
+ambiguous-background sensitivity, overlap/exclusive topic metrics, AP/tie and
+recall arithmetic, capture-support denominators, receipts, array submission
+safety and syntax. Local Borzoi/PyTorch/GPU execution is unavailable. Native
+loss-gradient equivalence and full-model execution are checked on Betty and
+must not be described as having already passed locally.
+
+OFFICIAL REFERENCES
+https://crested.readthedocs.io/en/stable/tutorials/borzoi_atac_finetuning.html
+https://crested.readthedocs.io/en/stable/api/_autosummary/crested.tl.losses.CosineMSELogLoss.html
+
+The official Borzoi tutorial recommends aligning fine-tuning evaluation with the
+original model splits. This matched exploratory experiment retains the already
+reviewed chromosome split for comparability and explicitly does not claim that
+Borzoi pretraining overlap has been excluded.
+
+REPAIR 2026-11-03: Guard and stabilized loss updated for native max_weight=100.
+Retain original prepared count panels and frozen experiment settings.

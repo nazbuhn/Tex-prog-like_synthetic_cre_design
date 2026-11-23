@@ -1,0 +1,40 @@
+{
+  "code_SHA256": "334cc4ce0bc3a4407c23ac5753bed3d339cf9260cd6b057f46110500fa91e772",
+  "parameters": {
+    "seed": 1729,
+    "normalization_target": 10000,
+    "HVG_target": 2000,
+    "PCA_max_components": 30,
+    "neighbors": 15,
+    "UMAP_min_dist": 0.4,
+    "Leiden_resolution": 0.6,
+    "Leiden_iterations": 2,
+    "model_gate": "RNA counts >500; detected symbols >300; mito <=20%; provisional for plots",
+    "gene_exclusions_for_embedding_only": "mitochondrial, ribosomal Rpl/Rps, TCR variable/joining segments; genes expressed in <3 model cells",
+    "no_doublet_or_lineage_filter": true
+  },
+  "software": {
+    "scanpy": "1.10.3",
+    "anndata": "0.10.9",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.2.3",
+    "umap-learn": "0.5.7",
+    "pynndescent": "0.5.13",
+    "scikit-learn": "1.5.2",
+    "numba": "0.60.0",
+    "llvmlite": "0.43.0",
+    "matplotlib": "3.9.4",
+    "igraph": "0.11.8",
+    "leidenalg": "0.10.2",
+    "texttable": "1.7.0"
+  },
+  "source_step04": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/rna_qc/step04_20261016T160319_2076025",
+  "source_step06": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/doublet_review/step06_20261016T170231_2092684",
+  "source_step07": "/home/nazbuhn/CD8_exhaustion_annotation/01_immgen_prep/threshold_review/step07_20261016T175454_2104000",
+  "completed_libraries": 23,
+  "embedded_libraries": 23,
+  "failures": [],
+  "no_doublet_models_refit": true,
+  "cells_approved_for_upload": 0
+}

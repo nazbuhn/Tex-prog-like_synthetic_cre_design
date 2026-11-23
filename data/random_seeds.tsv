@@ -1,0 +1,7 @@
+stage	seed	source
+200bp_sequence_optimization	20261104	results/designs/200bp/SETTINGS.json
+500bp_sequence_optimization	20261104	results/designs/500bp/SETTINGS.json
+1000bp_sequence_optimization	20261104	results/designs/1000bp/SETTINGS.json
+IG_EIG_TF_MoDISco	20261113	results/motif_analysis/CONFIG.json
+STREME	20261111	results/streme_discovery/vs_dinucleotide_COMMAND.json
+Borzoi_fine_tuning	20261103	results/model_evaluation/SETTINGS.json

@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "files": {
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/known_JASPAR2026_fimo/fimo.tsv": "601f5e07468494d94f3697583d9b81696f899399f56c82b2491c740af09034d9",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/ALL196_JASPAR2026_SITES.tsv.gz": "43f69547393de2267028184991c7ced72cf91c25b5f830aa1d0f92ed21d96cfc"
+  },
+  "reference_profiles": 1019,
+  "designed_sequences": 196,
+  "sequence_stages": 2,
+  "site_p_threshold": 0.0001,
+  "significance": "FIMO raw per-site p and within-scan q are preserved; counts are not independent TF mechanisms or evidence of binding."
+}

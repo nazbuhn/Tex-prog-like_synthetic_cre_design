@@ -1,0 +1,63 @@
+{
+  "expected_cells": 117653,
+  "expected_genes": 32245,
+  "expected_TIL_cells": 13317,
+  "confirmed_TIL_captures": {
+    "GSE267584__GSM8269391": "B16_GP_melanoma_P14",
+    "GSE267584__GSM8269393": "KPC_GP_pancreatic_P14",
+    "GSE267584__GSM8269398": "mWnt_GP_mammary_P14",
+    "GSE290618__tumor": "AKP_colorectal_tumor"
+  },
+  "expected_TIL_counts": {
+    "GSE267584__GSM8269391": 3895,
+    "GSE267584__GSM8269393": 5787,
+    "GSE267584__GSM8269398": 2647,
+    "GSE290618__tumor": 988
+  },
+  "unresolved_condition_captures": [
+    "GSE267584__GSM8269394",
+    "GSE267584__GSM8269395",
+    "GSE267584__GSM8269396"
+  ],
+  "seed": 555,
+  "hvg_genes": 3000,
+  "pca_components": 50,
+  "neighbor_pcs": 30,
+  "neighbors": 30,
+  "resolutions": [
+    0.3,
+    0.6,
+    1.0
+  ],
+  "harmony_theta": 1.0,
+  "harmony_max_iter": 20,
+  "extra_review_genes": [
+    "Trac",
+    "Cd3d",
+    "Cd3e",
+    "Cd8a",
+    "Cd8b1",
+    "Cd4",
+    "Trdc",
+    "Trgc1",
+    "Trgc2",
+    "Zbtb16",
+    "Klrb1c",
+    "Cxcr3",
+    "Cxcr5",
+    "Xcl1",
+    "Nt5e",
+    "Izumo1r",
+    "Nrp1",
+    "Ly6a",
+    "Itgal",
+    "Itga4",
+    "Il2rb",
+    "Ifng",
+    "Tnf"
+  ],
+  "input_SHA256": {
+    "RNA_QC_PASSED.h5ad": "6a8cf407ce7aa160c2254e7d7d6194b411ff63b2e4685b9c85e0736fb0f08341",
+    "RETAINED_CELLS.tsv.gz": "e3b16bdb2348ba9f1a273d19f3d33261e7c1ca10a8fa3c5329fed9ea30196dbb"
+  }
+}

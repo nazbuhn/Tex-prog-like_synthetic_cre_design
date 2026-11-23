@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "designs": 32,
+  "native_ISE_steps": 100,
+  "substitutions_evaluated_per_step": 1500,
+  "design_mutant_predictions": 4800000,
+  "known_motifs_used": false,
+  "native_CREsted_ISE": true,
+  "models_retrained": false,
+  "target_cells": 4440,
+  "natural_parent_peaks": 16,
+  "unique_sequences_up_to_reverse_complement": 32,
+  "frozen_shortlist": 32,
+  "confirmed_frozen_shortlist": 27,
+  "confirmed_parent_families": 27,
+  "descriptive_all_library_gate_passes": 27,
+  "arms": {
+    "natural_retention0.25": {
+      "designs": 8,
+      "frozen_shortlist": 8,
+      "confirmed_frozen_shortlist": 8,
+      "median_Borzoi_audit_ratio": 21.237536430358887,
+      "median_CREsted_audit_ratio": 2.146300256252289
+    },
+    "natural_retention0.5": {
+      "designs": 8,
+      "frozen_shortlist": 8,
+      "confirmed_frozen_shortlist": 6,
+      "median_Borzoi_audit_ratio": 15.366403102874756,
+      "median_CREsted_audit_ratio": 2.0149186849594116
+    },
+    "random_retention0.25": {
+      "designs": 8,
+      "frozen_shortlist": 8,
+      "confirmed_frozen_shortlist": 8,
+      "median_Borzoi_audit_ratio": 12.448029041290283,
+      "median_CREsted_audit_ratio": 1.798673152923584
+    },
+    "random_retention0.5": {
+      "designs": 8,
+      "frozen_shortlist": 8,
+      "confirmed_frozen_shortlist": 5,
+      "median_Borzoi_audit_ratio": 14.880350112915039,
+      "median_CREsted_audit_ratio": 1.7892301678657532
+    }
+  },
+  "attribution_performed": false,
+  "TF_binding_inferred": false,
+  "interpretation": "Computational sequence-selectivity screen. 14 fresh contexts are training-DNA backgrounds, not new biological samples. Secondary model overlaps biological training data. Output FRPM is predicted accessibility, not enhancer reporter activity or a probability. Thresholds are prespecified project follow-up rules, not universal validated cutoffs. No selection reranking on final audit. No known motif insertion, scan or motif-based filtering; nucleotide attribution and de novo discovery follow library evaluation."
+}

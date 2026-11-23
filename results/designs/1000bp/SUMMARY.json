@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "completed_design_snapshot": true,
+  "source_designs_planned": 256,
+  "snapshot_receipt": "SNAPSHOT.json",
+  "model": "Fine-tuned Borzoi ONLY",
+  "design_length": 1000,
+  "designs": 196,
+  "native_ISE_steps": 200,
+  "substitutions_evaluated_per_step": 3000,
+  "design_mutant_predictions": 117600000,
+  "native_CREsted_ISE": true,
+  "models_retrained": false,
+  "known_motifs_used": false,
+  "target_cells": 4440,
+  "natural_parent_peaks": 50,
+  "unique_sequences_up_to_reverse_complement": 196,
+  "frozen_shortlist": 64,
+  "confirmed_frozen_shortlist": 64,
+  "descriptive_all_library_gate_passes": 186,
+  "arms": {
+    "natural_retention0.25": {
+      "designs": 64,
+      "frozen_shortlist": 27,
+      "confirmed_frozen_shortlist": 27,
+      "median_Borzoi_audit_ratio": 50.882606506347656
+    },
+    "natural_retention0.5": {
+      "designs": 64,
+      "frozen_shortlist": 15,
+      "confirmed_frozen_shortlist": 15,
+      "median_Borzoi_audit_ratio": 45.1898078918457
+    },
+    "random_retention0.25": {
+      "designs": 32,
+      "frozen_shortlist": 11,
+      "confirmed_frozen_shortlist": 11,
+      "median_Borzoi_audit_ratio": 42.84264373779297
+    },
+    "random_retention0.5": {
+      "designs": 36,
+      "frozen_shortlist": 11,
+      "confirmed_frozen_shortlist": 11,
+      "median_Borzoi_audit_ratio": 45.96794509887695
+    }
+  },
+  "attribution_performed": false,
+  "TF_binding_inferred": false,
+  "interpretation": "Borzoi predictions are accessibility FRPM, not measured enhancer activity. The 14 contexts are training-chromosome DNA backgrounds, not biological replicates; four contexts select candidates, eight reserved for final audit. Optimization uses two. Only Borzoi was used; no secondary CREsted predictive model. No selection reranking on the final audit. Thresholds are computational follow-up criteria."
+}

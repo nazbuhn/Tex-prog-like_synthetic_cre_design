@@ -1,0 +1,95 @@
+{
+  "progenitor_associated": [
+    "Tcf7",
+    "Lef1",
+    "Slamf6",
+    "Bcl6",
+    "Id3",
+    "Il7r"
+  ],
+  "exhaustion_associated": [
+    "Pdcd1",
+    "Tox",
+    "Tox2",
+    "Lag3",
+    "Tigit"
+  ],
+  "terminal_exhaustion_associated": [
+    "Havcr2",
+    "Entpd1",
+    "Cd101",
+    "Cd244a",
+    "Lag3",
+    "Tigit"
+  ],
+  "cytotoxic": [
+    "Nkg7",
+    "Gzmb",
+    "Gzma",
+    "Prf1",
+    "Ccl5",
+    "Fasl"
+  ],
+  "effector_Cx3cr1_associated": [
+    "Cx3cr1",
+    "Klrg1",
+    "Tbx21",
+    "Zeb2",
+    "Id2"
+  ],
+  "naive_central_memory_associated": [
+    "Ccr7",
+    "Sell",
+    "Klf2",
+    "S1pr1",
+    "Tcf7",
+    "Lef1"
+  ],
+  "memory_precursor_associated": [
+    "Il7r",
+    "Id3",
+    "Bcl2",
+    "Cd27",
+    "Tcf7"
+  ],
+  "residency_associated": [
+    "Cd69",
+    "Itgae",
+    "Itga1",
+    "Cxcr6",
+    "Zfp683",
+    "Runx3",
+    "P2rx7"
+  ],
+  "activation_associated": [
+    "Il2ra",
+    "Cd69",
+    "Myc",
+    "Irf4",
+    "Nr4a1"
+  ],
+  "cycling": [
+    "Mki67",
+    "Top2a",
+    "Cdk1",
+    "Cenpf",
+    "Ube2c",
+    "Pcna",
+    "Mcm5"
+  ],
+  "interferon_response": [
+    "Isg15",
+    "Ifit1",
+    "Ifit3",
+    "Isg20",
+    "Stat1",
+    "Irf7"
+  ],
+  "regulatory_T_associated_review": [
+    "Foxp3",
+    "Il2ra",
+    "Ctla4",
+    "Ikzf2",
+    "Tnfrsf18"
+  ]
+}

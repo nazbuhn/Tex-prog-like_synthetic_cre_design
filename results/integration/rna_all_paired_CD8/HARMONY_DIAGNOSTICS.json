@@ -1,0 +1,11 @@
+{
+  "objective_harmony": [
+    32833.99820617557,
+    29235.19947867283,
+    29085.12487033435,
+    29460.690492913232
+  ],
+  "iterations": 3,
+  "batch_key": "source_GSE",
+  "interpretation": "Sensitivity analysis: study is confounded with biology; mixing is not proof of correctness."
+}

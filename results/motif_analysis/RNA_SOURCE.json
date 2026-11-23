@@ -1,0 +1,10 @@
+{
+  "file": "/vast/projects/saargill/cell-type-specific/nazbuhn/scenicplus_inputs/07_common_matrix/runs/common_20261022T131906_562560/RNA_QC_PASSED.h5ad",
+  "matrix": "raw/X",
+  "symbol_field": "gene_symbol",
+  "gene_axis": "raw/var",
+  "all_selected_source_values_integer_verified": true,
+  "rejected_sources": [],
+  "normalization": "Per-cell counts / all-gene raw RNA count total * 1e6, then averaged within the exact model population; only candidate columns exported.",
+  "candidate_database": "JASPAR2026 CORE vertebrates with MGI identifier/homology mapping"
+}

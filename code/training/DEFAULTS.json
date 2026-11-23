@@ -1,0 +1,24 @@
+{
+  "run": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/borzoi_target_panels/runs/matched_v1",
+  "common": "/vast/projects/saargill/cell-type-specific/nazbuhn/scenicplus_inputs/07_common_matrix/runs/common_20261022T131906_562560",
+  "common_manifest_sha256": "345bcdccc8c24ce6606de31be90b8bcd6db5dc6bc231fcf1d9903a66d57047ba",
+  "reference": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/crested_reference_labels_v1/runs/reference_states_v1",
+  "reference_receipt_sha256": "8980d883850c21378641424c05d749bbcf2bd817047aa015f5792d0ec8a0425a",
+  "old_borzoi": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/crested_borzoi_reference_labels_v1/runs/borzoi_reference_states_v1",
+  "topic_audit": "/vast/projects/saargill/cell-type-specific/nazbuhn/scenicplus_inputs/14_topic_separation/runs/overlap_v1",
+  "topic_model_sha256": {
+    "20": "1022eb985a49ab65a6ac4e31b60aaee71845fa3147fadc118316703af18ddbb8",
+    "40": "f4f71caeb4a22b3d07d0f63905bfc8ff74992db2658df6e3e3e2c69947442399",
+    "80": "812bf2a10c0240334c617ebea05b395a3a0c91a39b9e522fe21c76e85e794d9d",
+    "100": "15a1d7b6b51b33b56d642314b8b41975b6ecc89dac6014876bec9d1b2b1ffbe1"
+  },
+  "pretrained_sha256": "7d2c534bcebec93046f7030fdd02a64f49ec1a2303221a5c231e668bdba254d6",
+  "env": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/crested_cluster6/envs/crested_fresh_py312_torch_v1",
+  "seed": 20261103,
+  "batch_size": 32,
+  "learning_rate": 1e-05,
+  "max_epochs": 20,
+  "early_stopping_patience": 7,
+  "lr_patience": 3,
+  "minimum_lr": 1e-06
+}

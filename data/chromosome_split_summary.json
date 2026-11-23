@@ -1,0 +1,17 @@
+{
+  "reference_genome": "mm10",
+  "train_regions": 356938,
+  "validation_regions": 45032,
+  "test_regions": 37197,
+  "validation_chromosomes": [
+    "chr8",
+    "chr10"
+  ],
+  "test_chromosomes": [
+    "chr9",
+    "chr18"
+  ],
+  "source": "reference_C1 saved METHODS and run receipts",
+  "region_by_region_split_file": "data/regions/peak_splits.tsv.gz",
+  "pretraining_overlap_assessed": false
+}

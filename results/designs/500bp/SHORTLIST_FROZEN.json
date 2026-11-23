@@ -1,0 +1,42 @@
+{
+  "sha256": {
+    "PRIMARY_SELECTION_METRICS.tsv": "342a3ba14ed3d57e711d914b2d8a9e4e11d0aca598bb78aa5e9ae0c2707e472c",
+    "FROZEN_SHORTLIST.tsv": "5b30f7195658ef6b301857af826fd42f2b3a02aaff9cb3969fa354030aa30100"
+  },
+  "indices": [
+    23,
+    14,
+    6,
+    7,
+    5,
+    15,
+    11,
+    20,
+    3,
+    1,
+    16,
+    8,
+    30,
+    13,
+    12,
+    4,
+    22,
+    2,
+    9,
+    24,
+    18,
+    27,
+    10,
+    28,
+    31,
+    19,
+    17,
+    0,
+    26,
+    29,
+    25,
+    21
+  ],
+  "selection_inputs": "Primary scorer + four selection contexts only; no final-audit predictions or secondary scores",
+  "criteria": "All4 target/maxoff>=1.5; floor all4; robust margin exceeds all16 dinuc controls; QC; min15bp Hamming allowing reverse complement; max4 per natural parent; max128."
+}

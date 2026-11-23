@@ -1,0 +1,26 @@
+{
+  "RNA_source_SHA256": "1d16488b8e68c1e80562704000dcad21b617a16e19146d2a12630c3681c3ed50",
+  "RNA_source_matches_historical_manifest": true,
+  "RNA_recorded_input_SHA256": {
+    "RNA_QC_PASSED.h5ad": "6a8cf407ce7aa160c2254e7d7d6194b411ff63b2e4685b9c85e0736fb0f08341",
+    "RETAINED_CELLS.tsv.gz": "e3b16bdb2348ba9f1a273d19f3d33261e7c1ca10a8fa3c5329fed9ea30196dbb"
+  },
+  "ATAC_recovered_script_SHA256": "de735c71604379bbb39346e99eb32b63eb086195c8d8d70c8690f0903cc5c956",
+  "ATAC_historical_source_checksum_receipt_available": false,
+  "ATAC_source_location": "/vast/projects/saargill/cell-type-specific/nazbuhn/scenicplus_inputs/11_atac_umap/runs/atac_harmony_v1/run_atac_umap.py",
+  "RNA_source_run_parent": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/rna_state_review/runs",
+  "input_cohort_cells": 117653,
+  "plotted_cohort_cells": 111347,
+  "RNA_coordinate_equality_at_stored_float32_precision": true,
+  "RNA_maximum_absolute_decimal_serialization_difference": 9.515380874347557e-07,
+  "ATAC_coordinate_equality_exact": true,
+  "RNA_Harmony_batch_key": "source_GSE",
+  "RNA_batch_levels": 4,
+  "ATAC_Harmony_batch_key": "batch",
+  "ATAC_batch_levels": 21,
+  "ATAC_retained_peaks_after_ge30_cell_filter": 434240,
+  "ATAC_LSI1_log_depth_Spearman_from_saved_log": 0.9427,
+  "ATAC_run_saved_embeddings_before_subsequent_plotting_error": true,
+  "scientific_outputs_recomputed": false,
+  "original_files_modified": false
+}

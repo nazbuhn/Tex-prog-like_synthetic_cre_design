@@ -1,0 +1,167 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": -0.6553938141239529,
+    "macro_selectivity_AP": 0.05188908503069395,
+    "calibration_error": 0.17704850435256958,
+    "improved": true,
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "seconds": 790.9887770130299,
+    "wait": 0
+  },
+  {
+    "epoch": 2,
+    "train_loss": -0.7008334820268828,
+    "macro_selectivity_AP": 0.054963066812108274,
+    "calibration_error": 0.1739792376756668,
+    "improved": true,
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "seconds": 793.244902793318,
+    "wait": 0
+  },
+  {
+    "epoch": 3,
+    "train_loss": -0.7238512946379928,
+    "macro_selectivity_AP": 0.058773550030171415,
+    "calibration_error": 0.17476660013198853,
+    "improved": true,
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "seconds": 782.6579626649618,
+    "wait": 0
+  },
+  {
+    "epoch": 4,
+    "train_loss": -0.742302391675423,
+    "macro_selectivity_AP": 0.06038468817370542,
+    "calibration_error": 0.17395330965518951,
+    "improved": true,
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "seconds": 781.9742019879632,
+    "wait": 0
+  },
+  {
+    "epoch": 5,
+    "train_loss": -0.7585951003289595,
+    "macro_selectivity_AP": 0.06015515479096549,
+    "calibration_error": 0.17524804174900055,
+    "improved": false,
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "seconds": 782.2748533892445,
+    "wait": 1
+  },
+  {
+    "epoch": 6,
+    "train_loss": -0.7728570677461601,
+    "macro_selectivity_AP": 0.057269844008795666,
+    "calibration_error": 0.17584887146949768,
+    "improved": false,
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "seconds": 783.9231669600122,
+    "wait": 2
+  },
+  {
+    "epoch": 7,
+    "train_loss": -0.7843454434027568,
+    "macro_selectivity_AP": 0.06445964135413415,
+    "calibration_error": 0.17670698463916779,
+    "improved": true,
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "seconds": 780.4164674147032,
+    "wait": 0
+  },
+  {
+    "epoch": 8,
+    "train_loss": -0.7937845819784531,
+    "macro_selectivity_AP": 0.06502620286992997,
+    "calibration_error": 0.17814314365386963,
+    "improved": true,
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "seconds": 782.4516677800566,
+    "wait": 0
+  },
+  {
+    "epoch": 9,
+    "train_loss": -0.8033024577955972,
+    "macro_selectivity_AP": 0.062399380837741714,
+    "calibration_error": 0.17993836104869843,
+    "improved": false,
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "seconds": 778.7419825131074,
+    "wait": 1
+  },
+  {
+    "epoch": 10,
+    "train_loss": -0.8110962958827078,
+    "macro_selectivity_AP": 0.06256734919344095,
+    "calibration_error": 0.1769368201494217,
+    "improved": false,
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "seconds": 780.9433392998762,
+    "wait": 2
+  },
+  {
+    "epoch": 11,
+    "train_loss": -0.8181811378050047,
+    "macro_selectivity_AP": 0.06073993002969792,
+    "calibration_error": 0.1764524132013321,
+    "improved": false,
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "seconds": 788.2671965179034,
+    "wait": 3
+  },
+  {
+    "epoch": 12,
+    "train_loss": -0.8291632956301672,
+    "macro_selectivity_AP": 0.06329090455165647,
+    "calibration_error": 0.17637823522090912,
+    "improved": false,
+    "learning_rate": 5e-06,
+    "batch_size": 32,
+    "seconds": 787.82035800023,
+    "wait": 4
+  },
+  {
+    "epoch": 13,
+    "train_loss": -0.8350205823674902,
+    "macro_selectivity_AP": 0.06184841321731899,
+    "calibration_error": 0.17814816534519196,
+    "improved": false,
+    "learning_rate": 5e-06,
+    "batch_size": 32,
+    "seconds": 786.9917945880443,
+    "wait": 5
+  },
+  {
+    "epoch": 14,
+    "train_loss": -0.8401298372788691,
+    "macro_selectivity_AP": 0.06184301375218247,
+    "calibration_error": 0.17820847034454346,
+    "improved": false,
+    "learning_rate": 5e-06,
+    "batch_size": 32,
+    "seconds": 780.9849221110344,
+    "wait": 6
+  },
+  {
+    "epoch": 15,
+    "train_loss": -0.847307679520428,
+    "macro_selectivity_AP": 0.06262648408800299,
+    "calibration_error": 0.1786530762910843,
+    "improved": false,
+    "learning_rate": 2.5e-06,
+    "batch_size": 32,
+    "seconds": 778.675011716783,
+    "wait": 7
+  }
+]

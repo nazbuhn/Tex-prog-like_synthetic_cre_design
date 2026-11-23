@@ -1,0 +1,14 @@
+{
+  "python": "3.12.15 (main, Oct 13 2026, 16:52:04) [GCC 15.3.0]",
+  "crested": "1.10.0",
+  "keras": "3.15.1",
+  "torch": "2.13.0+cu130",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "3.0.5",
+  "h5py": "3.16.0",
+  "anndata": "0.13.3.post0",
+  "scanpy": null,
+  "tfmodisco-lite": null,
+  "tangermeme": null
+}

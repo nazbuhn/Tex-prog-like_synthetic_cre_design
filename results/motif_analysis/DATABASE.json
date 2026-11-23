@@ -1,0 +1,11 @@
+{
+  "meme": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/references/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt",
+  "mapping": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/references/JASPAR2026_MOUSE_TF_MAPPING.tsv",
+  "meme_sha256": "ae4f77a17256c7b8b7b73402810c1ecf4fc411e9ad7832cdc87d586dee9a4a15",
+  "mapping_sha256": "055fd685f06a333a5ebca638bae61d7540b2d20762f33601ec6ec8ae61bf0fc6",
+  "collection": "JASPAR2026 CORE vertebrate nonredundant",
+  "reference_manifest": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/references/REFERENCE_MANIFEST.json",
+  "reference_manifest_sha256": "24873c8e4a15e0cd28379f8edbe144ac6efddb86bf91caef5b8f58112f880739",
+  "mouse_mapping_column": "Mouse_JASPAR_MGI_candidates",
+  "profiles": 1019
+}

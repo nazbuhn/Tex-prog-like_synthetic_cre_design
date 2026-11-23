@@ -1,0 +1,136 @@
+{
+  "source_GSE": "GSE267584",
+  "library": "GSM8269396",
+  "orientation": "cells_by_genes",
+  "source_RNA_features": 32285,
+  "canonical_symbols": 32245,
+  "cells": 4041,
+  "nonzero_counts": 11249786,
+  "total_UMIs": 34303354,
+  "pass_RBI_RNA_minimum": 3993,
+  "minimum_rule": "detected canonical RNA symbols >300 AND RNA counts >500; no other cell filtering applied",
+  "mitochondrial_symbols": 13,
+  "quantiles": {
+    "RNA_counts": {
+      "min": 98.0,
+      "p01": 464.4,
+      "p05": 1122.0,
+      "p25": 3754.0,
+      "median": 7913.0,
+      "p75": 11891.0,
+      "p95": 18460.0,
+      "p99": 24393.199999999993,
+      "max": 51298.0
+    },
+    "detected_symbols": {
+      "min": 87.0,
+      "p01": 335.4,
+      "p05": 616.0,
+      "p25": 1738.0,
+      "median": 2937.0,
+      "p75": 3718.0,
+      "p95": 4660.0,
+      "p99": 5320.199999999999,
+      "max": 6963.0
+    },
+    "percent_mito": {
+      "min": 0.0,
+      "p01": 0.49004637639765425,
+      "p05": 2.1811943468670862,
+      "p25": 4.737732656514383,
+      "median": 6.631618951102102,
+      "p75": 8.99591256442154,
+      "p95": 17.10871466044885,
+      "p99": 27.853249554710665,
+      "max": 49.29440389294404
+    }
+  },
+  "renamed_feature_rows": [
+    [
+      "ENSMUSG00000076749",
+      "Tcrg-C1",
+      "Trgc1",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076752",
+      "Tcrg-C2",
+      "Trgc2",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000091682",
+      "Tcrg-C3",
+      "Trgc3",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076757",
+      "Tcrg-C4",
+      "Trgc4",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076755",
+      "Tcrg-V1",
+      "Trgv1",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076750",
+      "Tcrg-V3",
+      "Trgv3",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076745",
+      "Tcrg-V4",
+      "Trgv4",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076747",
+      "Tcrg-V5",
+      "Trgv5",
+      "ENSEMBL_ID"
+    ],
+    [
+      "ENSMUSG00000076746",
+      "Tcrg-V6",
+      "Trgv6",
+      "UNIQUE_NCBI_ALIAS"
+    ],
+    [
+      "ENSMUSG00000076744",
+      "Tcrg-V7",
+      "Trgv7",
+      "ENSEMBL_ID"
+    ]
+  ],
+  "duplicate_symbol_excess_rows": 40,
+  "missing_required_genes": [],
+  "source_sha256": {
+    "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269396_BALLGP.filtered_matrix.mtx.gz": "51d3138357fa24eaf6169998613ab9d84b5b845238ed4e8968166955c2351f62",
+    "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269396_BALLGP.filtered_features.tsv.gz": "15738366a7c9adfe9233cb503fd19f4114b7e0ce9b7d9ac677645ef2b023c491",
+    "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269396_BALLGP.filtered_barcodes.tsv.gz": "02ac6b5949a335fd22d1e0c5e7f610eef405307ec9bd2b435b90d5b8db632118"
+  },
+  "source_selection": {
+    "rule": "All source cellular barcodes retained for numeric QC; no biological or doublet approval",
+    "source_matrix_features": 123978,
+    "source_cells": 4041,
+    "dropped_non_RNA_features": 91693
+  },
+  "export_ready": false,
+  "pending": [
+    "cell eligibility and conventional CD8 purity review",
+    "doublet removal",
+    "per-library mitochondrial QC review",
+    "verified encapsulation-run assignment"
+  ],
+  "output_sha256": {
+    "source_feature_map.tsv.gz": "47139142057dca8a440f33c7d755bf9cc67de9a7c06ed2214ed4aaf9a4cc01ed",
+    "cell_QC.tsv.gz": "0ec9a00abd7be05a91bf9e9542a7fdbcd584fd1d65c96d8a110b52eaa0f8ef1b",
+    "genes.tsv.gz": "3b5007efbb2add6c3537c9ad48709c986c1df66781c6067da13bcf962b9d22bb",
+    "RNA_counts_cells_by_genes.npz": "81d4cd45810bb7fa7e6a31fa9c857a4bfd342ceac85804d9ecf69c1b40c6e4f0"
+  }
+}

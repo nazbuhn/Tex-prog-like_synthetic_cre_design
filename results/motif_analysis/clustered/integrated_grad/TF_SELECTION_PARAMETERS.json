@@ -1,0 +1,13 @@
+{
+  "log_transform": true,
+  "normalize_pattern_importances": false,
+  "normalize_gex": false,
+  "importance_threshold": 0,
+  "pattern_parameter": "seqlet_count",
+  "filter_correlation": true,
+  "zscore_threshold": 2,
+  "correlation_threshold": 0.2,
+  "verbose": true,
+  "selection": "threshold",
+  "similarity_metric": "pearson"
+}

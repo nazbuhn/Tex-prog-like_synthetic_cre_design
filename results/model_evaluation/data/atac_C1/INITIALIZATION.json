@@ -1,0 +1,9 @@
+{
+  "sha256": "09b6751d74988bba8a1d3a9dd28ec0bbbb5586d8e2f8bf8206b0e9639552417f",
+  "pretrained_sha256": "7d2c534bcebec93046f7030fdd02a64f49ec1a2303221a5c231e668bdba254d6",
+  "parameters": 169427307,
+  "strict_pretrained_load": true,
+  "inherited_fine_tuned_weights": false,
+  "task": "count",
+  "outputs": 11
+}

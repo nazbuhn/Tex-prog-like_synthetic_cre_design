@@ -1,0 +1,11 @@
+Download these exact files into C1_CRESTED_JASPAR2026_BETTY_V2/references/ if Betty cannot fetch them.
+No Slurm job is submitted until all three files and their identifier mapping validate.
+
+JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt
+https://jaspar2026.elixir.no/download/data/2026/CORE/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt
+
+JASPAR2026.sqlite3
+https://mencius-pub.uio.no/JASPAR/JASPAR_metadata/2026/JASPAR2026.sqlite3
+
+HOM_MouseHumanSequence.rpt
+https://www.informatics.jax.org/downloads/reports/HOM_MouseHumanSequence.rpt

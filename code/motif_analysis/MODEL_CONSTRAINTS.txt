@@ -1,0 +1,7 @@
+crested==1.10.0
+torch==2.13.0+cu130
+keras==3.15.1
+numpy==2.5.3
+scipy==1.18.1
+h5py==3.16.0
+anndata==0.13.3.post0

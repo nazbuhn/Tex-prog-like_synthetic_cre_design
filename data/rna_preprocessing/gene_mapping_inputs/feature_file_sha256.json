@@ -1,0 +1,23 @@
+{
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE230363/GSM7220513_LCMV1_features.tsv.gz": "a3d44b589539149c317846713dd0253c901f2614b0c2eb54111c9a4a6dfb2e6c",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE230363/GSM7220515_LCMV2_features.tsv.gz": "161205c30f9fdeec6c9b825e81386929b536f020edbef7afb7c651624c23e456",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE230363/GSM7220517_LCMV3_features.tsv.gz": "c39283c5f27c4f6324c259f53ee1df54f281c983953e72f1b34f9746bf63dd45",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE230363/GSM7220519_LCMV4_features.tsv.gz": "8bce9216f9b19515763484f1a6ecba2e36384d6424861199bf88b278231f3b71",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE230363/GSM7220521_LCMV5_features.tsv.gz": "0503991f8321d161f970cac7393ef61dc678a5797ae34fdff5026c3aa1b42c83",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE230363/GSM7220523_LCMV6_features.tsv.gz": "2ad988216b245d71b3f975e63ea6b4ea3db9df67354e963668838c68a480d572",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE230363/GSM7220525_LCMV7_features.tsv.gz": "2474abf99a4b4b7a20923e22dbb65762ce36416003c78a511f572ca6d0096197",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE255042/GSM8062936_Naive_P14_features.tsv.gz": "cabed965d9201244304635a78e68a695b2e71ea9cc0291c857cb3606a15cf407",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269389_ArmIEL.day6.filtered_features.tsv.gz": "1a7c71013ba9ed13fa95e216de0c48632fe0a954c8fd3f04c060a3097b307f76",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269390_ArmSpl.day6.filtered_features.tsv.gz": "725aca8475eb128e9132505ae6958bd1ade3ea696e948a42c8cff8ac5280bf40",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269391_B16GP.filtered_features.tsv.gz": "87c3f98e9a84c5994d56569f09088acb0faf1dbc37ebc1526de26205952f7028",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269392_CL13Spl.day6.filtered_features.tsv.gz": "ae4d2179a04e0f7d000c987966205a577a387ed23d62e5a3504715e2fab8da2b",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269393_KPCGP.filtered_features.tsv.gz": "df7df4dbb6e0d1f266d10ccc9f50e8e200575a346d35007b55ceb5373956c015",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269394_ArmIEL.day42.filtered_features.tsv.gz": "108e90cf350be921969077d3dec4b33a0d66b158f2078ced4e81cade302932f4",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269395_ArmSpl.day42.filtered_features.tsv.gz": "d682161280fef51e84015c199d7ff7117536e273cd834f1973bdd93b7f39bb33",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269396_BALLGP.filtered_features.tsv.gz": "15738366a7c9adfe9233cb503fd19f4114b7e0ce9b7d9ac677645ef2b023c491",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269397_CL13Spl.day42.filtered_features.tsv.gz": "97728687d33904663ad6df8830d679b5d14db85efff5c325ad00c5f293b29e33",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269398_mWntGP.filtered_features.tsv.gz": "4f8fabd7d6d8fe4e0796c8ead0c6433953bbfc406def159d8ddd2833f5e0c53b",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE267584/GSM8269399_Naive.filtered_features.tsv.gz": "7c4eb5ebf706c0da50fc95073405e1b879b45df339c1df40b168a87829683820",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE278342/GSM8545120_W8_arc_features.tsv.gz": "ef2ca45173a654842c768ac977d7a8b6f5c04dec7d1b1cbd91311fac4bc20321",
+  "/home/nazbuhn/CD8_exhaustion_annotation/00_raw_geo/GSE278342/GSM8545124_W9_arc_features.tsv.gz": "1f71c74b2835a937d7c050b8b56cc679bb028c585d29adea40bb278c8a629780"
+}

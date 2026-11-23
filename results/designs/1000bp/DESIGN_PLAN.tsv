@@ -1,0 +1,197 @@
+arm	parent_id	offset	supporting_captures	informative_captures	index	design_id	retention_fraction	shard
+natural	seed_002	0	5	8	0	C1L_0001	0.5	0
+natural	seed_020	0	1	11	1	C1L_0002	0.5	0
+natural	seed_012	0	2	8	2	C1L_0003	0.25	0
+natural	seed_005	0	3	11	3	C1L_0004	0.25	0
+natural	seed_036	0	2	7	4	C1L_0005	0.5	1
+natural	seed_025	0	3	10	5	C1L_0006	0.5	1
+natural	seed_017	0	5	8	6	C1L_0007	0.5	1
+natural	seed_021	0	1	7	7	C1L_0008	0.5	1
+natural	seed_038	0	2	7	8	C1L_0009	0.25	2
+natural	seed_016	0	1	11	9	C1L_0010	0.25	2
+natural	seed_014	0	6	9	10	C1L_0011	0.5	2
+natural	seed_019	0	3	11	11	C1L_0012	0.5	2
+natural	seed_049	0	4	11	12	C1L_0013	0.25	3
+natural	seed_001	0	5	9	13	C1L_0014	0.25	3
+natural	seed_037	0	3	8	14	C1L_0015	0.25	3
+natural	seed_033	0	7	10	15	C1L_0016	0.25	3
+natural	seed_050	0	1	11	16	C1L_0017	0.25	4
+natural	seed_028	0	3	9	17	C1L_0018	0.25	4
+natural	seed_047	0	0	11	18	C1L_0019	0.5	4
+natural	seed_008	0	5	10	19	C1L_0020	0.25	4
+natural	seed_043	0	1	7	20	C1L_0021	0.25	5
+natural	seed_042	0	4	8	21	C1L_0022	0.5	5
+natural	seed_044	0	0	6	22	C1L_0023	0.25	5
+natural	seed_041	0	1	11	23	C1L_0024	0.25	5
+natural	seed_007	0	1	1	24	C1L_0025	0.5	6
+natural	seed_045	0	1	3	25	C1L_0026	0.5	6
+natural	seed_006	0	1	9	26	C1L_0027	0.5	6
+natural	seed_015	0	5	5	27	C1L_0028	0.5	6
+natural	seed_010	0	3	11	28	C1L_0029	0.5	7
+natural	seed_013	0	2	10	29	C1L_0030	0.25	7
+natural	seed_039	0	3	11	30	C1L_0031	0.25	7
+natural	seed_034	0	1	4	31	C1L_0032	0.25	7
+natural	seed_026	0	3	8	32	C1L_0033	0.5	8
+natural	seed_023	0	6	11	33	C1L_0034	0.25	8
+natural	seed_032	0	0	11	34	C1L_0035	0.5	8
+natural	seed_003	0	3	9	35	C1L_0036	0.25	8
+natural	seed_040	0	4	11	36	C1L_0037	0.5	9
+natural	seed_048	0	3	9	37	C1L_0038	0.5	9
+natural	seed_030	0	1	10	38	C1L_0039	0.5	9
+natural	seed_046	0	6	10	39	C1L_0040	0.25	9
+natural	seed_027	0	2	10	40	C1L_0041	0.25	10
+natural	seed_022	0	1	11	41	C1L_0042	0.25	10
+natural	seed_011	0	0	7	42	C1L_0043	0.5	10
+natural	seed_031	0	0	6	43	C1L_0044	0.5	10
+natural	seed_024	0	1	8	44	C1L_0045	0.25	11
+natural	seed_018	0	4	10	45	C1L_0046	0.25	11
+natural	seed_004	0	5	11	46	C1L_0047	0.25	11
+natural	seed_029	0	4	11	47	C1L_0048	0.5	11
+natural	seed_035	0	0	5	48	C1L_0049	0.25	12
+natural	seed_009	0	5	11	49	C1L_0050	0.5	12
+natural	seed_002	-400	5	8	50	C1L_0051	0.25	12
+natural	seed_020	-400	1	11	51	C1L_0052	0.25	12
+natural	seed_012	-400	2	8	52	C1L_0053	0.25	13
+natural	seed_005	-400	3	11	53	C1L_0054	0.5	13
+natural	seed_036	-400	2	7	54	C1L_0055	0.25	13
+natural	seed_025	-400	3	10	55	C1L_0056	0.25	13
+natural	seed_017	-400	5	8	56	C1L_0057	0.25	14
+natural	seed_021	-400	1	7	57	C1L_0058	0.25	14
+natural	seed_038	-400	2	7	58	C1L_0059	0.25	14
+natural	seed_016	-400	1	11	59	C1L_0060	0.5	14
+natural	seed_014	-400	6	9	60	C1L_0061	0.5	15
+natural	seed_019	-400	3	11	61	C1L_0062	0.5	15
+natural	seed_049	-400	4	11	62	C1L_0063	0.5	15
+natural	seed_001	-400	5	9	63	C1L_0064	0.5	15
+natural	seed_037	-400	3	8	64	C1L_0065	0.25	16
+natural	seed_033	-400	7	10	65	C1L_0066	0.25	16
+natural	seed_050	-400	1	11	66	C1L_0067	0.5	16
+natural	seed_028	-400	3	9	67	C1L_0068	0.5	16
+natural	seed_047	-400	0	11	68	C1L_0069	0.25	17
+natural	seed_008	-400	5	10	69	C1L_0070	0.5	17
+natural	seed_043	-400	1	7	70	C1L_0071	0.5	17
+natural	seed_042	-400	4	8	71	C1L_0072	0.5	17
+natural	seed_044	-400	0	6	72	C1L_0073	0.5	18
+natural	seed_041	-400	1	11	73	C1L_0074	0.25	18
+natural	seed_007	-400	1	1	74	C1L_0075	0.5	18
+natural	seed_045	-400	1	3	75	C1L_0076	0.25	18
+natural	seed_006	-400	1	9	76	C1L_0077	0.25	19
+natural	seed_015	-400	5	5	77	C1L_0078	0.5	19
+natural	seed_010	-400	3	11	78	C1L_0079	0.25	19
+natural	seed_013	-400	2	10	79	C1L_0080	0.5	19
+natural	seed_039	-400	3	11	80	C1L_0081	0.25	20
+natural	seed_034	-400	1	4	81	C1L_0082	0.5	20
+natural	seed_026	-400	3	8	82	C1L_0083	0.5	20
+natural	seed_023	-400	6	11	83	C1L_0084	0.5	20
+natural	seed_032	-400	0	11	84	C1L_0085	0.5	21
+natural	seed_003	-400	3	9	85	C1L_0086	0.5	21
+natural	seed_040	-400	4	11	86	C1L_0087	0.25	21
+natural	seed_048	-400	3	9	87	C1L_0088	0.25	21
+natural	seed_030	-400	1	10	88	C1L_0089	0.5	22
+natural	seed_046	-400	6	10	89	C1L_0090	0.25	22
+natural	seed_027	-400	2	10	90	C1L_0091	0.25	22
+natural	seed_022	-400	1	11	91	C1L_0092	0.5	22
+natural	seed_011	-400	0	7	92	C1L_0093	0.25	23
+natural	seed_031	-400	0	6	93	C1L_0094	0.25	23
+natural	seed_024	-400	1	8	94	C1L_0095	0.25	23
+natural	seed_018	-400	4	10	95	C1L_0096	0.5	23
+natural	seed_004	-400	5	11	96	C1L_0097	0.5	24
+natural	seed_029	-400	4	11	97	C1L_0098	0.5	24
+natural	seed_035	-400	0	5	98	C1L_0099	0.5	24
+natural	seed_009	-400	5	11	99	C1L_0100	0.25	24
+natural	seed_002	400	5	8	100	C1L_0101	0.25	25
+natural	seed_020	400	1	11	101	C1L_0102	0.5	25
+natural	seed_012	400	2	8	102	C1L_0103	0.5	25
+natural	seed_005	400	3	11	103	C1L_0104	0.5	25
+natural	seed_036	400	2	7	104	C1L_0105	0.25	26
+natural	seed_025	400	3	10	105	C1L_0106	0.5	26
+natural	seed_017	400	5	8	106	C1L_0107	0.5	26
+natural	seed_021	400	1	7	107	C1L_0108	0.25	26
+natural	seed_038	400	2	7	108	C1L_0109	0.25	27
+natural	seed_016	400	1	11	109	C1L_0110	0.5	27
+natural	seed_014	400	6	9	110	C1L_0111	0.5	27
+natural	seed_019	400	3	11	111	C1L_0112	0.5	27
+natural	seed_049	400	4	11	112	C1L_0113	0.5	28
+natural	seed_001	400	5	9	113	C1L_0114	0.5	28
+natural	seed_037	400	3	8	114	C1L_0115	0.25	28
+natural	seed_033	400	7	10	115	C1L_0116	0.25	28
+natural	seed_050	400	1	11	116	C1L_0117	0.5	29
+natural	seed_028	400	3	9	117	C1L_0118	0.25	29
+natural	seed_047	400	0	11	118	C1L_0119	0.5	29
+natural	seed_008	400	5	10	119	C1L_0120	0.25	29
+natural	seed_043	400	1	7	120	C1L_0121	0.5	30
+natural	seed_042	400	4	8	121	C1L_0122	0.5	30
+natural	seed_044	400	0	6	122	C1L_0123	0.25	30
+natural	seed_041	400	1	11	123	C1L_0124	0.25	30
+natural	seed_007	400	1	1	124	C1L_0125	0.25	31
+natural	seed_045	400	1	3	125	C1L_0126	0.25	31
+natural	seed_006	400	1	9	126	C1L_0127	0.25	31
+natural	seed_015	400	5	5	127	C1L_0128	0.25	31
+random	random_0001				128	C1L_0129	0.25	32
+random	random_0002				129	C1L_0130	0.5	32
+random	random_0003				130	C1L_0131	0.5	32
+random	random_0004				131	C1L_0132	0.25	32
+random	random_0005				132	C1L_0133	0.5	33
+random	random_0006				133	C1L_0134	0.5	33
+random	random_0007				134	C1L_0135	0.25	33
+random	random_0008				135	C1L_0136	0.5	33
+random	random_0009				136	C1L_0137	0.5	34
+random	random_0010				137	C1L_0138	0.25	34
+random	random_0011				138	C1L_0139	0.5	34
+random	random_0012				139	C1L_0140	0.5	34
+random	random_0013				140	C1L_0141	0.5	35
+random	random_0014				141	C1L_0142	0.5	35
+random	random_0015				142	C1L_0143	0.25	35
+random	random_0016				143	C1L_0144	0.25	35
+random	random_0017				144	C1L_0145	0.5	36
+random	random_0018				145	C1L_0146	0.5	36
+random	random_0019				146	C1L_0147	0.25	36
+random	random_0020				147	C1L_0148	0.25	36
+random	random_0021				148	C1L_0149	0.5	37
+random	random_0022				149	C1L_0150	0.25	37
+random	random_0023				150	C1L_0151	0.25	37
+random	random_0024				151	C1L_0152	0.5	37
+random	random_0025				152	C1L_0153	0.25	38
+random	random_0026				153	C1L_0154	0.25	38
+random	random_0027				154	C1L_0155	0.5	38
+random	random_0028				155	C1L_0156	0.5	38
+random	random_0029				156	C1L_0157	0.25	39
+random	random_0030				157	C1L_0158	0.25	39
+random	random_0031				158	C1L_0159	0.5	39
+random	random_0032				159	C1L_0160	0.5	39
+random	random_0033				160	C1L_0161	0.25	40
+random	random_0034				161	C1L_0162	0.25	40
+random	random_0035				162	C1L_0163	0.5	40
+random	random_0036				163	C1L_0164	0.25	40
+random	random_0037				164	C1L_0165	0.25	41
+random	random_0038				165	C1L_0166	0.25	41
+random	random_0039				166	C1L_0167	0.25	41
+random	random_0040				167	C1L_0168	0.5	41
+random	random_0041				168	C1L_0169	0.25	42
+random	random_0042				169	C1L_0170	0.5	42
+random	random_0043				170	C1L_0171	0.25	42
+random	random_0044				171	C1L_0172	0.25	42
+random	random_0045				172	C1L_0173	0.5	43
+random	random_0046				173	C1L_0174	0.5	43
+random	random_0047				174	C1L_0175	0.25	43
+random	random_0048				175	C1L_0176	0.5	43
+random	random_0049				176	C1L_0177	0.25	44
+random	random_0050				177	C1L_0178	0.5	44
+random	random_0051				178	C1L_0179	0.5	44
+random	random_0052				179	C1L_0180	0.5	44
+random	random_0053				180	C1L_0181	0.25	45
+random	random_0054				181	C1L_0182	0.25	45
+random	random_0055				182	C1L_0183	0.5	45
+random	random_0056				183	C1L_0184	0.5	45
+random	random_0057				184	C1L_0185	0.5	46
+random	random_0058				185	C1L_0186	0.5	46
+random	random_0059				186	C1L_0187	0.5	46
+random	random_0060				187	C1L_0188	0.5	46
+random	random_0061				188	C1L_0189	0.5	47
+random	random_0062				189	C1L_0190	0.5	47
+random	random_0063				190	C1L_0191	0.25	47
+random	random_0064				191	C1L_0192	0.5	47
+random	random_0065				192	C1L_0193	0.25	48
+random	random_0066				193	C1L_0194	0.25	48
+random	random_0069				196	C1L_0197	0.25	49
+random	random_0070				197	C1L_0198	0.25	49

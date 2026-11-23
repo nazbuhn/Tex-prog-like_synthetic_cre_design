@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and the versioned data/code archive when available. The archive DOI is 10.5281/zenodo.24480177; public file access has not yet been verified."
+title: "Deep Learning-Guided Design of Candidate Synthetic Cis-Regulatory Elements for a TCF7+ Progenitor-Exhausted-like CD8+ T-Cell State"
+type: software
+authors:
+  - family-names: Buhn
+    given-names: Nasreen
+  - family-names: Lee
+    given-names: Matthew
+  - family-names: Kim
+    given-names: Dokyoon
+  - family-names: Gill
+    given-names: Saar
+abstract: "Existing sequences, saved predictions, analysis outputs, configuration files and scripts for computational C1 cis-regulatory sequence design. Verified manuscript files with documented scope limits; archive access verification is pending."
+
+url: "https://github.com/nazbuhn/Tex-prog-like_synthetic_cre_design"
+repository-code: "https://github.com/nazbuhn/Tex-prog-like_synthetic_cre_design"
+doi: "10.5281/zenodo.24480177"

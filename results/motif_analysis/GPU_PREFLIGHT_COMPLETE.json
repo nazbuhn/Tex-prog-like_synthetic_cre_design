@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "files": {
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/maps/integrated_grad/C1L_0001__initial__context0.json": "d8be818a286d738674af5bf24e9ab9f2c6ab8310deac2f36a05a07ae9cc2cbcb",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/maps/expected_integrated_grad/C1L_0001__initial__context0.json": "2058b04914a16912699d35dc2d244ebecb77a6f8eb7b8e2d7dd4e290d5f2e2dc",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/maps/integrated_grad/C1L_0001__selected__context0.json": "3e9fe5b5bbc9ba674c5489ef58abbe68800f107e5492fb7cff17dab827a31930",
+    "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/maps/expected_integrated_grad/C1L_0001__selected__context0.json": "dfe1a91e530ebd2bfcd0327760c5ec6466e08595f5a82a3cd7c0bbd19951a712"
+  },
+  "real_model_wrapper_agreement": true,
+  "initial_and_final": true,
+  "methods": [
+    "integrated_grad",
+    "expected_integrated_grad"
+  ],
+  "population_outputs": 11,
+  "actual_context": 0,
+  "note": "A preflight within the full cohort; all remaining records still required."
+}

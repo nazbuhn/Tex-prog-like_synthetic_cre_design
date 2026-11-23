@@ -1,0 +1,16 @@
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.3
+anndata==0.10.9
+h5py==3.11.0
+scanpy==1.10.3
+matplotlib==3.9.4
+scikit-learn==1.5.2
+umap-learn==0.5.7
+pynndescent==0.5.13
+numba==0.60.0
+llvmlite==0.43.0
+harmonypy==0.0.10
+igraph==0.11.8
+leidenalg==0.10.2
+threadpoolctl==3.5.0

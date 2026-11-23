@@ -1,0 +1,11 @@
+{
+  "fix": "Native representative-to-PPM export compatibility",
+  "adapter_source": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_IG_CPU_BETTY_V1/ppm_export_compat.py",
+  "adapter_sha256": "1ab8abe7a7f4f834d7bfeeaa5d392cd81a7900fd2052d4e9e4d2ffb2e4ff0719",
+  "workflow_before_sha256": "711a70dfba5129b56ec37393ca4c60b8a46e73c05f637a5d45795bb800da0ad3",
+  "workflow_after_sha256": "126548cc97994412579635ffc547f797c7f7c9cea9b25904f5e3bf631b578482",
+  "backup": "/vast/projects/saargill/cell-type-specific/nazbuhn/immgen/C1_CRESTED_JASPAR2026_BETTY_V2/runs/native_20261113T155542_898662/full_export_fix_backup_20261120T143922_324717",
+  "scientific_parameters_changed": false,
+  "model_or_attribution_or_discovery_files_changed": false,
+  "native_clustering_function_changed": false
+}

@@ -1,0 +1,180 @@
+{
+  "purpose": "Omit personal operational guides and author-only packaging helpers from public deposit",
+  "removed_files": [
+    {
+      "path": "RELEASE_CHECKLIST.md",
+      "bytes": 2578,
+      "sha256": "7e87a390cf0dff5e223afe9522c2704bcf67ce3c967640e949e2bf63871680f1"
+    },
+    {
+      "path": "code/COLLECT_C1_PUBLICATION_FILES_ON_BETTY.py",
+      "bytes": 11268,
+      "sha256": "e5eb2df5023528a9c5988cc6afae6e8628aed942c5f84a583a6dcb784f30fe2a"
+    },
+    {
+      "path": "code/motif_analysis/CHECK_STATUS.sh",
+      "bytes": 646,
+      "sha256": "a72cac2b40c45b8209f744af4181926b15f5255fcf4af30992ba34f32ba2b1a4"
+    },
+    {
+      "path": "code/motif_analysis/LATEST_RUN.txt",
+      "bytes": 124,
+      "sha256": "993a271cbb9d0e47a2181531fecfedaec8133004cb85a5d87ce6051b7d46d661"
+    },
+    {
+      "path": "code/motif_analysis/LOCAL_VALIDATION.json",
+      "bytes": 926,
+      "sha256": "33c68b45c67a44a2d7a57dfe01e0c1289e3f07f3eb24c2c98556096b84713d2c"
+    },
+    {
+      "path": "code/motif_analysis/README.txt",
+      "bytes": 10008,
+      "sha256": "3b5dc84456b771b6601338d5497b3606ea46c684befff83a97573e1fa65a21ce"
+    },
+    {
+      "path": "code/motif_analysis/build_adaptation.py",
+      "bytes": 9586,
+      "sha256": "8c82bd38231df01f86bc75fc5f80ded5b2522895630c174c35aed0383ae4fc1e"
+    },
+    {
+      "path": "code/sequence_1000bp/CHECK_STATUS.sh",
+      "bytes": 149,
+      "sha256": "5460dc3c795db1cbd526e2fe717ab1d1f7d47a815f94abd782c95f69bd2a0a31"
+    },
+    {
+      "path": "code/sequence_1000bp/LAUNCH_BETTY.sh",
+      "bytes": 159,
+      "sha256": "0b172b9e93599fb1d5613d68e2cad713f66409053925ae76894db3305dd2691d"
+    },
+    {
+      "path": "code/sequence_1000bp/LOCAL_VALIDATION.json",
+      "bytes": 522,
+      "sha256": "b83ffa5f2940f7b7d8640f498d8ae90a08180ed781c8f6ea8db1538fa19f9ed1"
+    },
+    {
+      "path": "code/sequence_1000bp/READ_ME.txt",
+      "bytes": 2659,
+      "sha256": "397ae3b47b90758be1a91b9001fba948d579b1ae8ccb7272a8c2e9787036fc3c"
+    },
+    {
+      "path": "code/sequence_1000bp/RUN_COMMANDS.txt",
+      "bytes": 1227,
+      "sha256": "4cc5b70340edad8502ae02751bc185609406f72e07d8844814fe79d6cf0d3d7d"
+    },
+    {
+      "path": "code/sequence_1000bp/status.py",
+      "bytes": 1932,
+      "sha256": "a3c75a04968693d5d9ebb1509c3bfd54396040faddd16ead7d3571747f94855d"
+    },
+    {
+      "path": "code/sequence_200bp/CHECK_STATUS.sh",
+      "bytes": 149,
+      "sha256": "5460dc3c795db1cbd526e2fe717ab1d1f7d47a815f94abd782c95f69bd2a0a31"
+    },
+    {
+      "path": "code/sequence_200bp/LAUNCH_BETTY.sh",
+      "bytes": 159,
+      "sha256": "0b172b9e93599fb1d5613d68e2cad713f66409053925ae76894db3305dd2691d"
+    },
+    {
+      "path": "code/sequence_200bp/LOCAL_VALIDATION.json",
+      "bytes": 843,
+      "sha256": "9f46114a513af7fa6f33bed4da8615f0b03284339865bf9a094979e4301e7a5b"
+    },
+    {
+      "path": "code/sequence_200bp/READ_ME.txt",
+      "bytes": 1007,
+      "sha256": "6438a75949695ff7709d32ff703b8a411e7baf05fc2ba0130122eec4d1dfb13b"
+    },
+    {
+      "path": "code/sequence_200bp/RUN_COMMANDS.txt",
+      "bytes": 996,
+      "sha256": "a2dfd8c1e4ec981ab442538cc25a49110ad3d9f62f686a20b978c0aa2188cfcb"
+    },
+    {
+      "path": "code/sequence_200bp/status.py",
+      "bytes": 1928,
+      "sha256": "630102d1a5dd58681f42ecb35d46f8e1d0c25303f533e8905a47f49ae66a5683"
+    },
+    {
+      "path": "code/sequence_500bp/CHECK_STATUS.sh",
+      "bytes": 149,
+      "sha256": "5460dc3c795db1cbd526e2fe717ab1d1f7d47a815f94abd782c95f69bd2a0a31"
+    },
+    {
+      "path": "code/sequence_500bp/LAUNCH_BETTY.sh",
+      "bytes": 159,
+      "sha256": "0b172b9e93599fb1d5613d68e2cad713f66409053925ae76894db3305dd2691d"
+    },
+    {
+      "path": "code/sequence_500bp/LOCAL_VALIDATION.json",
+      "bytes": 864,
+      "sha256": "41b831fa87b9b6959ed5c32245992c47277086b61717a80d16bfef00c92c3ec9"
+    },
+    {
+      "path": "code/sequence_500bp/READ_ME.txt",
+      "bytes": 2335,
+      "sha256": "89581c3936bdef318670d0297a3b985f9db5fe4f8bf13c97fd010693e4cb57d7"
+    },
+    {
+      "path": "code/sequence_500bp/RUN_COMMANDS.txt",
+      "bytes": 1503,
+      "sha256": "0cb2e5e7c8a248ce78ad32e8dd3c571ef85743908dcb022912810c4535f0544c"
+    },
+    {
+      "path": "code/sequence_500bp/status.py",
+      "bytes": 1923,
+      "sha256": "18e1698a31ef5dc3b5e538c4553cab2cb453d25e47a23d17983259a9d52cef1e"
+    },
+    {
+      "path": "code/streme_jaspar2026/README.txt",
+      "bytes": 637,
+      "sha256": "adac87b63307d92637a4db668f2eb8933e0fe0e283495d2d0c2da62fb4b0f2ff"
+    },
+    {
+      "path": "code/streme_jaspar2026/SUBMIT_BETTY.sh",
+      "bytes": 1028,
+      "sha256": "8dcf5c8d2c4a14d1dfc129c59a82ec3f17ea1713099ea511604a0085f11fb454"
+    },
+    {
+      "path": "code/training/CHECK_STATUS.sh",
+      "bytes": 1396,
+      "sha256": "cc21bb5fdafca50e92b909dbe3342a79bb6e48c3ebece80955f578ef38233da5"
+    },
+    {
+      "path": "code/training/LAUNCH_BETTY.sh",
+      "bytes": 336,
+      "sha256": "4461e5bf7b06bf689a015b6a200503d037371b217c00dc324e322a96c24eee4f"
+    },
+    {
+      "path": "code/training/LOCAL_VALIDATION.json",
+      "bytes": 600,
+      "sha256": "e77d91dcacd775cc844192ed628ce364fc43598dfc9b33e260085305b38a5de7"
+    },
+    {
+      "path": "code/training/RUN_COMMANDS.txt",
+      "bytes": 1747,
+      "sha256": "204a9982d46c49d91b92691973e2d13e5724a212035f2e039440d4ffc5e70a91"
+    },
+    {
+      "path": "results/streme_discovery/JOB_RESULT.json",
+      "bytes": 168,
+      "sha256": "d6538d83bdb435f09ef9be78d8a282e5916c7bd494f9c42176de55e1d75ac826"
+    },
+    {
+      "path": "results/streme_discovery/PROGRESS.json",
+      "bytes": 76,
+      "sha256": "07601b6724151b369dd1fddce34a82a6a75de0195a1682fb6bdc96a380fc56d5"
+    },
+    {
+      "path": "results/streme_discovery/provenance/README.txt",
+      "bytes": 2638,
+      "sha256": "d6d112ba61445434e22730a1b41423effff30404a7fdfb254495df7eb9595a8c"
+    }
+  ],
+  "retained_scientific_source_bytes_changed": false,
+  "scientific_data_or_results_changed": false,
+  "originals_preserved_privately": true,
+  "distributed_bundle_manifests_rebuilt": true,
+  "historical_full_source_manifests_preserved": true
+}

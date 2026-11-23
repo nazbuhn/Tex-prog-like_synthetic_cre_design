@@ -1,0 +1,26 @@
+[
+  {
+    "method": "uncorrected",
+    "median_same_capture_neighbor_fraction": 0.967741935483871,
+    "mean_same_capture_neighbor_fraction": 0.8600312619696578,
+    "interpretation": "Descriptive; biological conditions are not exchangeable across captures."
+  },
+  {
+    "method": "harmony",
+    "median_same_capture_neighbor_fraction": 0.6774193548387096,
+    "mean_same_capture_neighbor_fraction": 0.6330976576005491,
+    "interpretation": "Descriptive; biological conditions are not exchangeable across captures."
+  },
+  {
+    "resolution": 0.3,
+    "uncorrected_vs_harmony_adjusted_Rand_index": 0.535677131556364
+  },
+  {
+    "resolution": 0.6,
+    "uncorrected_vs_harmony_adjusted_Rand_index": 0.5191219932201708
+  },
+  {
+    "resolution": 1.0,
+    "uncorrected_vs_harmony_adjusted_Rand_index": 0.520100316076413
+  }
+]

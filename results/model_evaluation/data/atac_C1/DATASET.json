@@ -1,0 +1,70 @@
+{
+  "panel": "atac_C1",
+  "task": "count",
+  "names": [
+    "BG_R1_C0",
+    "BG_R1_C1",
+    "BG_R1_C2",
+    "BG_R1_C3",
+    "BG_R1_C4",
+    "BG_R1_C5",
+    "BG_R1_C6",
+    "BG_R1_C7",
+    "BG_R1_C8",
+    "OTHER_SMALL_ATAC",
+    "TARGET_C1"
+  ],
+  "cells": [
+    21402,
+    20332,
+    18938,
+    17523,
+    14920,
+    8321,
+    4709,
+    373,
+    298,
+    91,
+    4440
+  ],
+  "exposure": [
+    133912839.0,
+    182054904.0,
+    177676661.0,
+    201818896.0,
+    277758314.0,
+    90879167.0,
+    55236892.0,
+    4824374.0,
+    4069603.0,
+    470836.0,
+    76135291.0
+  ],
+  "weights": [
+    1.0977706909179688,
+    1.174649953842163,
+    1.1329771280288696,
+    1.1367920637130737,
+    1.3453675508499146,
+    1.2172129154205322,
+    1.0885381698608398,
+    1.0,
+    1.2118425369262695,
+    1.0605074167251587,
+    1.4890557527542114
+  ],
+  "cohort_cells": 111347,
+  "all_cells_retained": true,
+  "fitting_captures": "all original cohort captures",
+  "normalization": "Native constitutive-peak scaling, training chromosomes only; >=200-cell groups fit scale; smaller outputs aligned to that scale.",
+  "independent_capture_holdout": false,
+  "biological_labels_validated": false,
+  "checkpoint_targets": [
+    "BG_R1_C4",
+    "BG_R1_C6",
+    "BG_R1_C7",
+    "BG_R1_C8",
+    "TARGET_C1"
+  ],
+  "selection_possible": true
+}

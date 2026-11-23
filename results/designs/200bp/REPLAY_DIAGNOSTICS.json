@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "exact_native_sequence_and_score_mapping": true,
+  "preflight_iterations": 3,
+  "same_batch_replay_pass": true,
+  "isolated_repeat_pass": true,
+  "isolated_cross_batch_replay_pass": true,
+  "original_strict_isolated_check_pass": false,
+  "same_batch_max_absolute_difference": 0.0,
+  "isolated_max_absolute_difference": 0.0030241012573242188,
+  "isolated_max_relative_difference": 0.0002629464433994144,
+  "same_batch_tolerance": {
+    "rtol": 1e-05,
+    "atol": 1e-06
+  },
+  "cross_batch_tolerance": {
+    "rtol": 0.003,
+    "atol": 0.0003
+  },
+  "cross_batch_tolerance_basis": "Same tolerance as existing saved-checkpoint validation replay; a changed cross-batch numerical gate, not proof of the original failure cause."
+}
