@@ -3,8 +3,7 @@
 Repository: https://github.com/nazbuhn/Tex-prog-like_synthetic_cre_design
 
 Code, sequence files and supporting result tables for the C1 manuscript.
-Zenodo deposit DOI supplied by the authors: https://doi.org/10.5281/zenodo.24480177
-Public accessibility of the archive files has not yet been verified during packaging. Files are
+Zenodo deposit DOI supplied by the authors: https://doi.org/10.5281/zenodo.24480177 Files are
 existing analysis records; packaging ran no model inference, training, sequence
 optimization or new shuffle generation.
 
